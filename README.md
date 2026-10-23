@@ -28,6 +28,7 @@ Lead I/II features extracted from PTB-XL. All splits are patient-grouped (`Strat
 | `docs/` | Analysis plan and internal audit report | — |
 | `verify_reported_metrics.py` | Recomputes the headline metrics from the stored OOF files | — |
 | `SHA256SUMS` | SHA-256 of every file in this repository | — |
+| `REPRODUCTION.md` | Record of the 23 October 2026 re-execution (bit-identical OOF outputs) | — |
 
 ## Quick verification (no retraining)
 
