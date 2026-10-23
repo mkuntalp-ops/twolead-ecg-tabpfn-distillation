@@ -26,6 +26,7 @@ Lead I/II features extracted from PTB-XL. All splits are patient-grouped (`Strat
 | `results/`, `figures/` | Legacy result JSONs and the five legacy figures (Supplementary Figures S1–S5) | Supplementary |
 | `data_ecg_clinical/` | Legacy LoRA instruction-tuning data generated from PTB-XL features | Supplementary S7 |
 | `docs/` | Analysis plan and internal audit report | — |
+| `figures_main/` | `make_main_figures.py` and the main-text Figures 1–3 (PDF/PNG), generated from the stored outputs in this repository | Figures 1–3 |
 | `verify_reported_metrics.py` | Recomputes the headline metrics from the stored OOF files | — |
 | `SHA256SUMS` | SHA-256 of every file in this repository | — |
 | `REPRODUCTION.md` | Record of the 23 October 2026 re-execution (bit-identical OOF outputs) | — |
