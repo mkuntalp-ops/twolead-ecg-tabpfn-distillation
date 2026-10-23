@@ -94,5 +94,7 @@ Dokuz Eylül University, İzmir, Turkey — mehmet.kuntalp@deu.edu.tr — ORCID 
 
 ## AI assistance
 
-Antigravity (Google), Claude Code (Anthropic) and Perplexity assisted with code, analyses, figures and text;
-all code was executed locally and reviewed by the author (see the manuscript's AI disclosure statement).
+Antigravity (Google) and Claude Code (Anthropic) assisted with code, analyses, figures and text; all code was executed
+locally and reviewed by the author. Perplexity was used as an LLM-as-a-judge to critically review successive manuscript drafts
+(methods, statistics, numerical consistency, references); each critique was checked against the stored outputs in this
+repository before any change was accepted. It also assisted with drafting and editing. See the manuscript's AI disclosure statement.
