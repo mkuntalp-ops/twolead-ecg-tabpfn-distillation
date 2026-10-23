@@ -1,0 +1,10 @@
+Derived data, out-of-fold predictions, result files and figures in this repository
+(data/, predictions/, results/, figures/, data_ecg_clinical/ and the data files under experiments_phase3/)
+are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Copyright (c) 2026 Mehmet Kuntalp
+
+These files are derived from PTB-XL (Wagner et al. 2020; CC BY 4.0) and the Chapman-Shaoxing
+12-lead ECG database (Zheng et al. 2020; CC0). Users must also cite and comply with the terms of
+those original datasets. Raw waveforms are not redistributed.

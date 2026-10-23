@@ -1,0 +1,546 @@
+{
+  "status": "VERIFIED_AND_CLOSED",
+  "cohort_name": "eligible_cohort_without_quota_subsampling",
+  "total_records": 15160,
+  "n_normal": 8052,
+  "n_abnormal": 7108,
+  "multiclass_metrics": [
+    {
+      "model_id": "distilled_mlp_128_64",
+      "model_name": "Teacher-Distilled MLP (128, 64)",
+      "macro_f1": 71.34101117173222,
+      "balanced_accuracy": 68.6121853605029,
+      "multiclass_accuracy": 79.92084432717678,
+      "norm_f1": 87.3330208577455,
+      "afib_f1": 89.48261238337574,
+      "cd_f1": 68.986905582357,
+      "sttc_f1": 69.56264775413712,
+      "hyp_f1": 41.33986928104575,
+      "hyp_recall": 30.853658536585364,
+      "hyp_precision": 62.62376237623762
+    },
+    {
+      "model_id": "smooth_mlp_128_64",
+      "model_name": "Uniform-Smoothed MLP (128, 64)",
+      "macro_f1": 71.19280547427526,
+      "balanced_accuracy": 68.30712339854708,
+      "multiclass_accuracy": 79.45250659630607,
+      "norm_f1": 87.0081490104773,
+      "afib_f1": 88.44688954718578,
+      "cd_f1": 67.97477224947443,
+      "sttc_f1": 68.38864694398559,
+      "hyp_f1": 44.14556962025317,
+      "hyp_recall": 34.02439024390244,
+      "hyp_precision": 62.83783783783784
+    },
+    {
+      "model_id": "hard_mlp_128_64",
+      "model_name": "Hard-Label MLP (128, 64)",
+      "macro_f1": 70.38362226405185,
+      "balanced_accuracy": 67.6152449501953,
+      "multiclass_accuracy": 78.85883905013192,
+      "norm_f1": 86.69603524229075,
+      "afib_f1": 88.50624192854069,
+      "cd_f1": 67.21649484536083,
+      "sttc_f1": 67.77272059903098,
+      "hyp_f1": 41.726618705035975,
+      "hyp_recall": 31.829268292682926,
+      "hyp_precision": 60.556844547563806
+    },
+    {
+      "model_id": "hard_mlp_64_32",
+      "model_name": "Hard Baseline MLP (64, 32)",
+      "macro_f1": 70.68256336040811,
+      "balanced_accuracy": 68.2274334156762,
+      "multiclass_accuracy": 79.1754617414248,
+      "norm_f1": 87.04139228598306,
+      "afib_f1": 88.54254422914912,
+      "cd_f1": 68.55195911413969,
+      "sttc_f1": 67.60355029585799,
+      "hyp_f1": 41.673370876910695,
+      "hyp_recall": 31.585365853658537,
+      "hyp_precision": 61.22931442080378
+    },
+    {
+      "model_id": "standalone_tabpfn",
+      "model_name": "Standalone TabPFN",
+      "macro_f1": 73.10504831188915,
+      "balanced_accuracy": 70.363776768887,
+      "multiclass_accuracy": 81.08839050131927,
+      "norm_f1": 88.03438935343306,
+      "afib_f1": 92.09183673469387,
+      "cd_f1": 71.79661016949153,
+      "sttc_f1": 70.82783882783883,
+      "hyp_f1": 42.77456647398844,
+      "hyp_recall": 31.585365853658537,
+      "hyp_precision": 66.24040920716112
+    }
+  ],
+  "binary_screening_metrics": [
+    {
+      "model_id": "distilled_mlp_128_64",
+      "model_name": "Teacher-Distilled MLP (128, 64)",
+      "TN": 7453,
+      "FP": 599,
+      "FN": 1563,
+      "TP": 5545,
+      "multiclass_accuracy": 79.92084432717678,
+      "binary_accuracy": 85.73878627968338,
+      "accuracy_gain_binary_minus_mc": 5.817941952506601,
+      "sensitivity": 78.0106921778278,
+      "specificity": 92.56085444610035,
+      "ppv": 90.25065104166666,
+      "npv": 82.66415261756876,
+      "f1_abnormal_positive": 83.68548143676426,
+      "f1_normal": 87.3330208577455,
+      "binary_macro_f1": 85.50925114725487
+    },
+    {
+      "model_id": "smooth_mlp_128_64",
+      "model_name": "Uniform-Smoothed MLP (128, 64)",
+      "TN": 7474,
+      "FP": 578,
+      "FN": 1654,
+      "TP": 5454,
+      "multiclass_accuracy": 79.45250659630607,
+      "binary_accuracy": 85.27704485488127,
+      "accuracy_gain_binary_minus_mc": 5.824538258575203,
+      "sensitivity": 76.73044456949916,
+      "specificity": 92.82165921510183,
+      "ppv": 90.41777188328912,
+      "npv": 81.87992988606484,
+      "f1_abnormal_positive": 83.01369863013699,
+      "f1_normal": 87.0081490104773,
+      "binary_macro_f1": 85.01092382030714
+    },
+    {
+      "model_id": "hard_mlp_128_64",
+      "model_name": "Hard-Label MLP (128, 64)",
+      "TN": 7380,
+      "FP": 672,
+      "FN": 1593,
+      "TP": 5515,
+      "multiclass_accuracy": 78.85883905013192,
+      "binary_accuracy": 85.05936675461741,
+      "accuracy_gain_binary_minus_mc": 6.200527704485495,
+      "sensitivity": 77.58863252673045,
+      "specificity": 91.65424739195231,
+      "ppv": 89.13851624373686,
+      "npv": 82.24674022066199,
+      "f1_abnormal_positive": 82.96352012034599,
+      "f1_normal": 86.69603524229075,
+      "binary_macro_f1": 84.82977768131838
+    },
+    {
+      "model_id": "hard_mlp_64_32",
+      "model_name": "Hard Baseline MLP (64, 32)",
+      "TN": 7402,
+      "FP": 650,
+      "FN": 1554,
+      "TP": 5554,
+      "multiclass_accuracy": 79.1754617414248,
+      "binary_accuracy": 85.46174142480211,
+      "accuracy_gain_binary_minus_mc": 6.286279683377316,
+      "sensitivity": 78.13731007315701,
+      "specificity": 91.92747143566817,
+      "ppv": 89.52288845905866,
+      "npv": 82.64850379633765,
+      "f1_abnormal_positive": 83.44350961538461,
+      "f1_normal": 87.04139228598306,
+      "binary_macro_f1": 85.24245095068383
+    },
+    {
+      "model_id": "standalone_tabpfn",
+      "model_name": "Standalone TabPFN",
+      "TN": 7475,
+      "FP": 577,
+      "FN": 1455,
+      "TP": 5653,
+      "multiclass_accuracy": 81.08839050131927,
+      "binary_accuracy": 86.59630606860158,
+      "accuracy_gain_binary_minus_mc": 5.507915567282311,
+      "sensitivity": 79.53010692177827,
+      "specificity": 92.83407848981619,
+      "ppv": 90.73836276083466,
+      "npv": 83.70660694288914,
+      "f1_abnormal_positive": 84.76533213375319,
+      "f1_normal": 88.03438935343306,
+      "binary_macro_f1": 86.39986074359312
+    }
+  ],
+  "confusion_matrices": {
+    "distilled_mlp_128_64": {
+      "multiclass_5x5": [
+        [
+          7453,
+          21,
+          100,
+          441,
+          37
+        ],
+        [
+          23,
+          1055,
+          43,
+          32,
+          2
+        ],
+        [
+          424,
+          50,
+          1001,
+          157,
+          15
+        ],
+        [
+          874,
+          66,
+          95,
+          2354,
+          97
+        ],
+        [
+          242,
+          11,
+          16,
+          298,
+          253
+        ]
+      ],
+      "binary_2x2": {
+        "layout": "[[TN, FP], [FN, TP]]",
+        "matrix": [
+          [
+            7453,
+            599
+          ],
+          [
+            1563,
+            5545
+          ]
+        ],
+        "TN": 7453,
+        "FP": 599,
+        "FN": 1563,
+        "TP": 5545
+      }
+    },
+    "smooth_mlp_128_64": {
+      "multiclass_5x5": [
+        [
+          7474,
+          22,
+          86,
+          432,
+          38
+        ],
+        [
+          31,
+          1045,
+          38,
+          36,
+          5
+        ],
+        [
+          450,
+          53,
+          970,
+          158,
+          16
+        ],
+        [
+          934,
+          73,
+          96,
+          2277,
+          106
+        ],
+        [
+          239,
+          15,
+          17,
+          270,
+          279
+        ]
+      ],
+      "binary_2x2": {
+        "layout": "[[TN, FP], [FN, TP]]",
+        "matrix": [
+          [
+            7474,
+            578
+          ],
+          [
+            1654,
+            5454
+          ]
+        ],
+        "TN": 7474,
+        "FP": 578,
+        "FN": 1654,
+        "TP": 5454
+      }
+    },
+    "hard_mlp_128_64": {
+      "multiclass_5x5": [
+        [
+          7380,
+          18,
+          92,
+          513,
+          49
+        ],
+        [
+          33,
+          1028,
+          48,
+          42,
+          4
+        ],
+        [
+          449,
+          48,
+          978,
+          157,
+          15
+        ],
+        [
+          888,
+          62,
+          126,
+          2308,
+          102
+        ],
+        [
+          223,
+          12,
+          19,
+          305,
+          261
+        ]
+      ],
+      "binary_2x2": {
+        "layout": "[[TN, FP], [FN, TP]]",
+        "matrix": [
+          [
+            7380,
+            672
+          ],
+          [
+            1593,
+            5515
+          ]
+        ],
+        "TN": 7380,
+        "FP": 672,
+        "FN": 1593,
+        "TP": 5515
+      }
+    },
+    "hard_mlp_64_32": {
+      "multiclass_5x5": [
+        [
+          7402,
+          21,
+          103,
+          489,
+          37
+        ],
+        [
+          33,
+          1051,
+          39,
+          29,
+          3
+        ],
+        [
+          407,
+          51,
+          1006,
+          171,
+          12
+        ],
+        [
+          885,
+          83,
+          121,
+          2285,
+          112
+        ],
+        [
+          229,
+          13,
+          19,
+          300,
+          259
+        ]
+      ],
+      "binary_2x2": {
+        "layout": "[[TN, FP], [FN, TP]]",
+        "matrix": [
+          [
+            7402,
+            650
+          ],
+          [
+            1554,
+            5554
+          ]
+        ],
+        "TN": 7402,
+        "FP": 650,
+        "FN": 1554,
+        "TP": 5554
+      }
+    },
+    "standalone_tabpfn": {
+      "multiclass_5x5": [
+        [
+          7475,
+          7,
+          104,
+          440,
+          26
+        ],
+        [
+          18,
+          1083,
+          26,
+          26,
+          2
+        ],
+        [
+          385,
+          51,
+          1059,
+          141,
+          11
+        ],
+        [
+          836,
+          45,
+          95,
+          2417,
+          93
+        ],
+        [
+          216,
+          11,
+          19,
+          315,
+          259
+        ]
+      ],
+      "binary_2x2": {
+        "layout": "[[TN, FP], [FN, TP]]",
+        "matrix": [
+          [
+            7475,
+            577
+          ],
+          [
+            1455,
+            5653
+          ]
+        ],
+        "TN": 7475,
+        "FP": 577,
+        "FN": 1455,
+        "TP": 5653
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "family_name": "Core Confirmatory (m=2)",
+      "family_size_m": 2,
+      "comparison": "Distilled vs. Hard-Label (128, 64)",
+      "point_delta_pp": 0.9573889076803677,
+      "ci_95_low": 0.316337942657931,
+      "ci_95_high": 1.596287036317485,
+      "n_opp": 11,
+      "raw_p_value": 0.0023997600239976003,
+      "holm_fwer_p": 0.0047995200479952005,
+      "bonferroni_p": 0.0047995200479952005,
+      "significant_at_005": "YES"
+    },
+    {
+      "family_name": "Core Confirmatory (m=2)",
+      "family_size_m": 2,
+      "comparison": "Distilled vs. Uniform-Smoothed (128, 64)",
+      "point_delta_pp": 0.1482056974569601,
+      "ci_95_low": -0.482705730343955,
+      "ci_95_high": 0.7648316301118216,
+      "n_opp": 3202,
+      "raw_p_value": 0.6405359464053595,
+      "holm_fwer_p": 0.6405359464053595,
+      "bonferroni_p": 1.0,
+      "significant_at_005": "NO"
+    },
+    {
+      "family_name": "Exploratory All-Pairs (m=5)",
+      "family_size_m": 5,
+      "comparison": "Standalone TabPFN vs. Distilled MLP",
+      "point_delta_pp": 1.7640371401569377,
+      "ci_95_low": 1.1601207798919622,
+      "ci_95_high": 2.3860431923102725,
+      "n_opp": 0,
+      "raw_p_value": 0.00019998000199980003,
+      "holm_fwer_p": 0.000999900009999,
+      "bonferroni_p": 0.000999900009999,
+      "significant_at_005": "YES"
+    },
+    {
+      "family_name": "Exploratory All-Pairs (m=5)",
+      "family_size_m": 5,
+      "comparison": "Distilled vs. Hard-Label (128, 64)",
+      "point_delta_pp": 0.9573889076803677,
+      "ci_95_low": 0.316337942657931,
+      "ci_95_high": 1.596287036317485,
+      "n_opp": 11,
+      "raw_p_value": 0.0023997600239976003,
+      "holm_fwer_p": 0.009599040095990401,
+      "bonferroni_p": 0.011998800119988001,
+      "significant_at_005": "YES"
+    },
+    {
+      "family_name": "Exploratory All-Pairs (m=5)",
+      "family_size_m": 5,
+      "comparison": "Uniform-Smoothed vs. Hard-Label (128, 64)",
+      "point_delta_pp": 0.8091832102234076,
+      "ci_95_low": 0.14131780295414453,
+      "ci_95_high": 1.4720560398477505,
+      "n_opp": 79,
+      "raw_p_value": 0.015998400159984,
+      "holm_fwer_p": 0.047995200479952004,
+      "bonferroni_p": 0.07999200079992,
+      "significant_at_005": "YES"
+    },
+    {
+      "family_name": "Exploratory All-Pairs (m=5)",
+      "family_size_m": 5,
+      "comparison": "Hard-Label (128, 64) vs. Baseline (64, 32)",
+      "point_delta_pp": -0.2989410963562644,
+      "ci_95_low": -1.0011304047708958,
+      "ci_95_high": 0.40152651030792386,
+      "n_opp": 1867,
+      "raw_p_value": 0.3735626437356264,
+      "holm_fwer_p": 0.7471252874712528,
+      "bonferroni_p": 1.0,
+      "significant_at_005": "NO"
+    },
+    {
+      "family_name": "Exploratory All-Pairs (m=5)",
+      "family_size_m": 5,
+      "comparison": "Distilled vs. Uniform-Smoothed (128, 64)",
+      "point_delta_pp": 0.1482056974569601,
+      "ci_95_low": -0.482705730343955,
+      "ci_95_high": 0.7648316301118216,
+      "n_opp": 3202,
+      "raw_p_value": 0.6405359464053595,
+      "holm_fwer_p": 0.7471252874712528,
+      "bonferroni_p": 1.0,
+      "significant_at_005": "NO"
+    }
+  ]
+}

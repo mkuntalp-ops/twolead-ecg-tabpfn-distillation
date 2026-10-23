@@ -1,0 +1,32 @@
+{
+  "phase3b_protocol_specification.json": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/phase3b_protocol_specification.json",
+    "sha256": "cfddfb97c3609c9a6096b3b5b1cc1411b25492305fea94d80ddc80c6a5526f3f",
+    "size_bytes": 3128
+  },
+  "03_procedure_matched_repeated_eval.py": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/03_procedure_matched_repeated_eval.py",
+    "sha256": "752be9245ac3514a3d17dfcd8dbb0aac71fd34e1ff86b77274a495feb2e88f11",
+    "size_bytes": 32796
+  },
+  "04_statistical_closing_and_blocked_bootstrap.py": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/04_statistical_closing_and_blocked_bootstrap.py",
+    "sha256": "55ace5f16f528928c981c996e07344cc6897de1ea6299f8b87a410e8d623eba2",
+    "size_bytes": 12484
+  },
+  "phase3b_repeated_evaluation_results.json": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/results/phase3b_repeated_evaluation_results.json",
+    "sha256": "4d752491229c0b8ca9a8b29bf631b36aa59a27d8f4b660c8169df033893e45c8",
+    "size_bytes": 81689
+  },
+  "phase3b_statistical_closing_results.json": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/results/phase3b_statistical_closing_results.json",
+    "sha256": "9d3708b694595227fa4598ba53f74953199a1d94c60bf89760a655fa41c65d0c",
+    "size_bytes": 21907
+  },
+  "phase3b_repeated_oof_predictions.npz": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/predictions/phase3b_repeated_oof_predictions.npz",
+    "sha256": "5368068102d478da54bddb0c8cbaad6d67d62344bddfd3276578f7ba747a97cf",
+    "size_bytes": 2425414
+  }
+}

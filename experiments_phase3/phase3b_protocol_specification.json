@@ -1,0 +1,97 @@
+{
+  "protocol_name": "Phase 3B: Procedure-Matched Repeated Evaluation Protocol Specification",
+  "status": "FROZEN_POST_PILOT_ROBUSTNESS_ANALYSIS",
+  "dataset": {
+    "path": "data/ptbxl_54features.csv",
+    "n_total": 5000,
+    "unique_patients": 5000,
+    "feature_set": "FEAT_50 (50 waveform features)",
+    "target_column": "target_s1",
+    "num_classes": 5,
+    "class_names": [
+      "NORM",
+      "AFIB/AFL",
+      "CD",
+      "STTC/MI",
+      "HYP"
+    ]
+  },
+  "experimental_design": {
+    "outer_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "n_outer_folds_per_seed": 5,
+    "total_outer_evaluations": 25,
+    "outer_split_method": "StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=seed)",
+    "student_val_subsplit_method": "StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=seed) on outer_train[0]",
+    "samples_per_outer_fold": {
+      "outer_test": 1000,
+      "outer_train_total": 4000,
+      "student_train": 3200,
+      "student_val": 800
+    }
+  },
+  "models": {
+    "core_triad": {
+      "architecture": "Linear(50, 128) -> ReLU -> Linear(128, 64) -> ReLU -> Linear(64, 5)",
+      "total_parameters": 15109,
+      "hard_label": {
+        "target": "one_hot",
+        "loss": "Soft-Target Cross-Entropy"
+      },
+      "uniform_smooth": {
+        "target": "0.85 * one_hot + 0.15 * 0.2",
+        "epsilon": 0.15,
+        "loss": "Soft-Target Cross-Entropy"
+      },
+      "teacher_distilled": {
+        "target": "0.5 * one_hot + 0.5 * teacher_oof",
+        "alpha": 0.5,
+        "loss": "Soft-Target Cross-Entropy"
+      }
+    },
+    "secondary_controls": {
+      "hard_baseline_64_32": {
+        "architecture": "Linear(50, 64) -> ReLU -> Linear(64, 32) -> ReLU -> Linear(32, 5)",
+        "total_parameters": 5541,
+        "target": "one_hot",
+        "loss": "Soft-Target Cross-Entropy"
+      },
+      "standalone_teacher_tabpfn": {
+        "model_path": "/Volumes/KIOXIA/AI Models/tabpfn/tabpfn-v3-classifier-v3_20260417_multiclass.ckpt",
+        "device": "mps",
+        "n_estimators": 8,
+        "fitted_on": "student_train (N=3200)"
+      }
+    }
+  },
+  "training_hyperparameters": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "batch_size": 64,
+    "max_epochs": 200,
+    "early_stopping_patience": 15,
+    "early_stopping_metric": "Macro F1 on true hard student_val labels"
+  },
+  "data_independence_invariants": {
+    "outer_test_isolated_from_teachers": true,
+    "student_val_isolated_from_soft_target_teachers": true,
+    "scaler_fit_strictly_on": "student_train (N=3200)",
+    "teacher_soft_targets_fit_strictly_on": "student_train (N=3200, inner 3-fold OOF)"
+  },
+  "statistical_comparisons": {
+    "primary": "Teacher-distilled MLP (128, 64) vs. Uniform-smoothed MLP (128, 64)",
+    "secondary_core": "Teacher-distilled MLP (128, 64) vs. Hard-label MLP (128, 64)",
+    "exploratory": [
+      "Teacher-distilled MLP (128, 64) vs. Standalone TabPFN",
+      "Hard-label MLP (128, 64) vs. Hard-label MLP (64, 32) [Capacity Effect]"
+    ],
+    "bootstrap_iterations_per_seed": 10000,
+    "fwer_alpha": 0.05
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "01_phase3c_hyp_sttc_sensitivity.py": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/phase3c_sensitivity/01_phase3c_hyp_sttc_sensitivity.py",
+    "sha256": "6bafedab6696f1185b4e463543bb3fd0e257ee954fedd7e99ce9b76b14915fb9",
+    "size_bytes": 37153
+  },
+  "excluded_records_hyp_sttc.csv": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/phase3c_sensitivity/excluded_records_hyp_sttc.csv",
+    "sha256": "5ad4ab957d21e96a269bb9d16d5e24ed83c9a8db559554970489cf155b6d0bdb",
+    "size_bytes": 45719
+  },
+  "phase3c_fold_role_manifest.json": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/phase3c_sensitivity/phase3c_fold_role_manifest.json",
+    "sha256": "d2178d409a5dcd310ff2466b320d74a727170df6280f1998c9d4461a91d41d9e",
+    "size_bytes": 762
+  },
+  "phase3c_sensitivity_results.json": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/phase3c_sensitivity/phase3c_sensitivity_results.json",
+    "sha256": "711781b2cf41d1dc07d1b3e38414b738dd757c8245ab9ef15986098139ae3b0b",
+    "size_bytes": 18471
+  },
+  "phase3c_oof_predictions.npz": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/phase3c_sensitivity/phase3c_oof_predictions.npz",
+    "sha256": "248e92bd0346a9fb382aa540d60014c7e54d3ed0fd319d310f71b870462b76a0",
+    "size_bytes": 46109
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "n_evaluated_cases": 20,
+  "mean_generation_latency_ms": 1488.95,
+  "std_generation_latency_ms": 84.93,
+  "structural_4stage_completeness_rate_pct": 100.0,
+  "exact_confidence_fidelity_pct": 100.0,
+  "exact_hr_fidelity_pct": 100.0,
+  "representative_reports_by_class": {
+    "NORM": {
+      "patient_id": "PTB_9315",
+      "class_name": "NORM",
+      "confidence_pct": 99.1,
+      "heart_rate_bpm": 64.5,
+      "qrs_duration_ms": 68.0,
+      "qtc_fridericia_ms": 344.2,
+      "st60_Lead_I_mV": 0.04,
+      "st60_Lead_II_mV": 0.01,
+      "irregular_rr_flag": 0,
+      "wide_qrs_flag": 0,
+      "generation_latency_ms": 1376.16,
+      "structural_completeness_4stage": true,
+      "exact_confidence_match": true,
+      "exact_hr_match": true,
+      "input_payload": {
+        "tabpfn_predicted_class": "NORM (Normal Sinus Rhythm)",
+        "triage_decision": "Outpatient Reassurance (Class 0)",
+        "confidence_pct": 99.1,
+        "class_probabilities_pct": {
+          "NORM": 99.1,
+          "AFIB/AFL": 0.1,
+          "CD": 0.2,
+          "STTC/MI": 0.3,
+          "HYP": 0.2
+        },
+        "heart_rate_bpm": 64.5,
+        "qrs_duration_ms": 68.0,
+        "qtc_fridericia_ms": 344.2,
+        "st60_deviation_mV": {
+          "Lead_I": 0.04,
+          "Lead_II": 0.01
+        },
+        "rhythm_flags": {
+          "irregular_rr_flag": false,
+          "wide_qrs_flag": false
+        }
+      },
+      "generated_report": "CARDIOLOGY TRIAGE SUMMARY\n-------------------------\n1. Electrophysiological Findings:\nAmbulatory two-lead (Lead I + II) recording demonstrates physiological Normal Sinus Rhythm (99.1% TabPFN confidence) at 64.5 bpm. Atrioventricular and intraventricular conduction intervals are normal (QRS = 68.0 ms, QTcF = 344.2 ms) with isoelectric ST segments (+0.04/+0.01 mV) and regular beat-to-beat RR periodicity.\n\n2. Arrhythmia & Ischemia Risk Tier:\nLow Risk — Outpatient Reassurance. No electrophysiological evidence of atrial tachyarrhythmia, bundle branch block, or acute frontal-plane ST-T deviation.\n\n3. Recommended Clinical Actions:\n- Routine outpatient preventive care; no urgent cardiology escalation is indicated.\n- If the patient experiences paroxysmal palpitations, chest pain, or dizziness, repeat ECG recording during symptoms.\n\n4. Lead I/II Biometric Profile:\nTabPFN Diagnosis: NORM (99.1%) | Triage: Outpatient Reassurance | HR: 64.5 bpm | QRS: 68.0 ms | QTcF: 344.2 ms | ST60 (I/II): +0.04/+0.01 mV | Irregular RR: Absent (-) | Wide QRS: Absent (-)."
+    },
+    "AFIB/AFL": {
+      "patient_id": "PTB_12949",
+      "class_name": "AFIB/AFL",
+      "confidence_pct": 99.9,
+      "heart_rate_bpm": 76.2,
+      "qrs_duration_ms": 86.0,
+      "qtc_fridericia_ms": 357.4,
+      "st60_Lead_I_mV": -0.02,
+      "st60_Lead_II_mV": -0.05,
+      "irregular_rr_flag": 1,
+      "wide_qrs_flag": 0,
+      "generation_latency_ms": 1536.11,
+      "structural_completeness_4stage": true,
+      "exact_confidence_match": true,
+      "exact_hr_match": true,
+      "input_payload": {
+        "tabpfn_predicted_class": "AFIB/AFL (Atrial Fibrillation / Flutter)",
+        "triage_decision": "Urgent Cardiology Escalation (Class 1)",
+        "confidence_pct": 99.9,
+        "class_probabilities_pct": {
+          "NORM": 0.0,
+          "AFIB/AFL": 99.9,
+          "CD": 0.0,
+          "STTC/MI": 0.0,
+          "HYP": 0.0
+        },
+        "heart_rate_bpm": 76.2,
+        "qrs_duration_ms": 86.0,
+        "qtc_fridericia_ms": 357.4,
+        "st60_deviation_mV": {
+          "Lead_I": -0.02,
+          "Lead_II": -0.05
+        },
+        "rhythm_flags": {
+          "irregular_rr_flag": true,
+          "wide_qrs_flag": false
+        }
+      },
+      "generated_report": "CARDIOLOGY TRIAGE SUMMARY\n-------------------------\n1. Electrophysiological Findings:\nAmbulatory Lead I/II telemetry demonstrates an irregularly irregular supraventricular rhythm consistent with Atrial Fibrillation/Flutter (99.9% TabPFN confidence) at a ventricular rate of 76.2 bpm. Beat-to-beat RR dispersion is markedly elevated (irregular_rr_flag = True) with absence of organized sinus P waves and preserved narrow intraventricular conduction (QRS = 86.0 ms).\n\n2. Arrhythmia & Ischemia Risk Tier:\nHigh Risk — Urgent Cardiology Escalation. Uncontrolled atrial tachyarrhythmia (76.2 bpm) carries immediate thromboembolic stroke risk and potential hemodynamic decompensation.\n\n3. Recommended Clinical Actions:\n- Obtain a confirmatory 12-lead resting ECG to verify atrial fibrillatory/flutter waves.\n- Assess hemodynamic stability, symptom onset duration, and CHA2DS2-VASc thromboembolic score.\n- Initiate ventricular rate control (e.g., beta-blocker or non-dihydropyridine calcium channel blocker) and evaluate oral anticoagulation per clinical guidelines.\n\n4. Lead I/II Biometric Profile:\nTabPFN Diagnosis: AFIB/AFL (99.9%) | Triage: Urgent Escalation | HR: 76.2 bpm | QRS: 86.0 ms | QTcF: 357.4 ms | ST60 (I/II): -0.02/-0.05 mV | Irregular RR: Present (+) | Wide QRS: Absent (-)."
+    },
+    "CD": {
+      "patient_id": "PTB_8633",
+      "class_name": "CD",
+      "confidence_pct": 100.0,
+      "heart_rate_bpm": 73.9,
+      "qrs_duration_ms": 146.0,
+      "qtc_fridericia_ms": 402.0,
+      "st60_Lead_I_mV": -0.1,
+      "st60_Lead_II_mV": -0.07,
+      "irregular_rr_flag": 0,
+      "wide_qrs_flag": 1,
+      "generation_latency_ms": 1560.43,
+      "structural_completeness_4stage": true,
+      "exact_confidence_match": true,
+      "exact_hr_match": true,
+      "input_payload": {
+        "tabpfn_predicted_class": "CD (Conduction Disturbance: Bundle Branch / AV Block)",
+        "triage_decision": "Urgent Cardiology Escalation (Class 1)",
+        "confidence_pct": 100.0,
+        "class_probabilities_pct": {
+          "NORM": 0.0,
+          "AFIB/AFL": 0.0,
+          "CD": 100.0,
+          "STTC/MI": 0.0,
+          "HYP": 0.0
+        },
+        "heart_rate_bpm": 73.9,
+        "qrs_duration_ms": 146.0,
+        "qtc_fridericia_ms": 402.0,
+        "st60_deviation_mV": {
+          "Lead_I": -0.1,
+          "Lead_II": -0.07
+        },
+        "rhythm_flags": {
+          "irregular_rr_flag": false,
+          "wide_qrs_flag": true
+        }
+      },
+      "generated_report": "CARDIOLOGY TRIAGE SUMMARY\n-------------------------\n1. Electrophysiological Findings:\nTwo-lead waveform analysis identifies significant intraventricular or atrioventricular conduction delay (85.0% TabPFN confidence), characterized by prolonged QRS duration (146.0 ms; wide_qrs_flag = True) and regular RR intervals (HR = 73.9 bpm). Secondary repolarization prolongation (QTcF = 402.0 ms) is consistent with bundle branch block morphology.\n\n2. Arrhythmia & Ischemia Risk Tier:\nHigh Risk — Urgent Cardiology Escalation. Wide-complex conduction block (QRS = 146.0 ms) requires prompt exclusion of new-onset left bundle branch block, high-grade AV block, or underlying structural cardiomyopathy.\n\n3. Recommended Clinical Actions:\n- Perform an immediate 12-lead ECG (including precordial leads V1–V6) to differentiate LBBB vs. RBBB and quantify PR/AV conduction.\n- Compare with prior baseline ECGs to determine if the conduction block is acute or chronic.\n- Evaluate for syncope, presyncope, or ischemic chest symptoms and consider transthoracic echocardiography.\n\n4. Lead I/II Biometric Profile:\nTabPFN Diagnosis: CD (100.0%) | Triage: Urgent Escalation | HR: 73.9 bpm | QRS: 146.0 ms | QTcF: 402.0 ms | ST60 (I/II): -0.1/-0.07 mV | Irregular RR: Absent (-) | Wide QRS: Present (+)."
+    },
+    "STTC/MI": {
+      "patient_id": "PTB_21566",
+      "class_name": "STTC/MI",
+      "confidence_pct": 99.4,
+      "heart_rate_bpm": 67.6,
+      "qrs_duration_ms": 94.0,
+      "qtc_fridericia_ms": 316.3,
+      "st60_Lead_I_mV": -0.04,
+      "st60_Lead_II_mV": -0.01,
+      "irregular_rr_flag": 0,
+      "wide_qrs_flag": 0,
+      "generation_latency_ms": 1492.48,
+      "structural_completeness_4stage": true,
+      "exact_confidence_match": true,
+      "exact_hr_match": true,
+      "input_payload": {
+        "tabpfn_predicted_class": "STTC/MI (Ischemic ST-T Abnormality / Myocardial Infarction)",
+        "triage_decision": "Urgent Cardiology Escalation (Class 1)",
+        "confidence_pct": 99.4,
+        "class_probabilities_pct": {
+          "NORM": 0.0,
+          "AFIB/AFL": 0.0,
+          "CD": 0.3,
+          "STTC/MI": 99.4,
+          "HYP": 0.3
+        },
+        "heart_rate_bpm": 67.6,
+        "qrs_duration_ms": 94.0,
+        "qtc_fridericia_ms": 316.3,
+        "st60_deviation_mV": {
+          "Lead_I": -0.04,
+          "Lead_II": -0.01
+        },
+        "rhythm_flags": {
+          "irregular_rr_flag": false,
+          "wide_qrs_flag": false
+        }
+      },
+      "generated_report": "CARDIOLOGY TRIAGE SUMMARY\n-------------------------\n1. Electrophysiological Findings:\nAmbulatory Lead I/II morphology indicates ischemic ST-T segment deviation or myocardial infarction signature (99.4% TabPFN confidence), with J+60 ms ST-segment shifts of -0.04/-0.01 mV in Lead I and -0.01 mV in Lead II. Sinus rhythm is regular (HR = 67.6.\n\n2. Arrhythmia & Ischemia Risk Tier:\nHigh Risk — Urgent Cardiology Escalation. Significant frontal-plane ST-T deviation in R-wave voltage indicates ischemic ST-T segment deviation or myocardial infarction signature.\n\n3. Recommended Clinical Actions:\n- Acquire a stat 12-lead ECG immediately to evaluate contiguous precordial (V1–V6) and limb lead ST elevation/depression.\n- Draw serial high-sensitivity cardiac troponins (hs-cTn) and assess for angina or anginal equivalents.\n- Note that two-lead ambulatory monitoring has spatial blind spots for isolated anterior wall ischemia; full 12-lead correlation is mandatory.\n\n4. Lead I/II Biometric Profile:\nTabPFN Diagnosis: STTC/MI (99.4%) | Triage: Urgent Escalation | HR: 67.6 bpm | QRS: 94.0 ms | QTcF: 316.3 ms | ST60 (I/II): -0.04/-0.01 mV | Irregular RR: Absent (-) | Wide QRS: Absent (-)."
+    },
+    "HYP": {
+      "patient_id": "PTB_16891",
+      "class_name": "HYP",
+      "confidence_pct": 99.9,
+      "heart_rate_bpm": 68.5,
+      "qrs_duration_ms": 82.0,
+      "qtc_fridericia_ms": 413.9,
+      "st60_Lead_I_mV": -0.13,
+      "st60_Lead_II_mV": -0.07,
+      "irregular_rr_flag": 0,
+      "wide_qrs_flag": 0,
+      "generation_latency_ms": 1418.68,
+      "structural_completeness_4stage": true,
+      "exact_confidence_match": true,
+      "exact_hr_match": true,
+      "input_payload": {
+        "tabpfn_predicted_class": "HYP (Ventricular / Atrial Hypertrophy)",
+        "triage_decision": "Urgent Cardiology Escalation (Class 1)",
+        "confidence_pct": 99.9,
+        "class_probabilities_pct": {
+          "NORM": 0.0,
+          "AFIB/AFL": 0.0,
+          "CD": 0.0,
+          "STTC/MI": 0.0,
+          "HYP": 99.9
+        },
+        "heart_rate_bpm": 68.5,
+        "qrs_duration_ms": 82.0,
+        "qtc_fridericia_ms": 413.9,
+        "st60_deviation_mV": {
+          "Lead_I": -0.13,
+          "Lead_II": -0.07
+        },
+        "rhythm_flags": {
+          "irregular_rr_flag": false,
+          "wide_qrs_flag": false
+        }
+      },
+      "generated_report": "CARDIOLOGY TRIAGE SUMMARY\n-------------------------\n1. Electrophysiological Findings:\nQuantitative Lead I/II feature profile indicates cardiac chamber hypertrophy (99.9% TabPFN confidence) with augmented R-wave voltage and secondary repolarization strain (ST60 = -0.13 mV in Lead I, -0.07 mV in Lead II). Underlying rhythm is regular at 68.5 bpm with QRS duration of 82.0 ms.\n\n2. Arrhythmia & Ischemia Risk Tier:\nModerate-to-High Risk — Cardiology Escalation. High-voltage QRS complexes with secondary ST-T strain pattern suggest chronic pressure overload (e.g., systemic hypertension or valvular heart disease).\n\n3. Recommended Clinical Actions:\n- Obtain a 12-lead ECG to quantify Sokolow-Lyon and Cornell voltage criteria across precordial leads.\n- Schedule transthoracic echocardiography (TTE) to measure interventricular septal and posterior wall thickness.\n- Optimize blood pressure management and longitudinal outpatient cardiology follow-up.\n\n4. Lead I/II Biometric Profile:\nTabPFN Diagnosis: HYP (99.9%) | Triage: Urgent Escalation | HR: 68.5 bpm | QRS: 82.0 ms | QTcF: 413.9 ms | ST60 (I/II): -0.13/-0.07 mV | Irregular RR: Absent (-) | Wide QRS: Absent (-)."
+    }
+  }
+}

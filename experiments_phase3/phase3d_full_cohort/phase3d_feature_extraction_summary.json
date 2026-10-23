@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETED",
+  "cohort_name": "eligible_cohort_without_quota_subsampling",
+  "total_records": 15160,
+  "unique_patients": 15160,
+  "discovery_records": 5000,
+  "newly_extracted_records": 10160,
+  "feature_count_waveform": 50,
+  "feature_count_total": 54,
+  "class_counts": {
+    "NORM": 8052,
+    "STTC/MI": 3486,
+    "CD": 1647,
+    "AFIB/AFL": 1155,
+    "HYP": 820
+  },
+  "output_csv": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/phase3d_full_cohort/ptbxl_eligible_cohort_15160_features.csv",
+  "output_csv_sha256": "23cc737f86bb337459eb0e5d8663bf64c00921622b5c7de6cc46a745211229c4",
+  "output_csv_size_mb": 12.291041374206543
+}

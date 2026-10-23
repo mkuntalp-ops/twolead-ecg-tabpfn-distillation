@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Teacher–Student Distillation of TabPFN for Retrospective Two-Lead ECG Features: code, derived features and OOF predictions"
+authors:
+  - family-names: Kuntalp
+    given-names: Mehmet
+    affiliation: "Department of Electrical and Electronics Engineering, Dokuz Eylül University, İzmir, Turkey"
+    orcid: "https://orcid.org/0000-0002-3381-9026"
+    email: mehmet.kuntalp@deu.edu.tr
+license: MIT
+repository-code: "https://github.com/mkuntalp-ops/twolead-ecg-tabpfn-distillation"
+date-released: 2026-10-23

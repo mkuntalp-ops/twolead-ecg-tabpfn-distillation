@@ -1,0 +1,22 @@
+{
+  "02_procedure_matched_mlp_pilot.py": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/02_procedure_matched_mlp_pilot.py",
+    "sha256": "bf8c1a5602ee6c2544914243345a7fae53f43de8178368d45d78bff6c9f19850",
+    "size_bytes": 29594
+  },
+  "pilot_init_weights_128_64.pt": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/pilot_init_weights_128_64.pt",
+    "sha256": "2ca481bf552dd51b79538b06661b5d3311bbac4f3f2271aeafa52fc918faee33",
+    "size_bytes": 63789
+  },
+  "pilot_init_weights_64_32.pt": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/experiments_phase3/pilot_init_weights_64_32.pt",
+    "sha256": "e2fb60f2e87febffff448e8ce44702da34e096acf4c82ec793714ec1ece2925e",
+    "size_bytes": 25377
+  },
+  "phase3a_procedure_matched_pilot_results.json": {
+    "path": "/Volumes/KIOXIA/Projects/gemma3-lora-other/results/phase3a_procedure_matched_pilot_results.json",
+    "sha256": "9c779b21d60a454aa145361a184ff8b8364664a73343947aeeae57d11dd4352b",
+    "size_bytes": 7575
+  }
+}

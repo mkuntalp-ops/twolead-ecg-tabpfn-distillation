@@ -1,0 +1,337 @@
+{
+  "metadata": {
+    "experiment": "Phase 3A: Procedure-Matched MLP Pilot",
+    "cohort": "PTB-XL (data/ptbxl_54features.csv)",
+    "features": "FEAT_50 (waveform only, 50 features)",
+    "outer_fold": "Fold 1 of 5-fold StratifiedGroupKFold (seed=42)",
+    "patient_disjointness_verified": true,
+    "samples": {
+      "total": 5000,
+      "outer_train": 4000,
+      "student_train": 3200,
+      "student_val": 800,
+      "outer_test": 1000
+    },
+    "parameters": {
+      "epsilon_label_smoothing": 0.15,
+      "alpha_distillation": 0.5,
+      "optimizer": "Adam(lr=0.001, weight_decay=0.001)",
+      "batch_size": 64,
+      "early_stopping": "Macro F1 on true hard student_val labels (patience=15)",
+      "loss": "Unified Soft-Target Cross-Entropy"
+    },
+    "timestamp": "2026-10-20 10:44:48"
+  },
+  "pairwise_deltas_pp": {
+    "matched_delta_distill_vs_hard128": 3.16,
+    "matched_delta_distill_vs_smooth128": 2.65,
+    "matched_delta_smooth128_vs_hard128": 0.51,
+    "matched_delta_hard128_vs_hard64_capacity_effect": 1.33,
+    "legacy_delta_distill_vs_base64_manuscript_confounder": 3.45,
+    "legacy_delta_distill_vs_base128": 1.99,
+    "procedure_effect_hard128_pytorch_vs_sklearn": 1.52,
+    "teacher_gap_vs_distilled": 0.62
+  },
+  "models": {
+    "hard_mlp_128_64": {
+      "model_name": "Procedure-Matched Hard-Label MLP (128, 64)",
+      "architecture": "50-128-64-5",
+      "test_macro_f1": 72.84,
+      "test_accuracy": 73.2,
+      "test_balanced_accuracy": 72.59,
+      "test_ece": 5.15,
+      "per_class_f1": {
+        "NORM": 71.43,
+        "AFIB/AFL": 91.67,
+        "CD": 73.45,
+        "STTC/MI": 64.67,
+        "HYP": 62.99
+      },
+      "confusion_matrix": [
+        [
+          160,
+          0,
+          15,
+          25,
+          9
+        ],
+        [
+          3,
+          187,
+          13,
+          2,
+          4
+        ],
+        [
+          28,
+          5,
+          148,
+          21,
+          7
+        ],
+        [
+          26,
+          4,
+          12,
+          140,
+          27
+        ],
+        [
+          22,
+          3,
+          6,
+          36,
+          97
+        ]
+      ],
+      "best_epoch": 15,
+      "total_epochs": 30,
+      "best_val_macro_f1": 74.3,
+      "best_val_loss": 0.72,
+      "train_duration_s": 0.5,
+      "test_infer_ms_per_rec": 0.0003
+    },
+    "smooth_mlp_128_64": {
+      "model_name": "Procedure-Matched Uniform Smooth MLP (128, 64, eps=0.15)",
+      "architecture": "50-128-64-5",
+      "test_macro_f1": 73.35,
+      "test_accuracy": 73.7,
+      "test_balanced_accuracy": 73.36,
+      "test_ece": 7.39,
+      "per_class_f1": {
+        "NORM": 70.1,
+        "AFIB/AFL": 92.13,
+        "CD": 74.62,
+        "STTC/MI": 63.64,
+        "HYP": 66.26
+      },
+      "confusion_matrix": [
+        [
+          143,
+          1,
+          20,
+          33,
+          12
+        ],
+        [
+          3,
+          199,
+          3,
+          3,
+          1
+        ],
+        [
+          23,
+          10,
+          147,
+          20,
+          9
+        ],
+        [
+          17,
+          8,
+          12,
+          140,
+          32
+        ],
+        [
+          13,
+          5,
+          3,
+          35,
+          108
+        ]
+      ],
+      "best_epoch": 13,
+      "total_epochs": 28,
+      "best_val_macro_f1": 74.5,
+      "best_val_loss": 0.7394,
+      "train_duration_s": 0.48,
+      "test_infer_ms_per_rec": 0.0002
+    },
+    "distill_mlp_128_64": {
+      "model_name": "Procedure-Matched Teacher Distilled MLP (128, 64, alpha=0.5)",
+      "architecture": "50-128-64-5",
+      "test_macro_f1": 76.0,
+      "test_accuracy": 76.4,
+      "test_balanced_accuracy": 75.84,
+      "test_ece": 4.03,
+      "per_class_f1": {
+        "NORM": 74.16,
+        "AFIB/AFL": 94.48,
+        "CD": 75.95,
+        "STTC/MI": 68.52,
+        "HYP": 66.88
+      },
+      "confusion_matrix": [
+        [
+          165,
+          0,
+          16,
+          19,
+          9
+        ],
+        [
+          3,
+          197,
+          6,
+          3,
+          0
+        ],
+        [
+          29,
+          6,
+          150,
+          18,
+          6
+        ],
+        [
+          20,
+          2,
+          11,
+          148,
+          28
+        ],
+        [
+          19,
+          3,
+          3,
+          35,
+          104
+        ]
+      ],
+      "best_epoch": 19,
+      "total_epochs": 34,
+      "best_val_macro_f1": 74.9,
+      "best_val_loss": 0.6992,
+      "train_duration_s": 0.6,
+      "test_infer_ms_per_rec": 0.0002
+    },
+    "hard_mlp_64_32": {
+      "model_name": "Procedure-Matched Hard-Label Baseline MLP (64, 32)",
+      "architecture": "50-64-32-5",
+      "test_macro_f1": 71.51,
+      "test_accuracy": 72.1,
+      "test_balanced_accuracy": 71.62,
+      "test_ece": 5.49,
+      "per_class_f1": {
+        "NORM": 71.27,
+        "AFIB/AFL": 92.2,
+        "CD": 72.1,
+        "STTC/MI": 59.7,
+        "HYP": 62.31
+      },
+      "confusion_matrix": [
+        [
+          160,
+          1,
+          16,
+          23,
+          9
+        ],
+        [
+          3,
+          195,
+          6,
+          3,
+          2
+        ],
+        [
+          32,
+          8,
+          146,
+          15,
+          8
+        ],
+        [
+          25,
+          6,
+          20,
+          120,
+          38
+        ],
+        [
+          20,
+          4,
+          8,
+          32,
+          100
+        ]
+      ],
+      "best_epoch": 24,
+      "total_epochs": 39,
+      "best_val_macro_f1": 74.71,
+      "best_val_loss": 0.7324,
+      "train_duration_s": 0.59,
+      "test_infer_ms_per_rec": 0.0001
+    },
+    "legacy_sklearn_base_mlp_64_32": {
+      "model_name": "Legacy Sklearn MLPClassifier (64, 32)",
+      "architecture": "50-64-32-5",
+      "test_macro_f1": 69.86,
+      "test_accuracy": 70.5,
+      "test_balanced_accuracy": 69.88,
+      "test_ece": 3.8,
+      "per_class_f1": {
+        "NORM": 68.97,
+        "AFIB/AFL": 89.46,
+        "CD": 69.25,
+        "STTC/MI": 61.87,
+        "HYP": 59.74
+      },
+      "train_duration_s": 0.11,
+      "test_infer_ms_per_rec": 0.0002
+    },
+    "legacy_sklearn_base_mlp_128_64": {
+      "model_name": "Legacy Sklearn MLPClassifier (128, 64)",
+      "architecture": "50-128-64-5",
+      "test_macro_f1": 71.32,
+      "test_accuracy": 72.0,
+      "test_balanced_accuracy": 71.42,
+      "test_ece": 2.82,
+      "per_class_f1": {
+        "NORM": 69.63,
+        "AFIB/AFL": 91.49,
+        "CD": 72.04,
+        "STTC/MI": 62.88,
+        "HYP": 60.57
+      },
+      "train_duration_s": 0.12,
+      "test_infer_ms_per_rec": 0.0002
+    },
+    "legacy_sklearn_dist_mlp_128_64": {
+      "model_name": "Legacy Sklearn Distilled MLPRegressor (128, 64, Logit-MSE)",
+      "architecture": "50-128-64-5",
+      "test_macro_f1": 73.31,
+      "test_accuracy": 73.7,
+      "test_balanced_accuracy": 73.2,
+      "test_ece": 5.85,
+      "per_class_f1": {
+        "NORM": 71.91,
+        "AFIB/AFL": 91.79,
+        "CD": 74.88,
+        "STTC/MI": 63.64,
+        "HYP": 64.35
+      },
+      "train_duration_s": 0.5,
+      "test_infer_ms_per_rec": 0.0002
+    },
+    "teacher_tabpfn": {
+      "model_name": "Teacher TabPFN (n_estimators=8, fitted on Student Train)",
+      "architecture": "Transformer Foundation Model",
+      "test_macro_f1": 76.62,
+      "test_accuracy": 77.0,
+      "test_balanced_accuracy": 76.55,
+      "test_ece": 3.31,
+      "per_class_f1": {
+        "NORM": 75.56,
+        "AFIB/AFL": 94.12,
+        "CD": 76.34,
+        "STTC/MI": 66.98,
+        "HYP": 70.1
+      },
+      "train_duration_s": 0.31,
+      "test_infer_ms_per_rec": 9.1849
+    }
+  }
+}

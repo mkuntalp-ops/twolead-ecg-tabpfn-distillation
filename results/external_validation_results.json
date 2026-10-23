@@ -1,0 +1,749 @@
+{
+  "hardware_confounding_audit_ptbxl": {
+    "device_by_5class": {
+      "AT-6     6": {
+        "AFIB/AFL": 128,
+        "CD": 137,
+        "HYP": 92,
+        "NORM": 102,
+        "STTC/MI": 129
+      },
+      "AT-6 C": {
+        "AFIB/AFL": 24,
+        "CD": 28,
+        "HYP": 33,
+        "NORM": 8,
+        "STTC/MI": 37
+      },
+      "AT-6 C 5.0": {
+        "AFIB/AFL": 6,
+        "CD": 4,
+        "HYP": 4,
+        "NORM": 2,
+        "STTC/MI": 6
+      },
+      "AT-6 C 5.3": {
+        "AFIB/AFL": 5,
+        "CD": 0,
+        "HYP": 4,
+        "NORM": 5,
+        "STTC/MI": 5
+      },
+      "AT-6 C 5.5": {
+        "AFIB/AFL": 222,
+        "CD": 207,
+        "HYP": 212,
+        "NORM": 243,
+        "STTC/MI": 176
+      },
+      "AT-6 C 5.6": {
+        "AFIB/AFL": 5,
+        "CD": 2,
+        "HYP": 3,
+        "NORM": 4,
+        "STTC/MI": 0
+      },
+      "AT-6 C 5.8": {
+        "AFIB/AFL": 51,
+        "CD": 43,
+        "HYP": 49,
+        "NORM": 47,
+        "STTC/MI": 56
+      },
+      "AT-60    3": {
+        "AFIB/AFL": 41,
+        "CD": 34,
+        "HYP": 19,
+        "NORM": 34,
+        "STTC/MI": 52
+      },
+      "CS-12": {
+        "AFIB/AFL": 195,
+        "CD": 247,
+        "HYP": 99,
+        "NORM": 161,
+        "STTC/MI": 190
+      },
+      "CS-12   E": {
+        "AFIB/AFL": 8,
+        "CD": 96,
+        "HYP": 30,
+        "NORM": 260,
+        "STTC/MI": 57
+      },
+      "CS100    3": {
+        "AFIB/AFL": 360,
+        "CD": 247,
+        "HYP": 275,
+        "NORM": 179,
+        "STTC/MI": 337
+      }
+    },
+    "device_by_triage": {
+      "AT-6     6": {
+        "0": 102,
+        "1": 486
+      },
+      "AT-6 C": {
+        "0": 8,
+        "1": 122
+      },
+      "AT-6 C 5.0": {
+        "0": 2,
+        "1": 20
+      },
+      "AT-6 C 5.3": {
+        "0": 5,
+        "1": 14
+      },
+      "AT-6 C 5.5": {
+        "0": 243,
+        "1": 817
+      },
+      "AT-6 C 5.6": {
+        "0": 4,
+        "1": 10
+      },
+      "AT-6 C 5.8": {
+        "0": 47,
+        "1": 199
+      },
+      "AT-60    3": {
+        "0": 34,
+        "1": 146
+      },
+      "CS-12": {
+        "0": 161,
+        "1": 731
+      },
+      "CS-12   E": {
+        "0": 260,
+        "1": 191
+      },
+      "CS100    3": {
+        "0": 179,
+        "1": 1219
+      }
+    }
+  },
+  "zero_shot_transfer": {
+    "chapman_zeroshot": {
+      "naive_task2": {
+        "baseline_xgboost": {
+          "patient_macro_f1": 43.21,
+          "ci_95": [
+            42.82,
+            43.59
+          ],
+          "patient_accuracy": 76.08,
+          "patient_balanced_accuracy": 50.0,
+          "roc_auc": 74.78,
+          "sensitivity": 100.0,
+          "specificity": 0.0
+        },
+        "distilled_xgboost": {
+          "patient_macro_f1": 43.21,
+          "ci_95": [
+            42.82,
+            43.59
+          ],
+          "patient_accuracy": 76.08,
+          "patient_balanced_accuracy": 50.0,
+          "roc_auc": 77.84,
+          "sensitivity": 100.0,
+          "specificity": 0.0
+        },
+        "baseline_mlp": {
+          "patient_macro_f1": 43.21,
+          "ci_95": [
+            42.82,
+            43.59
+          ],
+          "patient_accuracy": 76.08,
+          "patient_balanced_accuracy": 50.0,
+          "roc_auc": 49.99,
+          "sensitivity": 100.0,
+          "specificity": 0.0
+        },
+        "distilled_mlp": {
+          "patient_macro_f1": 43.21,
+          "ci_95": [
+            42.82,
+            43.59
+          ],
+          "patient_accuracy": 76.08,
+          "patient_balanced_accuracy": 50.0,
+          "roc_auc": 49.99,
+          "sensitivity": 100.0,
+          "specificity": 0.0
+        },
+        "teacher_tabpfn": {
+          "patient_macro_f1": 43.21,
+          "ci_95": [
+            42.82,
+            43.59
+          ],
+          "patient_accuracy": 76.08,
+          "patient_balanced_accuracy": 50.0,
+          "roc_auc": 85.64,
+          "sensitivity": 100.0,
+          "specificity": 0.0
+        }
+      },
+      "harmonized_task2": {
+        "baseline_xgboost": {
+          "patient_macro_f1": 74.01,
+          "ci_95": [
+            72.63,
+            75.37
+          ],
+          "patient_accuracy": 81.08,
+          "patient_balanced_accuracy": 74.01,
+          "roc_auc": 87.51,
+          "sensitivity": 87.57,
+          "specificity": 60.45
+        },
+        "distilled_xgboost": {
+          "patient_macro_f1": 74.12,
+          "ci_95": [
+            72.65,
+            75.59
+          ],
+          "patient_accuracy": 81.16,
+          "patient_balanced_accuracy": 74.12,
+          "roc_auc": 87.84,
+          "sensitivity": 87.62,
+          "specificity": 60.62
+        },
+        "baseline_mlp": {
+          "patient_macro_f1": 73.79,
+          "ci_95": [
+            72.37,
+            75.35
+          ],
+          "patient_accuracy": 80.92,
+          "patient_balanced_accuracy": 73.79,
+          "roc_auc": 86.9,
+          "sensitivity": 87.46,
+          "specificity": 60.12
+        },
+        "distilled_mlp": {
+          "patient_macro_f1": 73.84,
+          "ci_95": [
+            72.45,
+            75.31
+          ],
+          "patient_accuracy": 80.96,
+          "patient_balanced_accuracy": 73.84,
+          "roc_auc": 84.81,
+          "sensitivity": 87.49,
+          "specificity": 60.2
+        },
+        "teacher_tabpfn": {
+          "patient_macro_f1": 75.88,
+          "ci_95": [
+            74.39,
+            77.37
+          ],
+          "patient_accuracy": 82.44,
+          "patient_balanced_accuracy": 75.88,
+          "roc_auc": 88.94,
+          "sensitivity": 88.46,
+          "specificity": 63.29
+        }
+      },
+      "harmonized_task1": {
+        "baseline_xgboost": {
+          "patient_macro_f1": 57.72,
+          "ci_95": [
+            56.33,
+            59.04
+          ],
+          "patient_accuracy": 59.9,
+          "patient_balanced_accuracy": 57.96,
+          "roc_auc_ovr": 84.85
+        },
+        "distilled_xgboost": {
+          "patient_macro_f1": 58.41,
+          "ci_95": [
+            57.06,
+            59.68
+          ],
+          "patient_accuracy": 60.8,
+          "patient_balanced_accuracy": 58.76,
+          "roc_auc_ovr": 85.01
+        },
+        "baseline_mlp": {
+          "patient_macro_f1": 56.24,
+          "ci_95": [
+            54.97,
+            57.54
+          ],
+          "patient_accuracy": 58.3,
+          "patient_balanced_accuracy": 56.8,
+          "roc_auc_ovr": 82.87
+        },
+        "distilled_mlp": {
+          "patient_macro_f1": 56.32,
+          "ci_95": [
+            54.98,
+            57.72
+          ],
+          "patient_accuracy": 58.34,
+          "patient_balanced_accuracy": 56.85,
+          "roc_auc_ovr": 84.55
+        },
+        "teacher_tabpfn": {
+          "patient_macro_f1": 59.51,
+          "ci_95": [
+            58.04,
+            60.92
+          ],
+          "patient_accuracy": 61.76,
+          "patient_balanced_accuracy": 60.0,
+          "roc_auc_ovr": 85.87
+        }
+      }
+    },
+    "cpsc2018_zeroshot": {
+      "naive_task2": {
+        "baseline_xgboost": {
+          "patient_macro_f1": 42.86,
+          "ci_95": [
+            42.18,
+            43.52
+          ],
+          "patient_accuracy": 75.0,
+          "patient_balanced_accuracy": 50.0,
+          "roc_auc": 65.07,
+          "sensitivity": 100.0,
+          "specificity": 0.0
+        },
+        "distilled_xgboost": {
+          "patient_macro_f1": 42.86,
+          "ci_95": [
+            42.18,
+            43.52
+          ],
+          "patient_accuracy": 75.0,
+          "patient_balanced_accuracy": 50.0,
+          "roc_auc": 66.39,
+          "sensitivity": 100.0,
+          "specificity": 0.0
+        },
+        "baseline_mlp": {
+          "patient_macro_f1": 42.86,
+          "ci_95": [
+            42.18,
+            43.52
+          ],
+          "patient_accuracy": 75.0,
+          "patient_balanced_accuracy": 50.0,
+          "roc_auc": 50.0,
+          "sensitivity": 100.0,
+          "specificity": 0.0
+        },
+        "distilled_mlp": {
+          "patient_macro_f1": 42.86,
+          "ci_95": [
+            42.18,
+            43.52
+          ],
+          "patient_accuracy": 75.0,
+          "patient_balanced_accuracy": 50.0,
+          "roc_auc": 50.0,
+          "sensitivity": 100.0,
+          "specificity": 0.0
+        },
+        "teacher_tabpfn": {
+          "patient_macro_f1": 42.86,
+          "ci_95": [
+            42.18,
+            43.52
+          ],
+          "patient_accuracy": 75.0,
+          "patient_balanced_accuracy": 50.0,
+          "roc_auc": 80.37,
+          "sensitivity": 100.0,
+          "specificity": 0.0
+        }
+      },
+      "harmonized_task2": {
+        "baseline_xgboost": {
+          "patient_macro_f1": 70.67,
+          "ci_95": [
+            68.1,
+            73.05
+          ],
+          "patient_accuracy": 78.0,
+          "patient_balanced_accuracy": 70.67,
+          "roc_auc": 83.65,
+          "sensitivity": 85.33,
+          "specificity": 56.0
+        },
+        "distilled_xgboost": {
+          "patient_macro_f1": 71.5,
+          "ci_95": [
+            68.94,
+            73.9
+          ],
+          "patient_accuracy": 78.62,
+          "patient_balanced_accuracy": 71.5,
+          "roc_auc": 83.09,
+          "sensitivity": 85.75,
+          "specificity": 57.25
+        },
+        "baseline_mlp": {
+          "patient_macro_f1": 71.33,
+          "ci_95": [
+            68.66,
+            73.83
+          ],
+          "patient_accuracy": 78.5,
+          "patient_balanced_accuracy": 71.33,
+          "roc_auc": 82.81,
+          "sensitivity": 85.67,
+          "specificity": 57.0
+        },
+        "distilled_mlp": {
+          "patient_macro_f1": 71.0,
+          "ci_95": [
+            68.37,
+            73.46
+          ],
+          "patient_accuracy": 78.25,
+          "patient_balanced_accuracy": 71.0,
+          "roc_auc": 80.19,
+          "sensitivity": 85.5,
+          "specificity": 56.5
+        },
+        "teacher_tabpfn": {
+          "patient_macro_f1": 72.67,
+          "ci_95": [
+            70.07,
+            75.15
+          ],
+          "patient_accuracy": 79.5,
+          "patient_balanced_accuracy": 72.67,
+          "roc_auc": 84.63,
+          "sensitivity": 86.33,
+          "specificity": 59.0
+        }
+      },
+      "harmonized_task1": {
+        "baseline_xgboost": {
+          "patient_macro_f1": 63.98,
+          "ci_95": [
+            61.82,
+            66.09
+          ],
+          "patient_accuracy": 63.5,
+          "patient_balanced_accuracy": 63.5,
+          "roc_auc_ovr": 84.67
+        },
+        "distilled_xgboost": {
+          "patient_macro_f1": 64.92,
+          "ci_95": [
+            62.65,
+            67.06
+          ],
+          "patient_accuracy": 64.5,
+          "patient_balanced_accuracy": 64.5,
+          "roc_auc_ovr": 85.07
+        },
+        "baseline_mlp": {
+          "patient_macro_f1": 65.24,
+          "ci_95": [
+            62.99,
+            67.29
+          ],
+          "patient_accuracy": 65.06,
+          "patient_balanced_accuracy": 65.06,
+          "roc_auc_ovr": 84.62
+        },
+        "distilled_mlp": {
+          "patient_macro_f1": 63.26,
+          "ci_95": [
+            60.89,
+            65.4
+          ],
+          "patient_accuracy": 62.88,
+          "patient_balanced_accuracy": 62.88,
+          "roc_auc_ovr": 84.96
+        },
+        "teacher_tabpfn": {
+          "patient_macro_f1": 65.47,
+          "ci_95": [
+            63.17,
+            67.58
+          ],
+          "patient_accuracy": 65.19,
+          "patient_balanced_accuracy": 65.19,
+          "roc_auc_ovr": 86.24
+        }
+      }
+    }
+  },
+  "independent_replication": {
+    "chapman_task1_5class_54feat": {
+      "baseline_xgboost": {
+        "patient_macro_f1": 65.79,
+        "ci_95": [
+          64.33,
+          67.15
+        ],
+        "patient_accuracy": 69.14,
+        "patient_balanced_accuracy": 64.98,
+        "roc_auc": 90.41
+      },
+      "distilled_xgboost": {
+        "patient_macro_f1": 67.66,
+        "ci_95": [
+          66.2,
+          69.04
+        ],
+        "patient_accuracy": 70.52,
+        "patient_balanced_accuracy": 66.85,
+        "roc_auc": 91.2
+      },
+      "baseline_mlp": {
+        "patient_macro_f1": 65.52,
+        "ci_95": [
+          64.07,
+          66.9
+        ],
+        "patient_accuracy": 68.04,
+        "patient_balanced_accuracy": 64.9,
+        "roc_auc": 88.9
+      },
+      "distilled_mlp": {
+        "patient_macro_f1": 67.4,
+        "ci_95": [
+          65.9,
+          68.79
+        ],
+        "patient_accuracy": 69.86,
+        "patient_balanced_accuracy": 66.84,
+        "roc_auc": 90.7
+      },
+      "teacher_tabpfn": {
+        "patient_macro_f1": 70.24,
+        "ci_95": [
+          68.92,
+          71.54
+        ],
+        "patient_accuracy": 72.48,
+        "patient_balanced_accuracy": 69.6,
+        "roc_auc": 92.21
+      }
+    },
+    "chapman_task2_binary_54feat": {
+      "baseline_xgboost": {
+        "patient_macro_f1": 80.49,
+        "ci_95": [
+          79.15,
+          81.82
+        ],
+        "patient_accuracy": 86.3,
+        "patient_balanced_accuracy": 79.45,
+        "roc_auc": 92.22
+      },
+      "distilled_xgboost": {
+        "patient_macro_f1": 79.93,
+        "ci_95": [
+          78.6,
+          81.23
+        ],
+        "patient_accuracy": 85.9,
+        "patient_balanced_accuracy": 78.92,
+        "roc_auc": 92.2
+      },
+      "baseline_mlp": {
+        "patient_macro_f1": 78.68,
+        "ci_95": [
+          77.3,
+          79.98
+        ],
+        "patient_accuracy": 84.96,
+        "patient_balanced_accuracy": 77.82,
+        "roc_auc": 91.03
+      },
+      "distilled_mlp": {
+        "patient_macro_f1": 78.07,
+        "ci_95": [
+          76.66,
+          79.49
+        ],
+        "patient_accuracy": 84.6,
+        "patient_balanced_accuracy": 77.12,
+        "roc_auc": 89.5
+      },
+      "teacher_tabpfn": {
+        "patient_macro_f1": 81.22,
+        "ci_95": [
+          79.9,
+          82.48
+        ],
+        "patient_accuracy": 86.7,
+        "patient_balanced_accuracy": 80.4,
+        "roc_auc": 92.95
+      }
+    },
+    "chapman_task2_binary_50feat_ablation": {
+      "baseline_xgboost": {
+        "patient_macro_f1": 78.5,
+        "ci_95": [
+          77.07,
+          79.85
+        ],
+        "patient_accuracy": 84.98,
+        "patient_balanced_accuracy": 77.4,
+        "roc_auc": 91.21
+      },
+      "distilled_xgboost": {
+        "patient_macro_f1": 78.63,
+        "ci_95": [
+          77.28,
+          80.05
+        ],
+        "patient_accuracy": 84.96,
+        "patient_balanced_accuracy": 77.71,
+        "roc_auc": 91.32
+      },
+      "baseline_mlp": {
+        "patient_macro_f1": 77.25,
+        "ci_95": [
+          75.85,
+          78.76
+        ],
+        "patient_accuracy": 83.98,
+        "patient_balanced_accuracy": 76.4,
+        "roc_auc": 89.86
+      },
+      "distilled_mlp": {
+        "patient_macro_f1": 76.97,
+        "ci_95": [
+          75.6,
+          78.34
+        ],
+        "patient_accuracy": 83.9,
+        "patient_balanced_accuracy": 75.95,
+        "roc_auc": 88.88
+      },
+      "teacher_tabpfn": {
+        "patient_macro_f1": 79.97,
+        "ci_95": [
+          78.62,
+          81.34
+        ],
+        "patient_accuracy": 85.7,
+        "patient_balanced_accuracy": 79.4,
+        "roc_auc": 92.2
+      }
+    },
+    "cpsc2018_task1_4class_54feat": {
+      "baseline_xgboost": {
+        "patient_macro_f1": 77.43,
+        "ci_95": [
+          75.28,
+          79.46
+        ],
+        "patient_accuracy": 77.44,
+        "patient_balanced_accuracy": 77.44,
+        "roc_auc": 93.79
+      },
+      "distilled_xgboost": {
+        "patient_macro_f1": 78.89,
+        "ci_95": [
+          76.87,
+          80.89
+        ],
+        "patient_accuracy": 78.94,
+        "patient_balanced_accuracy": 78.94,
+        "roc_auc": 94.25
+      },
+      "baseline_mlp": {
+        "patient_macro_f1": 73.78,
+        "ci_95": [
+          71.68,
+          75.87
+        ],
+        "patient_accuracy": 73.94,
+        "patient_balanced_accuracy": 73.94,
+        "roc_auc": 91.21
+      },
+      "distilled_mlp": {
+        "patient_macro_f1": 78.98,
+        "ci_95": [
+          76.87,
+          81.06
+        ],
+        "patient_accuracy": 79.0,
+        "patient_balanced_accuracy": 79.0,
+        "roc_auc": 93.99
+      },
+      "teacher_tabpfn": {
+        "patient_macro_f1": 81.07,
+        "ci_95": [
+          79.1,
+          83.03
+        ],
+        "patient_accuracy": 81.12,
+        "patient_balanced_accuracy": 81.12,
+        "roc_auc": 95.49
+      }
+    },
+    "cpsc2018_task2_binary_54feat": {
+      "baseline_xgboost": {
+        "patient_macro_f1": 80.22,
+        "ci_95": [
+          77.87,
+          82.65
+        ],
+        "patient_accuracy": 85.81,
+        "patient_balanced_accuracy": 78.96,
+        "roc_auc": 92.06
+      },
+      "distilled_xgboost": {
+        "patient_macro_f1": 81.36,
+        "ci_95": [
+          78.96,
+          83.67
+        ],
+        "patient_accuracy": 86.5,
+        "patient_balanced_accuracy": 80.33,
+        "roc_auc": 92.2
+      },
+      "baseline_mlp": {
+        "patient_macro_f1": 79.51,
+        "ci_95": [
+          77.17,
+          81.96
+        ],
+        "patient_accuracy": 85.38,
+        "patient_balanced_accuracy": 78.17,
+        "roc_auc": 90.2
+      },
+      "distilled_mlp": {
+        "patient_macro_f1": 79.3,
+        "ci_95": [
+          76.96,
+          81.76
+        ],
+        "patient_accuracy": 84.56,
+        "patient_balanced_accuracy": 79.12,
+        "roc_auc": 88.42
+      },
+      "teacher_tabpfn": {
+        "patient_macro_f1": 84.72,
+        "ci_95": [
+          82.47,
+          86.89
+        ],
+        "patient_accuracy": 88.75,
+        "patient_balanced_accuracy": 84.08,
+        "roc_auc": 93.55
+      }
+    }
+  }
+}

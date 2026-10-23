@@ -1,0 +1,37 @@
+[
+  {
+    "fold": 1,
+    "stu_tr_patients": 2876,
+    "stu_val_patients": 729,
+    "outer_te_patients": 899,
+    "patient_disjointness_passed": true
+  },
+  {
+    "fold": 2,
+    "stu_tr_patients": 2876,
+    "stu_val_patients": 711,
+    "outer_te_patients": 917,
+    "patient_disjointness_passed": true
+  },
+  {
+    "fold": 3,
+    "stu_tr_patients": 2898,
+    "stu_val_patients": 719,
+    "outer_te_patients": 887,
+    "patient_disjointness_passed": true
+  },
+  {
+    "fold": 4,
+    "stu_tr_patients": 2882,
+    "stu_val_patients": 721,
+    "outer_te_patients": 901,
+    "patient_disjointness_passed": true
+  },
+  {
+    "fold": 5,
+    "stu_tr_patients": 2880,
+    "stu_val_patients": 724,
+    "outer_te_patients": 900,
+    "patient_disjointness_passed": true
+  }
+]

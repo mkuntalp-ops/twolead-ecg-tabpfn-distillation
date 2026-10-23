@@ -1,0 +1,871 @@
+{
+  "cohort": "PTB-XL Curated Adult Single-Superclass Discovery Cohort (N=5,000 patients)",
+  "task1_54feat": {
+    "baseline_xgboost": {
+      "patient_macro_f1": 72.35,
+      "patient_accuracy": 72.96,
+      "patient_balanced_accuracy": 72.18,
+      "roc_auc_ovr": 92.62,
+      "per_class_f1": {
+        "NORM": 70.72,
+        "AFIB/AFL": 92.08,
+        "CD": 73.84,
+        "STTC/MI": 63.17,
+        "HYP": 61.94
+      },
+      "confusion_matrix": [
+        [
+          797,
+          11,
+          61,
+          137,
+          39
+        ],
+        [
+          8,
+          977,
+          41,
+          15,
+          4
+        ],
+        [
+          137,
+          38,
+          738,
+          104,
+          28
+        ],
+        [
+          148,
+          28,
+          71,
+          686,
+          112
+        ],
+        [
+          119,
+          23,
+          43,
+          185,
+          450
+        ]
+      ],
+      "latency_ms_per_rec": 0.0013,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 72.34,
+        "macro_f1_ci_95": [
+          71.11,
+          73.56
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "distilled_xgboost": {
+      "patient_macro_f1": 73.99,
+      "patient_accuracy": 74.54,
+      "patient_balanced_accuracy": 73.88,
+      "roc_auc_ovr": 93.18,
+      "per_class_f1": {
+        "NORM": 72.65,
+        "AFIB/AFL": 93.25,
+        "CD": 75.51,
+        "STTC/MI": 64.15,
+        "HYP": 64.37
+      },
+      "confusion_matrix": [
+        [
+          821,
+          7,
+          59,
+          114,
+          44
+        ],
+        [
+          8,
+          988,
+          31,
+          12,
+          6
+        ],
+        [
+          125,
+          37,
+          754,
+          98,
+          31
+        ],
+        [
+          154,
+          24,
+          67,
+          679,
+          121
+        ],
+        [
+          107,
+          18,
+          41,
+          169,
+          485
+        ]
+      ],
+      "latency_ms_per_rec": 0.0027,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 73.98,
+        "macro_f1_ci_95": [
+          72.76,
+          75.18
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "baseline_mlp": {
+      "patient_macro_f1": 71.78,
+      "patient_accuracy": 72.38,
+      "patient_balanced_accuracy": 71.86,
+      "roc_auc_ovr": 92.11,
+      "per_class_f1": {
+        "NORM": 70.65,
+        "AFIB/AFL": 90.14,
+        "CD": 73.69,
+        "STTC/MI": 61.39,
+        "HYP": 63.05
+      },
+      "confusion_matrix": [
+        [
+          787,
+          17,
+          66,
+          114,
+          61
+        ],
+        [
+          12,
+          969,
+          40,
+          14,
+          10
+        ],
+        [
+          118,
+          52,
+          745,
+          91,
+          39
+        ],
+        [
+          159,
+          41,
+          78,
+          624,
+          143
+        ],
+        [
+          107,
+          26,
+          48,
+          145,
+          494
+        ]
+      ],
+      "latency_ms_per_rec": 0.0002,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 71.78,
+        "macro_f1_ci_95": [
+          70.54,
+          72.98
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "distilled_mlp": {
+      "patient_macro_f1": 73.58,
+      "patient_accuracy": 74.02,
+      "patient_balanced_accuracy": 73.48,
+      "roc_auc_ovr": 93.15,
+      "per_class_f1": {
+        "NORM": 72.86,
+        "AFIB/AFL": 92.05,
+        "CD": 74.59,
+        "STTC/MI": 63.36,
+        "HYP": 65.03
+      },
+      "confusion_matrix": [
+        [
+          796,
+          7,
+          64,
+          127,
+          51
+        ],
+        [
+          8,
+          972,
+          35,
+          22,
+          8
+        ],
+        [
+          111,
+          40,
+          753,
+          106,
+          35
+        ],
+        [
+          131,
+          32,
+          74,
+          676,
+          132
+        ],
+        [
+          94,
+          16,
+          48,
+          158,
+          504
+        ]
+      ],
+      "latency_ms_per_rec": 0.0002,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 73.57,
+        "macro_f1_ci_95": [
+          72.36,
+          74.76
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "teacher_tabpfn": {
+      "patient_macro_f1": 75.87,
+      "patient_accuracy": 76.34,
+      "patient_balanced_accuracy": 75.83,
+      "roc_auc_ovr": 94.05,
+      "per_class_f1": {
+        "NORM": 75.1,
+        "AFIB/AFL": 93.59,
+        "CD": 77.08,
+        "STTC/MI": 66.16,
+        "HYP": 67.43
+      },
+      "confusion_matrix": [
+        [
+          828,
+          6,
+          55,
+          110,
+          46
+        ],
+        [
+          7,
+          993,
+          27,
+          13,
+          5
+        ],
+        [
+          109,
+          38,
+          772,
+          91,
+          35
+        ],
+        [
+          125,
+          26,
+          66,
+          696,
+          132
+        ],
+        [
+          91,
+          14,
+          38,
+          149,
+          528
+        ]
+      ],
+      "latency_ms_per_rec": 11.6474,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 75.87,
+        "macro_f1_ci_95": [
+          74.69,
+          77.03
+        ],
+        "p_value_vs_tabpfn": null
+      }
+    }
+  },
+  "task2_54feat": {
+    "baseline_xgboost": {
+      "patient_macro_f1": 81.44,
+      "patient_accuracy": 88.24,
+      "patient_balanced_accuracy": 80.17,
+      "roc_auc": 93.11,
+      "sensitivity_urgent": 94.03,
+      "specificity_reassure": 66.32,
+      "confusion_matrix": [
+        [
+          693,
+          352
+        ],
+        [
+          236,
+          3719
+        ]
+      ],
+      "latency_ms_per_rec": 0.0007,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 81.44,
+        "macro_f1_ci_95": [
+          80.04,
+          82.79
+        ],
+        "p_value_vs_tabpfn": 0.0002
+      }
+    },
+    "distilled_xgboost": {
+      "patient_macro_f1": 81.52,
+      "patient_accuracy": 88.36,
+      "patient_balanced_accuracy": 80.07,
+      "roc_auc": 93.24,
+      "sensitivity_urgent": 94.31,
+      "specificity_reassure": 65.84,
+      "confusion_matrix": [
+        [
+          688,
+          357
+        ],
+        [
+          225,
+          3730
+        ]
+      ],
+      "latency_ms_per_rec": 0.001,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 81.52,
+        "macro_f1_ci_95": [
+          80.15,
+          82.84
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "baseline_mlp": {
+      "patient_macro_f1": 81.56,
+      "patient_accuracy": 88.22,
+      "patient_balanced_accuracy": 80.51,
+      "roc_auc": 92.43,
+      "sensitivity_urgent": 93.75,
+      "specificity_reassure": 67.27,
+      "confusion_matrix": [
+        [
+          703,
+          342
+        ],
+        [
+          247,
+          3708
+        ]
+      ],
+      "latency_ms_per_rec": 0.0002,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 81.55,
+        "macro_f1_ci_95": [
+          80.2,
+          82.89
+        ],
+        "p_value_vs_tabpfn": 0.0002
+      }
+    },
+    "distilled_mlp": {
+      "patient_macro_f1": 80.65,
+      "patient_accuracy": 87.88,
+      "patient_balanced_accuracy": 79.1,
+      "roc_auc": 90.83,
+      "sensitivity_urgent": 94.18,
+      "specificity_reassure": 64.02,
+      "confusion_matrix": [
+        [
+          669,
+          376
+        ],
+        [
+          230,
+          3725
+        ]
+      ],
+      "latency_ms_per_rec": 0.0002,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 80.66,
+        "macro_f1_ci_95": [
+          79.26,
+          82.04
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "teacher_tabpfn": {
+      "patient_macro_f1": 83.38,
+      "patient_accuracy": 89.4,
+      "patient_balanced_accuracy": 82.21,
+      "roc_auc": 94.08,
+      "sensitivity_urgent": 94.56,
+      "specificity_reassure": 69.86,
+      "confusion_matrix": [
+        [
+          730,
+          315
+        ],
+        [
+          215,
+          3740
+        ]
+      ],
+      "latency_ms_per_rec": 11.6005,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 83.38,
+        "macro_f1_ci_95": [
+          82.09,
+          84.65
+        ],
+        "p_value_vs_tabpfn": null
+      }
+    }
+  },
+  "task1_50feat_ablation": {
+    "baseline_xgboost": {
+      "patient_macro_f1": 72.0,
+      "patient_accuracy": 72.7,
+      "patient_balanced_accuracy": 71.89,
+      "roc_auc_ovr": 92.37,
+      "per_class_f1": {
+        "NORM": 70.78,
+        "AFIB/AFL": 92.14,
+        "CD": 73.8,
+        "STTC/MI": 62.53,
+        "HYP": 60.74
+      },
+      "confusion_matrix": [
+        [
+          803,
+          12,
+          66,
+          125,
+          39
+        ],
+        [
+          9,
+          979,
+          35,
+          16,
+          6
+        ],
+        [
+          136,
+          39,
+          741,
+          98,
+          31
+        ],
+        [
+          153,
+          29,
+          77,
+          671,
+          115
+        ],
+        [
+          123,
+          21,
+          44,
+          191,
+          441
+        ]
+      ],
+      "latency_ms_per_rec": 0.0011,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 71.99,
+        "macro_f1_ci_95": [
+          70.78,
+          73.23
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "distilled_xgboost": {
+      "patient_macro_f1": 73.28,
+      "patient_accuracy": 73.92,
+      "patient_balanced_accuracy": 73.22,
+      "roc_auc_ovr": 92.86,
+      "per_class_f1": {
+        "NORM": 72.27,
+        "AFIB/AFL": 92.68,
+        "CD": 75.32,
+        "STTC/MI": 63.28,
+        "HYP": 62.85
+      },
+      "confusion_matrix": [
+        [
+          813,
+          9,
+          66,
+          118,
+          39
+        ],
+        [
+          10,
+          987,
+          28,
+          13,
+          7
+        ],
+        [
+          120,
+          42,
+          757,
+          90,
+          36
+        ],
+        [
+          150,
+          27,
+          73,
+          667,
+          128
+        ],
+        [
+          112,
+          20,
+          41,
+          175,
+          472
+        ]
+      ],
+      "latency_ms_per_rec": 0.0027,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 73.27,
+        "macro_f1_ci_95": [
+          72.04,
+          74.46
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "baseline_mlp": {
+      "patient_macro_f1": 69.37,
+      "patient_accuracy": 70.12,
+      "patient_balanced_accuracy": 69.49,
+      "roc_auc_ovr": 90.96,
+      "per_class_f1": {
+        "NORM": 68.79,
+        "AFIB/AFL": 89.01,
+        "CD": 70.36,
+        "STTC/MI": 59.01,
+        "HYP": 59.67
+      },
+      "confusion_matrix": [
+        [
+          756,
+          26,
+          86,
+          123,
+          54
+        ],
+        [
+          11,
+          968,
+          43,
+          16,
+          7
+        ],
+        [
+          132,
+          52,
+          723,
+          97,
+          41
+        ],
+        [
+          140,
+          46,
+          107,
+          604,
+          148
+        ],
+        [
+          114,
+          38,
+          51,
+          162,
+          455
+        ]
+      ],
+      "latency_ms_per_rec": 0.0002,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 69.37,
+        "macro_f1_ci_95": [
+          68.1,
+          70.63
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "distilled_mlp": {
+      "patient_macro_f1": 73.23,
+      "patient_accuracy": 73.72,
+      "patient_balanced_accuracy": 73.17,
+      "roc_auc_ovr": 92.82,
+      "per_class_f1": {
+        "NORM": 72.72,
+        "AFIB/AFL": 92.24,
+        "CD": 73.44,
+        "STTC/MI": 63.19,
+        "HYP": 64.56
+      },
+      "confusion_matrix": [
+        [
+          793,
+          9,
+          75,
+          115,
+          53
+        ],
+        [
+          8,
+          975,
+          39,
+          17,
+          6
+        ],
+        [
+          113,
+          40,
+          752,
+          98,
+          42
+        ],
+        [
+          127,
+          31,
+          93,
+          666,
+          128
+        ],
+        [
+          95,
+          14,
+          44,
+          167,
+          500
+        ]
+      ],
+      "latency_ms_per_rec": 0.0002,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 73.22,
+        "macro_f1_ci_95": [
+          71.98,
+          74.41
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "teacher_tabpfn": {
+      "patient_macro_f1": 75.55,
+      "patient_accuracy": 76.04,
+      "patient_balanced_accuracy": 75.48,
+      "roc_auc_ovr": 93.79,
+      "per_class_f1": {
+        "NORM": 74.39,
+        "AFIB/AFL": 93.64,
+        "CD": 76.59,
+        "STTC/MI": 66.1,
+        "HYP": 67.06
+      },
+      "confusion_matrix": [
+        [
+          832,
+          3,
+          56,
+          114,
+          40
+        ],
+        [
+          8,
+          994,
+          27,
+          12,
+          4
+        ],
+        [
+          113,
+          43,
+          764,
+          93,
+          32
+        ],
+        [
+          135,
+          25,
+          62,
+          696,
+          127
+        ],
+        [
+          104,
+          13,
+          41,
+          146,
+          516
+        ]
+      ],
+      "latency_ms_per_rec": 11.1097,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 75.55,
+        "macro_f1_ci_95": [
+          74.36,
+          76.75
+        ],
+        "p_value_vs_tabpfn": null
+      }
+    }
+  },
+  "task2_50feat_ablation": {
+    "baseline_xgboost": {
+      "patient_macro_f1": 80.62,
+      "patient_accuracy": 87.82,
+      "patient_balanced_accuracy": 79.17,
+      "roc_auc": 92.78,
+      "sensitivity_urgent": 94.03,
+      "specificity_reassure": 64.31,
+      "confusion_matrix": [
+        [
+          672,
+          373
+        ],
+        [
+          236,
+          3719
+        ]
+      ],
+      "latency_ms_per_rec": 0.0007,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 80.63,
+        "macro_f1_ci_95": [
+          79.22,
+          81.97
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "distilled_xgboost": {
+      "patient_macro_f1": 81.48,
+      "patient_accuracy": 88.26,
+      "patient_balanced_accuracy": 80.22,
+      "roc_auc": 92.85,
+      "sensitivity_urgent": 94.03,
+      "specificity_reassure": 66.41,
+      "confusion_matrix": [
+        [
+          694,
+          351
+        ],
+        [
+          236,
+          3719
+        ]
+      ],
+      "latency_ms_per_rec": 0.0009,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 81.49,
+        "macro_f1_ci_95": [
+          80.13,
+          82.84
+        ],
+        "p_value_vs_tabpfn": 0.0282
+      }
+    },
+    "baseline_mlp": {
+      "patient_macro_f1": 81.31,
+      "patient_accuracy": 87.96,
+      "patient_balanced_accuracy": 80.53,
+      "roc_auc": 92.21,
+      "sensitivity_urgent": 93.3,
+      "specificity_reassure": 67.75,
+      "confusion_matrix": [
+        [
+          708,
+          337
+        ],
+        [
+          265,
+          3690
+        ]
+      ],
+      "latency_ms_per_rec": 0.0002,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 81.31,
+        "macro_f1_ci_95": [
+          79.95,
+          82.62
+        ],
+        "p_value_vs_tabpfn": 0.008
+      }
+    },
+    "distilled_mlp": {
+      "patient_macro_f1": 80.28,
+      "patient_accuracy": 87.46,
+      "patient_balanced_accuracy": 79.15,
+      "roc_auc": 90.95,
+      "sensitivity_urgent": 93.43,
+      "specificity_reassure": 64.88,
+      "confusion_matrix": [
+        [
+          678,
+          367
+        ],
+        [
+          260,
+          3695
+        ]
+      ],
+      "latency_ms_per_rec": 0.0002,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 80.28,
+        "macro_f1_ci_95": [
+          78.87,
+          81.65
+        ],
+        "p_value_vs_tabpfn": 0.0
+      }
+    },
+    "teacher_tabpfn": {
+      "patient_macro_f1": 82.65,
+      "patient_accuracy": 88.9,
+      "patient_balanced_accuracy": 81.61,
+      "roc_auc": 93.86,
+      "sensitivity_urgent": 94.13,
+      "specificity_reassure": 69.09,
+      "confusion_matrix": [
+        [
+          722,
+          323
+        ],
+        [
+          232,
+          3723
+        ]
+      ],
+      "latency_ms_per_rec": 11.1292,
+      "bootstrap_10k": {
+        "macro_f1_mean_boot": 82.65,
+        "macro_f1_ci_95": [
+          81.32,
+          83.93
+        ],
+        "p_value_vs_tabpfn": null
+      }
+    }
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "metadata": {
+    "analysis_name": "Phase 3C: HYP + STTC Diagnostic Ambiguity Sensitivity Analysis",
+    "status": "REVIEWER_DRIVEN_EXPLORATORY_SENSITIVITY_ANALYSIS",
+    "seed": 42,
+    "raw_ptbxl_affected_records": 613,
+    "prequota_pool_affected_patients": 496,
+    "curated_cohort_affected_patients": 496,
+    "original_cohort_size": 5000,
+    "pruned_cohort_size": 4504,
+    "pruned_class_distribution": {
+      "NORM": 1045,
+      "AFIB/AFL": 1045,
+      "CD": 1045,
+      "STTC/MI": 1045,
+      "HYP": 324
+    },
+    "timestamp": "2026-10-20 12:36:34"
+  },
+  "evaluation_a_sample_effect_unretrained": {
+    "description": "Evaluation A: Phase 3B Seed 42 models evaluated on common 4,504 test patients without retraining",
+    "metrics": {
+      "hard_mlp_128_64": {
+        "macro_f1": 69.39,
+        "accuracy": 73.4,
+        "balanced_accuracy": 69.96,
+        "ece": 3.63,
+        "per_class_f1": {
+          "NORM": 71.74,
+          "AFIB/AFL": 91.7,
+          "CD": 73.69,
+          "STTC/MI": 67.0,
+          "HYP": 42.84
+        },
+        "per_class_recall": {
+          "NORM": 74.93,
+          "AFIB/AFL": 91.96,
+          "CD": 69.95,
+          "STTC/MI": 64.5,
+          "HYP": 48.46
+        },
+        "confusion_matrix": [
+          [
+            783,
+            10,
+            63,
+            126,
+            63
+          ],
+          [
+            12,
+            961,
+            46,
+            17,
+            9
+          ],
+          [
+            125,
+            43,
+            731,
+            100,
+            46
+          ],
+          [
+            129,
+            33,
+            75,
+            674,
+            134
+          ],
+          [
+            89,
+            4,
+            24,
+            50,
+            157
+          ]
+        ]
+      },
+      "smooth_mlp_128_64": {
+        "macro_f1": 68.7,
+        "accuracy": 72.49,
+        "balanced_accuracy": 69.56,
+        "ece": 8.21,
+        "per_class_f1": {
+          "NORM": 70.27,
+          "AFIB/AFL": 91.58,
+          "CD": 73.1,
+          "STTC/MI": 65.2,
+          "HYP": 43.34
+        },
+        "per_class_recall": {
+          "NORM": 71.0,
+          "AFIB/AFL": 92.63,
+          "CD": 70.72,
+          "STTC/MI": 62.2,
+          "HYP": 51.23
+        },
+        "confusion_matrix": [
+          [
+            742,
+            12,
+            79,
+            140,
+            72
+          ],
+          [
+            11,
+            968,
+            44,
+            15,
+            7
+          ],
+          [
+            110,
+            45,
+            739,
+            99,
+            52
+          ],
+          [
+            122,
+            39,
+            89,
+            650,
+            145
+          ],
+          [
+            82,
+            5,
+            26,
+            45,
+            166
+          ]
+        ]
+      },
+      "distill_mlp_128_64": {
+        "macro_f1": 70.99,
+        "accuracy": 75.02,
+        "balanced_accuracy": 71.48,
+        "ece": 2.69,
+        "per_class_f1": {
+          "NORM": 73.43,
+          "AFIB/AFL": 92.72,
+          "CD": 74.63,
+          "STTC/MI": 69.16,
+          "HYP": 45.01
+        },
+        "per_class_recall": {
+          "NORM": 77.61,
+          "AFIB/AFL": 93.3,
+          "CD": 71.77,
+          "STTC/MI": 65.36,
+          "HYP": 49.38
+        },
+        "confusion_matrix": [
+          [
+            811,
+            8,
+            70,
+            106,
+            50
+          ],
+          [
+            11,
+            975,
+            39,
+            13,
+            7
+          ],
+          [
+            120,
+            46,
+            750,
+            83,
+            46
+          ],
+          [
+            133,
+            27,
+            78,
+            683,
+            124
+          ],
+          [
+            89,
+            2,
+            28,
+            45,
+            160
+          ]
+        ]
+      },
+      "hard_mlp_64_32": {
+        "macro_f1": 69.09,
+        "accuracy": 73.09,
+        "balanced_accuracy": 69.78,
+        "ece": 3.48,
+        "per_class_f1": {
+          "NORM": 72.12,
+          "AFIB/AFL": 91.29,
+          "CD": 73.09,
+          "STTC/MI": 65.62,
+          "HYP": 43.32
+        },
+        "per_class_recall": {
+          "NORM": 75.12,
+          "AFIB/AFL": 92.82,
+          "CD": 70.05,
+          "STTC/MI": 61.82,
+          "HYP": 49.07
+        },
+        "confusion_matrix": [
+          [
+            785,
+            19,
+            68,
+            117,
+            56
+          ],
+          [
+            10,
+            970,
+            38,
+            15,
+            12
+          ],
+          [
+            119,
+            50,
+            732,
+            97,
+            47
+          ],
+          [
+            132,
+            35,
+            96,
+            646,
+            136
+          ],
+          [
+            86,
+            6,
+            24,
+            49,
+            159
+          ]
+        ]
+      },
+      "teacher_tabpfn": {
+        "macro_f1": 72.34,
+        "accuracy": 76.55,
+        "balanced_accuracy": 72.63,
+        "ece": 1.81,
+        "per_class_f1": {
+          "NORM": 75.17,
+          "AFIB/AFL": 94.13,
+          "CD": 76.88,
+          "STTC/MI": 69.72,
+          "HYP": 45.81
+        },
+        "per_class_recall": {
+          "NORM": 79.81,
+          "AFIB/AFL": 95.12,
+          "CD": 73.01,
+          "STTC/MI": 67.08,
+          "HYP": 48.15
+        },
+        "confusion_matrix": [
+          [
+            834,
+            6,
+            57,
+            112,
+            36
+          ],
+          [
+            9,
+            994,
+            26,
+            12,
+            4
+          ],
+          [
+            108,
+            44,
+            763,
+            95,
+            35
+          ],
+          [
+            130,
+            22,
+            66,
+            701,
+            126
+          ],
+          [
+            93,
+            1,
+            28,
+            46,
+            156
+          ]
+        ]
+      }
+    },
+    "bootstrap_comparisons": {
+      "distill_vs_smooth": {
+        "point_delta_pp": 2.29,
+        "mean_boot_delta_pp": 2.3,
+        "ci_95": [
+          1.41,
+          3.21
+        ],
+        "n_boot": 10000,
+        "n_lt_zero": 0,
+        "n_eq_zero": 0,
+        "n_gt_zero": 10000,
+        "n_le_zero": 0,
+        "n_ge_zero": 10000,
+        "n_opp": 0,
+        "p_canonical_nominal": 0.0002,
+        "p_canonical_nominal_rounded4": 0.0002,
+        "significant_nominal_005": true
+      },
+      "distill_vs_hard128": {
+        "point_delta_pp": 1.6,
+        "mean_boot_delta_pp": 1.6,
+        "ci_95": [
+          0.89,
+          2.32
+        ],
+        "n_boot": 10000,
+        "n_lt_zero": 0,
+        "n_eq_zero": 0,
+        "n_gt_zero": 10000,
+        "n_le_zero": 0,
+        "n_ge_zero": 10000,
+        "n_opp": 0,
+        "p_canonical_nominal": 0.0002,
+        "p_canonical_nominal_rounded4": 0.0002,
+        "significant_nominal_005": true
+      }
+    }
+  },
+  "evaluation_b_retrained_sensitivity": {
+    "description": "Evaluation B: Models retrained from Phase 3B initial weights on pruned training folds evaluated on common 4,504 test patients",
+    "duration_s": 104.83,
+    "fold_logs": [
+      {
+        "fold": 1,
+        "duration_s": 22.6,
+        "teacher_gen_duration_s": 10.88,
+        "fold_test_macro_f1": {
+          "distill_mlp_128_64": 70.92,
+          "smooth_mlp_128_64": 70.13,
+          "hard_mlp_128_64": 69.13,
+          "hard_mlp_64_32": 71.48,
+          "teacher_tabpfn": 73.08
+        }
+      },
+      {
+        "fold": 2,
+        "duration_s": 20.0,
+        "teacher_gen_duration_s": 9.68,
+        "fold_test_macro_f1": {
+          "distill_mlp_128_64": 71.35,
+          "smooth_mlp_128_64": 70.5,
+          "hard_mlp_128_64": 69.46,
+          "hard_mlp_64_32": 69.96,
+          "teacher_tabpfn": 72.67
+        }
+      },
+      {
+        "fold": 3,
+        "duration_s": 20.21,
+        "teacher_gen_duration_s": 9.83,
+        "fold_test_macro_f1": {
+          "distill_mlp_128_64": 71.27,
+          "smooth_mlp_128_64": 70.48,
+          "hard_mlp_128_64": 68.81,
+          "hard_mlp_64_32": 70.51,
+          "teacher_tabpfn": 74.57
+        }
+      },
+      {
+        "fold": 4,
+        "duration_s": 21.75,
+        "teacher_gen_duration_s": 9.86,
+        "fold_test_macro_f1": {
+          "distill_mlp_128_64": 69.07,
+          "smooth_mlp_128_64": 67.21,
+          "hard_mlp_128_64": 68.67,
+          "hard_mlp_64_32": 69.84,
+          "teacher_tabpfn": 72.76
+        }
+      },
+      {
+        "fold": 5,
+        "duration_s": 20.25,
+        "teacher_gen_duration_s": 9.68,
+        "fold_test_macro_f1": {
+          "distill_mlp_128_64": 69.96,
+          "smooth_mlp_128_64": 68.64,
+          "hard_mlp_128_64": 69.8,
+          "hard_mlp_64_32": 68.65,
+          "teacher_tabpfn": 72.08
+        }
+      }
+    ],
+    "metrics": {
+      "hard_mlp_128_64": {
+        "macro_f1": 69.22,
+        "accuracy": 73.58,
+        "balanced_accuracy": 68.79,
+        "ece": 4.62,
+        "per_class_f1": {
+          "NORM": 69.98,
+          "AFIB/AFL": 91.03,
+          "CD": 72.4,
+          "STTC/MI": 69.29,
+          "HYP": 43.37
+        },
+        "per_class_recall": {
+          "NORM": 70.14,
+          "AFIB/AFL": 91.77,
+          "CD": 71.67,
+          "STTC/MI": 71.48,
+          "HYP": 38.89
+        },
+        "confusion_matrix": [
+          [
+            733,
+            15,
+            87,
+            152,
+            58
+          ],
+          [
+            12,
+            959,
+            53,
+            17,
+            4
+          ],
+          [
+            100,
+            51,
+            749,
+            118,
+            27
+          ],
+          [
+            121,
+            33,
+            102,
+            747,
+            42
+          ],
+          [
+            84,
+            4,
+            33,
+            77,
+            126
+          ]
+        ]
+      },
+      "smooth_mlp_128_64": {
+        "macro_f1": 69.44,
+        "accuracy": 74.18,
+        "balanced_accuracy": 68.8,
+        "ece": 5.93,
+        "per_class_f1": {
+          "NORM": 70.55,
+          "AFIB/AFL": 92.03,
+          "CD": 73.18,
+          "STTC/MI": 69.37,
+          "HYP": 42.07
+        },
+        "per_class_recall": {
+          "NORM": 73.01,
+          "AFIB/AFL": 92.82,
+          "CD": 71.67,
+          "STTC/MI": 71.29,
+          "HYP": 35.19
+        },
+        "confusion_matrix": [
+          [
+            763,
+            9,
+            80,
+            148,
+            45
+          ],
+          [
+            11,
+            970,
+            47,
+            14,
+            3
+          ],
+          [
+            111,
+            46,
+            749,
+            117,
+            22
+          ],
+          [
+            142,
+            31,
+            93,
+            745,
+            34
+          ],
+          [
+            91,
+            7,
+            33,
+            79,
+            114
+          ]
+        ]
+      },
+      "distill_mlp_128_64": {
+        "macro_f1": 70.58,
+        "accuracy": 75.22,
+        "balanced_accuracy": 70.12,
+        "ece": 2.95,
+        "per_class_f1": {
+          "NORM": 72.26,
+          "AFIB/AFL": 92.61,
+          "CD": 73.64,
+          "STTC/MI": 71.09,
+          "HYP": 43.28
+        },
+        "per_class_recall": {
+          "NORM": 76.27,
+          "AFIB/AFL": 93.49,
+          "CD": 71.39,
+          "STTC/MI": 71.2,
+          "HYP": 38.27
+        },
+        "confusion_matrix": [
+          [
+            797,
+            11,
+            78,
+            109,
+            50
+          ],
+          [
+            9,
+            977,
+            42,
+            13,
+            4
+          ],
+          [
+            117,
+            45,
+            746,
+            107,
+            30
+          ],
+          [
+            149,
+            28,
+            83,
+            744,
+            41
+          ],
+          [
+            89,
+            4,
+            32,
+            75,
+            124
+          ]
+        ]
+      },
+      "hard_mlp_64_32": {
+        "macro_f1": 70.13,
+        "accuracy": 74.49,
+        "balanced_accuracy": 69.66,
+        "ece": 3.64,
+        "per_class_f1": {
+          "NORM": 71.27,
+          "AFIB/AFL": 91.17,
+          "CD": 73.26,
+          "STTC/MI": 70.06,
+          "HYP": 44.91
+        },
+        "per_class_recall": {
+          "NORM": 73.11,
+          "AFIB/AFL": 93.4,
+          "CD": 70.53,
+          "STTC/MI": 71.77,
+          "HYP": 39.51
+        },
+        "confusion_matrix": [
+          [
+            764,
+            18,
+            76,
+            138,
+            49
+          ],
+          [
+            12,
+            976,
+            34,
+            19,
+            4
+          ],
+          [
+            113,
+            57,
+            737,
+            112,
+            26
+          ],
+          [
+            125,
+            40,
+            91,
+            750,
+            39
+          ],
+          [
+            85,
+            5,
+            29,
+            77,
+            128
+          ]
+        ]
+      },
+      "teacher_tabpfn": {
+        "macro_f1": 73.06,
+        "accuracy": 77.98,
+        "balanced_accuracy": 72.11,
+        "ece": 1.42,
+        "per_class_f1": {
+          "NORM": 74.56,
+          "AFIB/AFL": 94.26,
+          "CD": 76.96,
+          "STTC/MI": 74.22,
+          "HYP": 45.28
+        },
+        "per_class_recall": {
+          "NORM": 79.81,
+          "AFIB/AFL": 95.12,
+          "CD": 73.68,
+          "STTC/MI": 76.46,
+          "HYP": 35.49
+        },
+        "confusion_matrix": [
+          [
+            834,
+            6,
+            56,
+            118,
+            31
+          ],
+          [
+            9,
+            994,
+            27,
+            14,
+            1
+          ],
+          [
+            118,
+            40,
+            770,
+            102,
+            15
+          ],
+          [
+            130,
+            21,
+            73,
+            799,
+            22
+          ],
+          [
+            101,
+            3,
+            30,
+            75,
+            115
+          ]
+        ]
+      }
+    },
+    "bootstrap_comparisons": {
+      "distill_vs_smooth": {
+        "point_delta_pp": 1.14,
+        "mean_boot_delta_pp": 1.13,
+        "ci_95": [
+          0.18,
+          2.12
+        ],
+        "n_boot": 10000,
+        "n_lt_zero": 105,
+        "n_eq_zero": 0,
+        "n_gt_zero": 9895,
+        "n_le_zero": 105,
+        "n_ge_zero": 9895,
+        "n_opp": 105,
+        "p_canonical_nominal": 0.021198,
+        "p_canonical_nominal_rounded4": 0.0212,
+        "significant_nominal_005": true
+      },
+      "distill_vs_hard128": {
+        "point_delta_pp": 1.36,
+        "mean_boot_delta_pp": 1.35,
+        "ci_95": [
+          0.45,
+          2.27
+        ],
+        "n_boot": 10000,
+        "n_lt_zero": 20,
+        "n_eq_zero": 0,
+        "n_gt_zero": 9980,
+        "n_le_zero": 20,
+        "n_ge_zero": 9980,
+        "n_opp": 20,
+        "p_canonical_nominal": 0.0042,
+        "p_canonical_nominal_rounded4": 0.0042,
+        "significant_nominal_005": true
+      },
+      "smooth_vs_hard128": {
+        "point_delta_pp": 0.22,
+        "mean_boot_delta_pp": 0.22,
+        "ci_95": [
+          -0.66,
+          1.12
+        ],
+        "n_boot": 10000,
+        "n_lt_zero": 3215,
+        "n_eq_zero": 0,
+        "n_gt_zero": 6785,
+        "n_le_zero": 3215,
+        "n_ge_zero": 6785,
+        "n_opp": 3215,
+        "p_canonical_nominal": 0.643136,
+        "p_canonical_nominal_rounded4": 0.6431,
+        "significant_nominal_005": false
+      },
+      "capacity_hard128_vs_hard64": {
+        "point_delta_pp": -0.92,
+        "mean_boot_delta_pp": -0.91,
+        "ci_95": [
+          -1.89,
+          0.04
+        ],
+        "n_boot": 10000,
+        "n_lt_zero": 9680,
+        "n_eq_zero": 0,
+        "n_gt_zero": 320,
+        "n_le_zero": 9680,
+        "n_ge_zero": 320,
+        "n_opp": 320,
+        "p_canonical_nominal": 0.064194,
+        "p_canonical_nominal_rounded4": 0.0642,
+        "significant_nominal_005": false
+      },
+      "teacher_vs_distill": {
+        "point_delta_pp": 2.48,
+        "mean_boot_delta_pp": 2.48,
+        "ci_95": [
+          1.59,
+          3.37
+        ],
+        "n_boot": 10000,
+        "n_lt_zero": 0,
+        "n_eq_zero": 0,
+        "n_gt_zero": 10000,
+        "n_le_zero": 0,
+        "n_ge_zero": 10000,
+        "n_opp": 0,
+        "p_canonical_nominal": 0.0002,
+        "p_canonical_nominal_rounded4": 0.0002,
+        "significant_nominal_005": true
+      }
+    }
+  },
+  "retraining_sensitivity_deltas_b_minus_a": {
+    "description": "Performance delta of retrained model (B) minus un-retrained model (A) on common 4,504 test patients",
+    "distill_mlp_retrain_delta": {
+      "point_delta_pp": -0.41,
+      "mean_boot_delta_pp": -0.42,
+      "ci_95": [
+        -1.5,
+        0.66
+      ],
+      "n_boot": 10000,
+      "n_lt_zero": 7789,
+      "n_eq_zero": 0,
+      "n_gt_zero": 2211,
+      "n_le_zero": 7789,
+      "n_ge_zero": 2211,
+      "n_opp": 2211,
+      "p_canonical_nominal": 0.442356,
+      "p_canonical_nominal_rounded4": 0.4424,
+      "significant_nominal_005": false
+    },
+    "smooth_mlp_retrain_delta": {
+      "point_delta_pp": 0.74,
+      "mean_boot_delta_pp": 0.74,
+      "ci_95": [
+        -0.56,
+        2.03
+      ],
+      "n_boot": 10000,
+      "n_lt_zero": 1293,
+      "n_eq_zero": 0,
+      "n_gt_zero": 8707,
+      "n_le_zero": 1293,
+      "n_ge_zero": 8707,
+      "n_opp": 1293,
+      "p_canonical_nominal": 0.258774,
+      "p_canonical_nominal_rounded4": 0.2588,
+      "significant_nominal_005": false
+    },
+    "hard_mlp_retrain_delta": {
+      "point_delta_pp": -0.18,
+      "mean_boot_delta_pp": -0.17,
+      "ci_95": [
+        -1.3,
+        0.93
+      ],
+      "n_boot": 10000,
+      "n_lt_zero": 6191,
+      "n_eq_zero": 0,
+      "n_gt_zero": 3809,
+      "n_le_zero": 6191,
+      "n_ge_zero": 3809,
+      "n_opp": 3809,
+      "p_canonical_nominal": 0.761924,
+      "p_canonical_nominal_rounded4": 0.7619,
+      "significant_nominal_005": false
+    },
+    "tabpfn_retrain_delta": {
+      "point_delta_pp": 0.72,
+      "mean_boot_delta_pp": 0.71,
+      "ci_95": [
+        -0.31,
+        1.7
+      ],
+      "n_boot": 10000,
+      "n_lt_zero": 834,
+      "n_eq_zero": 0,
+      "n_gt_zero": 9166,
+      "n_le_zero": 834,
+      "n_ge_zero": 9166,
+      "n_opp": 834,
+      "p_canonical_nominal": 0.166983,
+      "p_canonical_nominal_rounded4": 0.167,
+      "significant_nominal_005": false
+    }
+  }
+}

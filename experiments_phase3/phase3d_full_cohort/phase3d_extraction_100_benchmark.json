@@ -1,0 +1,14 @@
+{
+  "n_records": 100,
+  "n_failed": 0,
+  "total_wall_time_sec": 0.38402920798398554,
+  "avg_read_decompression_ms": 1.1531458352692425,
+  "avg_feature_calculation_ms": 2.628211284754798,
+  "total_time_per_record_ms": 3.8402920798398554,
+  "process_memory_before_mb": 209.0,
+  "process_memory_after_mb": 261.84375,
+  "memory_delta_mb": 52.84375,
+  "projected_10160_single_core_minutes": 0.6502894588528821,
+  "projected_10160_multiprocessing_minutes": 0.10838157647548036,
+  "failed_records": []
+}

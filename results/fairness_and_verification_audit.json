@@ -1,0 +1,156 @@
+{
+  "independent_verification": {
+    "task1_54feat_verified": {
+      "baseline_xgboost": {
+        "manual_f1": 72.35,
+        "reported_f1": 72.35,
+        "exact_match": true
+      },
+      "distilled_xgboost": {
+        "manual_f1": 73.99,
+        "reported_f1": 73.99,
+        "exact_match": true
+      },
+      "baseline_mlp": {
+        "manual_f1": 71.78,
+        "reported_f1": 71.78,
+        "exact_match": true
+      },
+      "distilled_mlp": {
+        "manual_f1": 73.58,
+        "reported_f1": 73.58,
+        "exact_match": true
+      },
+      "teacher_tabpfn": {
+        "manual_f1": 75.87,
+        "reported_f1": 75.87,
+        "exact_match": true
+      }
+    },
+    "task2_54feat_verified": {
+      "baseline_xgboost": {
+        "manual_f1": 81.44,
+        "reported_f1": 81.44,
+        "exact_match": true
+      },
+      "distilled_xgboost": {
+        "manual_f1": 81.52,
+        "reported_f1": 81.52,
+        "exact_match": true
+      },
+      "baseline_mlp": {
+        "manual_f1": 81.56,
+        "reported_f1": 81.56,
+        "exact_match": true
+      },
+      "distilled_mlp": {
+        "manual_f1": 80.65,
+        "reported_f1": 80.65,
+        "exact_match": true
+      },
+      "teacher_tabpfn": {
+        "manual_f1": 83.38,
+        "reported_f1": 83.38,
+        "exact_match": true
+      }
+    }
+  },
+  "subgroup_fairness_audit": {
+    "Female (sex=0)": {
+      "n_patients": 2661,
+      "task1_5class_macro_f1": {
+        "baseline_xgboost": 72.15,
+        "distilled_xgboost": 73.89,
+        "baseline_mlp": 71.83,
+        "distilled_mlp": 73.41,
+        "teacher_tabpfn": 75.89
+      },
+      "task2_binary_macro_f1": {
+        "baseline_xgboost": 80.22,
+        "distilled_xgboost": 80.08,
+        "baseline_mlp": 80.4,
+        "distilled_mlp": 78.97,
+        "teacher_tabpfn": 81.98
+      },
+      "task2_binary_accuracy": {
+        "baseline_xgboost": 88.73,
+        "distilled_xgboost": 88.73,
+        "baseline_mlp": 88.91,
+        "distilled_mlp": 88.2,
+        "teacher_tabpfn": 89.74
+      }
+    },
+    "Male (sex=1)": {
+      "n_patients": 2339,
+      "task1_5class_macro_f1": {
+        "baseline_xgboost": 72.4,
+        "distilled_xgboost": 73.93,
+        "baseline_mlp": 71.43,
+        "distilled_mlp": 73.53,
+        "teacher_tabpfn": 75.62
+      },
+      "task2_binary_macro_f1": {
+        "baseline_xgboost": 82.41,
+        "distilled_xgboost": 82.68,
+        "baseline_mlp": 82.39,
+        "distilled_mlp": 82.02,
+        "teacher_tabpfn": 84.48
+      },
+      "task2_binary_accuracy": {
+        "baseline_xgboost": 87.69,
+        "distilled_xgboost": 87.94,
+        "baseline_mlp": 87.43,
+        "distilled_mlp": 87.52,
+        "teacher_tabpfn": 89.01
+      }
+    },
+    "Younger Adults (18-64 yrs)": {
+      "n_patients": 2368,
+      "task1_5class_macro_f1": {
+        "baseline_xgboost": 71.99,
+        "distilled_xgboost": 73.46,
+        "baseline_mlp": 72.44,
+        "distilled_mlp": 74.17,
+        "teacher_tabpfn": 75.98
+      },
+      "task2_binary_macro_f1": {
+        "baseline_xgboost": 82.06,
+        "distilled_xgboost": 82.2,
+        "baseline_mlp": 82.54,
+        "distilled_mlp": 81.6,
+        "teacher_tabpfn": 84.13
+      },
+      "task2_binary_accuracy": {
+        "baseline_xgboost": 84.38,
+        "distilled_xgboost": 84.5,
+        "baseline_mlp": 84.67,
+        "distilled_mlp": 84.08,
+        "teacher_tabpfn": 86.11
+      }
+    },
+    "Older Adults (>=65 yrs)": {
+      "n_patients": 2632,
+      "task1_5class_macro_f1": {
+        "baseline_xgboost": 70.19,
+        "distilled_xgboost": 72.37,
+        "baseline_mlp": 68.59,
+        "distilled_mlp": 70.77,
+        "teacher_tabpfn": 73.62
+      },
+      "task2_binary_macro_f1": {
+        "baseline_xgboost": 73.83,
+        "distilled_xgboost": 73.39,
+        "baseline_mlp": 72.76,
+        "distilled_mlp": 71.89,
+        "teacher_tabpfn": 75.92
+      },
+      "task2_binary_accuracy": {
+        "baseline_xgboost": 91.72,
+        "distilled_xgboost": 91.83,
+        "baseline_mlp": 91.41,
+        "distilled_mlp": 91.3,
+        "teacher_tabpfn": 92.36
+      }
+    }
+  }
+}
