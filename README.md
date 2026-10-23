@@ -97,7 +97,7 @@ Dokuz Eylül University, İzmir, Turkey — mehmet.kuntalp@deu.edu.tr — ORCID 
 
 Generative-AI tools were used in three distinct roles: **Antigravity** (Google) wrote the Python analysis code;
 **Claude Code** (Anthropic) reviewed and audited the code, recomputed the reported metrics, carried out the re-execution checks in
-`REPRODUCTION.md`, wrote the figure-generation and verification scripts, and drafted and revised the manuscript text;
-**Perplexity** acted as an LLM-as-a-judge, critically reviewing successive manuscript drafts (methods, statistics, numerical
-consistency, references). Each critique was checked against the stored outputs in this repository before any change was accepted.
+`REPRODUCTION.md`, wrote the figure-generation and verification scripts, and revised and edited the manuscript text (the initial draft was prepared by the author);
+**Perplexity** acted as an LLM-as-a-judge, reviewing successive versions of the manuscript and commenting on methods, statistics,
+numerical consistency and references. Each critique was checked against the stored outputs in this repository before any change was accepted.
 All code was executed locally and reviewed by the author. See the manuscript's AI disclosure statement.
