@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate main-text Figures 1–3 of the PMEA manuscript from stored study outputs.
+"""Generate main-text Figures 1–3 of the earlier manuscript version (v21) from stored study outputs.
 
 All plotted numbers are read from saved files (no manual transcription):
   Figure 1  cohort sizes and class counts from the Phase 3D cohort manifest, the Phase 3B feature table,

@@ -1,8 +1,8 @@
 # Revizyon v22 — Analiz planı (sonuçlar görülmeden önce yazıldı)
 
-Tarih: 2 Kasım 2026. Bağlam: PMEA-107866 hakeme gönderilmeden reddedildi (desk rejection). Gerekçeler: kaynakçanın ilgili literatürü kapsamaması ve bilimsel raporlama standartlarının karşılanmaması. Yol haritası: `EKG Makalesi Geliştirme ve Yayın Projesi.pdf` (WP1–WP6).
+Tarih: 2 Kasım 2026.
 
-Gönderilen kayıt (`PMEA-107866_gonderilen/`) değiştirilmez. Bütün yeni iş bu klasörde yapılır.
+> Not (3 Kasım 2026): Bu yayımlanan kopyada, önceki bir dergi gönderimiyle ilgili iki bağlam satırı çıkarıldı. Tasarım, kohort, bölme, hedef, seçim ve karşılaştırma bölümleri değişmedi. Özgün dosyanın SHA-256 değeri: 389e6dc6c018c78965611f14950f9bfda40db6575d10a6979686d821df101aa2. Özgün dosya yazarda saklanıyor.
 
 ## Değişmeyenler
 - Araştırma sorusu: Eşleştirilmiş eğitim prosedürü altında TabPFN öğretmen hedefleri, sert etiketlere ve tek tip etiket yumuşatmaya göre öğrenci MLP'lerin performansını artırıyor mu; sonuç kohort tanımına bağlı mı?
