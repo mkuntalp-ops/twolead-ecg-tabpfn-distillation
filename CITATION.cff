@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below."
-title: "Does a TabPFN teacher add information beyond label smoothing? Code, derived features and out-of-fold predictions"
+title: "Does a tabular foundation-model (TabPFN) teacher add information beyond label smoothing? Code, derived features and out-of-fold predictions"
 authors:
   - family-names: Kuntalp
     given-names: Mehmet

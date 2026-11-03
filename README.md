@@ -1,9 +1,9 @@
-# Does a TabPFN Teacher Add Information Beyond Label Smoothing? Two-Lead ECG Distillation
+# Does a Tabular Foundation-Model (TabPFN) Teacher Add Information Beyond Label Smoothing? Two-Lead ECG Distillation
 
 Code, derived feature tables, fold manifests and out-of-fold (OOF) predictions for the manuscript
 
-> Kuntalp M. *Does a TabPFN teacher add information beyond label smoothing? A multi-cohort evaluation of knowledge
-> distillation for two-lead ECG classification.*
+> Kuntalp M. *Does a tabular foundation-model (TabPFN) teacher add information beyond label smoothing? A multi-cohort
+> evaluation of knowledge distillation for two-lead ECG classification.*
 > Prepared for submission to *Biomedical Signal Processing and Control*.
 
 The analyses of this manuscript are described in [Revised analyses (v22)](#revised-analyses-v22). The rest of the
