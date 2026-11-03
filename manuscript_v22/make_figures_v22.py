@@ -49,7 +49,7 @@ def fig1():
     for c in COHORTS:
         r = pd.read_csv(OUT_ROOT / c / "cohort_records.csv")
         counts[c] = (len(r), np.bincount(r["y"], minlength=5))
-    fig, ax = plt.subplots(figsize=(7.6, 4.8)); ax.set_axis_off(); ax.set_xlim(0, 101); ax.set_ylim(-1.2, 62)
+    fig, ax = plt.subplots(figsize=(7.6, 4.8)); ax.set_axis_off(); ax.set_xlim(-1, 101); ax.set_ylim(-1.2, 62)
 
     def box(x, y, w, h, text, fc="#f4f3f0", ec=INK2, fs=7.2, weight="normal"):
         ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.4,rounding_size=1.2", fc=fc, ec=ec, lw=0.8))
@@ -157,7 +157,7 @@ def fig3():
 def fig4():
     import wp3_secondary as S  # noqa: E402
     wp4 = S.wp4
-    fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.4), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 4.4), sharey=True)
     style = {"TabPFN teacher": (COL["teacher"], "D"), "MLP hard": (COL["H"], "^"), "MLP smooth (fixed)": (COL["S"], "s"),
              "MLP distil (fixed)": (COL["D"], "o"), "MLP distil (tuned)": (COL["EM"], "v")}
     for ax, c in zip(axes, ["ptbxl_natural15160", "chapman_natural"]):
@@ -171,7 +171,7 @@ def fig4():
         ax.plot([0, 1], [0, 1], color=INK2, lw=0.7, ls="--")
         ax.set_xlim(0.2, 1); ax.set_ylim(0.2, 1); ax.set_xlabel("Mean top-label confidence (15 bins, n ≥ 30)")
         ax.set_title(f"{LABEL[c]} (N = {len(y):,})", fontsize=7.6, loc="left", color=INK)
-        ax.legend(frameon=False, fontsize=6.4, loc="lower right")
+        ax.legend(frameon=False, fontsize=6.4, loc="upper center", bbox_to_anchor=(0.5, -0.17))
         ax.grid(color=GRID, lw=0.5); ax.set_axisbelow(True)
     axes[0].set_ylabel("Observed accuracy")
     save(fig, "Fig4")
