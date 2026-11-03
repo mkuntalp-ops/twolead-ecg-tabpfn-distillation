@@ -49,7 +49,7 @@ def fig1():
     for c in COHORTS:
         r = pd.read_csv(OUT_ROOT / c / "cohort_records.csv")
         counts[c] = (len(r), np.bincount(r["y"], minlength=5))
-    fig, ax = plt.subplots(figsize=(7.6, 4.8)); ax.set_axis_off(); ax.set_xlim(-1, 101); ax.set_ylim(-1.2, 62)
+    fig, ax = plt.subplots(figsize=(7.6, 4.8)); ax.set_axis_off(); ax.set_xlim(-2, 101); ax.set_ylim(-1.2, 62)
 
     def box(x, y, w, h, text, fc="#f4f3f0", ec=INK2, fs=7.2, weight="normal"):
         ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.4,rounding_size=1.2", fc=fc, ec=ec, lw=0.8))

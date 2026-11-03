@@ -159,12 +159,13 @@ Dokuz Eylül University, İzmir, Turkey — mehmet.kuntalp@deu.edu.tr — ORCID 
 
 ## AI assistance
 
-Generative-AI tools had different roles in the two sets of analyses. For the legacy (v21) analyses, **Antigravity**
-(Google) wrote the original feature extractor and analysis code, and **Claude Code** (Anthropic) reviewed it,
-recomputed the reported metrics and carried out the re-execution checks in `REPRODUCTION.md`. For the current (v22)
-analyses, **Claude Code** wrote and reviewed the revised feature extraction, experiment, analysis, table and figure
-code, verified reported calculations independently, checked references against bibliographic databases and assisted
-in drafting and editing the manuscript from the author's analysis plan and results. **Perplexity** was used to
-critique manuscript drafts; each critique was checked against the stored outputs before any change was accepted. The
-author defined the research questions and the analysis plan, made all methodological and interpretive decisions,
-executed all code locally and checked all outputs. See the manuscript's AI disclosure statement.
+For the legacy (v21) analyses, **Antigravity** (Google) wrote the original feature extractor and analysis code, and
+**Claude Code** (Anthropic) reviewed it, recomputed the reported metrics and carried out the re-execution checks in
+`REPRODUCTION.md`. For the current (v22) analyses, **Claude Code** (Claude Opus 5.5) wrote the revised feature
+extraction, experiment, analysis, table and figure code, verified reported calculations independently, checked
+references against bibliographic databases and assisted in drafting and editing the manuscript from the author's
+analysis plan and results. The code was reviewed with **Codex** (OpenAI; GPT-6 Luna) and **Antigravity** (Google;
+Gemini 3.8 Flash), and manuscript drafts with **Antigravity** (Google; Gemini 4 Argon) and **Perplexity** (GPT-6.1 Sol);
+each critique was checked against the stored outputs before any change was accepted. The author defined the research
+questions and the analysis plan, made all methodological and interpretive decisions, executed all code locally and
+checked all outputs. See the manuscript's AI disclosure statement.
