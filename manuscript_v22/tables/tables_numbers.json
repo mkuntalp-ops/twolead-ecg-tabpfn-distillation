@@ -1,0 +1,4072 @@
+{
+ "n_ptbxl_quota5000": 5000,
+ "classes_ptbxl_quota5000": [
+  1045,
+  1045,
+  1045,
+  1045,
+  820
+ ],
+ "n_ptbxl_natural5000": 5000,
+ "classes_ptbxl_natural5000": [
+  2656,
+  381,
+  543,
+  1150,
+  270
+ ],
+ "n_ptbxl_natural15160": 15160,
+ "classes_ptbxl_natural15160": [
+  8052,
+  1155,
+  1647,
+  3486,
+  820
+ ],
+ "n_chapman_quota5000": 5000,
+ "classes_chapman_quota5000": [
+  1196,
+  1197,
+  590,
+  1197,
+  820
+ ],
+ "n_chapman_natural": 9315,
+ "classes_chapman_natural": [
+  4299,
+  2225,
+  590,
+  1381,
+  820
+ ],
+ "F1_ptbxl_quota5000_teacher_tabpfn_teacher": 74.91457766368953,
+ "AUROC_ptbxl_quota5000_teacher_tabpfn_teacher": 93.75100049291252,
+ "ECE_ptbxl_quota5000_teacher_tabpfn_teacher": 1.551060226082802,
+ "NLL_ptbxl_quota5000_teacher_tabpfn_teacher": 0.6475866302337313,
+ "F1_ptbxl_natural5000_teacher_tabpfn_teacher": 70.79730985789243,
+ "AUROC_ptbxl_natural5000_teacher_tabpfn_teacher": 92.93567392136814,
+ "ECE_ptbxl_natural5000_teacher_tabpfn_teacher": 1.5002090708017346,
+ "NLL_ptbxl_natural5000_teacher_tabpfn_teacher": 0.5625285524585266,
+ "F1_ptbxl_natural15160_teacher_tabpfn_teacher": 73.04717399709901,
+ "AUROC_ptbxl_natural15160_teacher_tabpfn_teacher": 93.84911800004346,
+ "ECE_ptbxl_natural15160_teacher_tabpfn_teacher": 1.138039330379315,
+ "NLL_ptbxl_natural15160_teacher_tabpfn_teacher": 0.5226375576761668,
+ "F1_chapman_quota5000_teacher_tabpfn_teacher": 68.89501123427218,
+ "AUROC_chapman_quota5000_teacher_tabpfn_teacher": 91.75780924872683,
+ "ECE_chapman_quota5000_teacher_tabpfn_teacher": 1.833185314655304,
+ "NLL_chapman_quota5000_teacher_tabpfn_teacher": 0.7160975125888343,
+ "F1_chapman_natural_teacher_tabpfn_teacher": 64.63408496648128,
+ "AUROC_chapman_natural_teacher_tabpfn_teacher": 92.70995976393183,
+ "ECE_chapman_natural_teacher_tabpfn_teacher": 1.471317333843653,
+ "NLL_chapman_natural_teacher_tabpfn_teacher": 0.5471858581228773,
+ "F1_ptbxl_quota5000_mlp_H": 71.54454797590226,
+ "AUROC_ptbxl_quota5000_mlp_H": 91.98713855061294,
+ "ECE_ptbxl_quota5000_mlp_H": 4.776126177787781,
+ "NLL_ptbxl_quota5000_mlp_H": 0.7635882610013949,
+ "F1_ptbxl_natural5000_mlp_H": 66.4723780422948,
+ "AUROC_ptbxl_natural5000_mlp_H": 90.60892639370567,
+ "ECE_ptbxl_natural5000_mlp_H": 4.828805098772049,
+ "NLL_ptbxl_natural5000_mlp_H": 0.6817266281442599,
+ "F1_ptbxl_natural15160_mlp_H": 70.93063432149458,
+ "AUROC_ptbxl_natural15160_mlp_H": 92.34766168251822,
+ "ECE_ptbxl_natural15160_mlp_H": 2.1375210874156148,
+ "NLL_ptbxl_natural15160_mlp_H": 0.599427403182855,
+ "F1_chapman_quota5000_mlp_H": 65.2822063150019,
+ "AUROC_chapman_quota5000_mlp_H": 89.09124718098863,
+ "ECE_chapman_quota5000_mlp_H": 4.660599419236183,
+ "NLL_chapman_quota5000_mlp_H": 0.8644404068905536,
+ "F1_chapman_natural_mlp_H": 64.43442156704513,
+ "AUROC_chapman_natural_mlp_H": 90.34609554790636,
+ "ECE_chapman_natural_mlp_H": 2.326473770958086,
+ "NLL_chapman_natural_mlp_H": 0.6569750435729836,
+ "F1_ptbxl_quota5000_mlp_S_fixed": 71.84937154694383,
+ "AUROC_ptbxl_quota5000_mlp_S_fixed": 92.00097026679683,
+ "ECE_ptbxl_quota5000_mlp_S_fixed": 6.163774899303913,
+ "NLL_ptbxl_quota5000_mlp_S_fixed": 0.7688498208060052,
+ "F1_ptbxl_natural5000_mlp_S_fixed": 66.75575166844438,
+ "AUROC_ptbxl_natural5000_mlp_S_fixed": 90.41809088573626,
+ "ECE_ptbxl_natural5000_mlp_S_fixed": 6.24303056871891,
+ "NLL_ptbxl_natural5000_mlp_S_fixed": 0.6942664754089984,
+ "F1_ptbxl_natural15160_mlp_S_fixed": 71.26073696301006,
+ "AUROC_ptbxl_natural15160_mlp_S_fixed": 92.11204973898586,
+ "ECE_ptbxl_natural15160_mlp_S_fixed": 7.928581605800539,
+ "NLL_ptbxl_natural15160_mlp_S_fixed": 0.6370448891691514,
+ "F1_chapman_quota5000_mlp_S_fixed": 65.43765065954112,
+ "AUROC_chapman_quota5000_mlp_S_fixed": 88.94962828151662,
+ "ECE_chapman_quota5000_mlp_S_fixed": 5.507613650381565,
+ "NLL_chapman_quota5000_mlp_S_fixed": 0.8717603384344237,
+ "F1_chapman_natural_mlp_S_fixed": 64.16168429399993,
+ "AUROC_chapman_natural_mlp_S_fixed": 89.80245213695547,
+ "ECE_chapman_natural_mlp_S_fixed": 8.032191858231478,
+ "NLL_chapman_natural_mlp_S_fixed": 0.6919927196260912,
+ "F1_ptbxl_quota5000_mlp_D_fixed": 72.85821435886605,
+ "AUROC_ptbxl_quota5000_mlp_D_fixed": 92.59904322448882,
+ "ECE_ptbxl_quota5000_mlp_D_fixed": 2.735485790550709,
+ "NLL_ptbxl_quota5000_mlp_D_fixed": 0.7184998423227759,
+ "F1_ptbxl_natural5000_mlp_D_fixed": 67.68643851960476,
+ "AUROC_ptbxl_natural5000_mlp_D_fixed": 91.49243110163901,
+ "ECE_ptbxl_natural5000_mlp_D_fixed": 2.918819279372692,
+ "NLL_ptbxl_natural5000_mlp_D_fixed": 0.6322954992372917,
+ "F1_ptbxl_natural15160_mlp_D_fixed": 71.74956228254207,
+ "AUROC_ptbxl_natural15160_mlp_D_fixed": 92.94351408054862,
+ "ECE_ptbxl_natural15160_mlp_D_fixed": 1.470132400146575,
+ "NLL_ptbxl_natural15160_mlp_D_fixed": 0.5688611048427606,
+ "F1_chapman_quota5000_mlp_D_fixed": 66.13204169538173,
+ "AUROC_chapman_quota5000_mlp_D_fixed": 89.9100487011535,
+ "ECE_chapman_quota5000_mlp_D_fixed": 2.631530079185963,
+ "NLL_chapman_quota5000_mlp_D_fixed": 0.8113139587656713,
+ "F1_chapman_natural_mlp_D_fixed": 64.89403017212435,
+ "AUROC_chapman_natural_mlp_D_fixed": 91.153562281285,
+ "ECE_chapman_natural_mlp_D_fixed": 1.5328556260816908,
+ "NLL_chapman_natural_mlp_D_fixed": 0.6138917445542609,
+ "F1_ptbxl_quota5000_mlp_S_tuned": 71.77966484285704,
+ "AUROC_ptbxl_quota5000_mlp_S_tuned": 91.71148599625351,
+ "ECE_ptbxl_quota5000_mlp_S_tuned": 7.223130299210547,
+ "NLL_ptbxl_quota5000_mlp_S_tuned": 0.788259366197271,
+ "F1_ptbxl_natural5000_mlp_S_tuned": 66.84247529195913,
+ "AUROC_ptbxl_natural5000_mlp_S_tuned": 90.03506383427586,
+ "ECE_ptbxl_natural5000_mlp_S_tuned": 10.664459801197053,
+ "NLL_ptbxl_natural5000_mlp_S_tuned": 0.7326999361157334,
+ "F1_ptbxl_natural15160_mlp_S_tuned": 71.07705666926961,
+ "AUROC_ptbxl_natural15160_mlp_S_tuned": 91.9233682047992,
+ "ECE_ptbxl_natural15160_mlp_S_tuned": 16.159603735014286,
+ "NLL_ptbxl_natural15160_mlp_S_tuned": 0.7147130484328553,
+ "F1_chapman_quota5000_mlp_S_tuned": 65.56925025539273,
+ "AUROC_chapman_quota5000_mlp_S_tuned": 88.73264330542084,
+ "ECE_chapman_quota5000_mlp_S_tuned": 7.190595506489276,
+ "NLL_chapman_quota5000_mlp_S_tuned": 0.8900402457239153,
+ "F1_chapman_natural_mlp_S_tuned": 64.08993928087278,
+ "AUROC_chapman_natural_mlp_S_tuned": 89.40325428095244,
+ "ECE_chapman_natural_mlp_S_tuned": 7.810298065888389,
+ "NLL_chapman_natural_mlp_S_tuned": 0.6990678210206204,
+ "F1_ptbxl_quota5000_mlp_EM_tuned": 72.08665758374356,
+ "AUROC_ptbxl_quota5000_mlp_EM_tuned": 91.36802713128603,
+ "ECE_ptbxl_quota5000_mlp_EM_tuned": 13.666543398320675,
+ "NLL_ptbxl_quota5000_mlp_EM_tuned": 0.8628765180437131,
+ "F1_ptbxl_natural5000_mlp_EM_tuned": 66.65933797992082,
+ "AUROC_ptbxl_natural5000_mlp_EM_tuned": 89.70772560228531,
+ "ECE_ptbxl_natural5000_mlp_EM_tuned": 19.000696911633018,
+ "NLL_ptbxl_natural5000_mlp_EM_tuned": 0.8386164015538299,
+ "F1_ptbxl_natural15160_mlp_EM_tuned": 70.57586599705414,
+ "AUROC_ptbxl_natural15160_mlp_EM_tuned": 90.92646627585953,
+ "ECE_ptbxl_natural15160_mlp_EM_tuned": 22.74428245495995,
+ "NLL_ptbxl_natural15160_mlp_EM_tuned": 0.8159082364891502,
+ "F1_chapman_quota5000_mlp_EM_tuned": 65.78488995504924,
+ "AUROC_chapman_quota5000_mlp_EM_tuned": 88.32779911513576,
+ "ECE_chapman_quota5000_mlp_EM_tuned": 12.133197629809379,
+ "NLL_chapman_quota5000_mlp_EM_tuned": 0.9462523214560932,
+ "F1_chapman_natural_mlp_EM_tuned": 64.83072796782551,
+ "AUROC_chapman_natural_mlp_EM_tuned": 89.7932554479757,
+ "ECE_chapman_natural_mlp_EM_tuned": 14.459244203676285,
+ "NLL_chapman_natural_mlp_EM_tuned": 0.7564963806589048,
+ "F1_ptbxl_quota5000_mlp_D_tuned": 72.98865981193943,
+ "AUROC_ptbxl_quota5000_mlp_D_tuned": 92.1135379183394,
+ "ECE_ptbxl_quota5000_mlp_D_tuned": 11.466770221948625,
+ "NLL_ptbxl_quota5000_mlp_D_tuned": 0.7863202499115152,
+ "F1_ptbxl_natural5000_mlp_D_tuned": 67.74422744534236,
+ "AUROC_ptbxl_natural5000_mlp_D_tuned": 90.07153085188685,
+ "ECE_ptbxl_natural5000_mlp_D_tuned": 10.26793493336439,
+ "NLL_ptbxl_natural5000_mlp_D_tuned": 0.7108213578654461,
+ "F1_ptbxl_natural15160_mlp_D_tuned": 71.58218792241088,
+ "AUROC_ptbxl_natural15160_mlp_D_tuned": 91.91479450878,
+ "ECE_ptbxl_natural15160_mlp_D_tuned": 5.131445670190776,
+ "NLL_ptbxl_natural15160_mlp_D_tuned": 0.6024509724048557,
+ "F1_chapman_quota5000_mlp_D_tuned": 66.53643801572909,
+ "AUROC_chapman_quota5000_mlp_D_tuned": 89.29376509360009,
+ "ECE_chapman_quota5000_mlp_D_tuned": 13.677286104679107,
+ "NLL_chapman_quota5000_mlp_D_tuned": 0.8991960954448966,
+ "F1_chapman_natural_mlp_D_tuned": 65.64682771201255,
+ "AUROC_chapman_natural_mlp_D_tuned": 89.88486601741761,
+ "ECE_chapman_natural_mlp_D_tuned": 10.149905661933856,
+ "NLL_chapman_natural_mlp_D_tuned": 0.6830654310176102,
+ "F1_ptbxl_quota5000_xgb_H": 73.60234569948481,
+ "AUROC_ptbxl_quota5000_xgb_H": 93.00540830668986,
+ "ECE_ptbxl_quota5000_xgb_H": 1.7735904784202574,
+ "NLL_ptbxl_quota5000_xgb_H": 0.6873152191443281,
+ "F1_ptbxl_natural5000_xgb_H": 68.53559271439397,
+ "AUROC_ptbxl_natural5000_xgb_H": 91.9266141928115,
+ "ECE_ptbxl_natural5000_xgb_H": 1.872545679152012,
+ "NLL_ptbxl_natural5000_xgb_H": 0.605388965809462,
+ "F1_ptbxl_natural15160_xgb_H": 71.65262334489769,
+ "AUROC_ptbxl_natural15160_xgb_H": 92.99016520120016,
+ "ECE_ptbxl_natural15160_xgb_H": 0.6442022001208605,
+ "NLL_ptbxl_natural15160_xgb_H": 0.5554956613305688,
+ "F1_chapman_quota5000_xgb_H": 67.6858669589631,
+ "AUROC_chapman_quota5000_xgb_H": 90.94184532097317,
+ "ECE_chapman_quota5000_xgb_H": 2.5249300774335866,
+ "NLL_chapman_quota5000_xgb_H": 0.7622689581944274,
+ "F1_chapman_natural_xgb_H": 63.76076731158079,
+ "AUROC_chapman_natural_xgb_H": 91.8591139578838,
+ "ECE_chapman_natural_xgb_H": 1.7868442968597864,
+ "NLL_chapman_natural_xgb_H": 0.5857174582318063,
+ "F1_ptbxl_quota5000_xgb_S_tuned": 73.44152982711543,
+ "AUROC_ptbxl_quota5000_xgb_S_tuned": 92.55095461855784,
+ "ECE_ptbxl_quota5000_xgb_S_tuned": 9.900965699434279,
+ "NLL_ptbxl_quota5000_xgb_S_tuned": 0.760182766512429,
+ "F1_ptbxl_natural5000_xgb_S_tuned": 68.87671621137068,
+ "AUROC_ptbxl_natural5000_xgb_S_tuned": 91.33226738061066,
+ "ECE_ptbxl_natural5000_xgb_S_tuned": 7.72567543387413,
+ "NLL_ptbxl_natural5000_xgb_S_tuned": 0.6510265876773838,
+ "F1_ptbxl_natural15160_xgb_S_tuned": 71.64849179503324,
+ "AUROC_ptbxl_natural15160_xgb_S_tuned": 92.18908004956856,
+ "ECE_ptbxl_natural15160_xgb_S_tuned": 7.544071949173089,
+ "NLL_ptbxl_natural15160_xgb_S_tuned": 0.6057454788020766,
+ "F1_chapman_quota5000_xgb_S_tuned": 67.6058006155923,
+ "AUROC_chapman_quota5000_xgb_S_tuned": 90.48684383480362,
+ "ECE_chapman_quota5000_xgb_S_tuned": 6.766536053776742,
+ "NLL_chapman_quota5000_xgb_S_tuned": 0.8172022045526768,
+ "F1_chapman_natural_xgb_S_tuned": 63.96780553851696,
+ "AUROC_chapman_natural_xgb_S_tuned": 90.74251237759088,
+ "ECE_chapman_natural_xgb_S_tuned": 11.713294447332188,
+ "NLL_chapman_natural_xgb_S_tuned": 0.682212622713833,
+ "F1_ptbxl_quota5000_xgb_EM_tuned": 73.48724189333761,
+ "AUROC_ptbxl_quota5000_xgb_EM_tuned": 92.1800867384402,
+ "ECE_ptbxl_quota5000_xgb_EM_tuned": 16.12049788326025,
+ "NLL_ptbxl_quota5000_xgb_EM_tuned": 0.8371854286827325,
+ "F1_ptbxl_natural5000_xgb_EM_tuned": 68.70983672840163,
+ "AUROC_ptbxl_natural5000_xgb_EM_tuned": 90.79617469622877,
+ "ECE_ptbxl_natural5000_xgb_EM_tuned": 10.935349161922932,
+ "NLL_ptbxl_natural5000_xgb_EM_tuned": 0.6933187624088218,
+ "F1_ptbxl_natural15160_xgb_EM_tuned": 71.81586677856305,
+ "AUROC_ptbxl_natural15160_xgb_EM_tuned": 92.14726164222176,
+ "ECE_ptbxl_natural15160_xgb_EM_tuned": 7.209514856712013,
+ "NLL_ptbxl_natural15160_xgb_EM_tuned": 0.6090698106067447,
+ "F1_chapman_quota5000_xgb_EM_tuned": 67.67005293963285,
+ "AUROC_chapman_quota5000_xgb_EM_tuned": 90.61547550874056,
+ "ECE_chapman_quota5000_xgb_EM_tuned": 6.635706937789918,
+ "NLL_chapman_quota5000_xgb_EM_tuned": 0.8172303421231624,
+ "F1_chapman_natural_xgb_EM_tuned": 63.99413573650582,
+ "AUROC_chapman_natural_xgb_EM_tuned": 91.3915000738778,
+ "ECE_chapman_natural_xgb_EM_tuned": 8.65388076822411,
+ "NLL_chapman_natural_xgb_EM_tuned": 0.6496032869688223,
+ "F1_ptbxl_quota5000_xgb_D_fixed": 74.10846814580842,
+ "AUROC_ptbxl_quota5000_xgb_D_fixed": 93.19441556818678,
+ "ECE_ptbxl_quota5000_xgb_D_fixed": 1.6054891567230225,
+ "NLL_ptbxl_quota5000_xgb_D_fixed": 0.6771194574856325,
+ "F1_ptbxl_natural5000_xgb_D_fixed": 68.79966867519684,
+ "AUROC_ptbxl_natural5000_xgb_D_fixed": 92.22644605612817,
+ "ECE_ptbxl_natural5000_xgb_D_fixed": 1.593033151745796,
+ "NLL_ptbxl_natural5000_xgb_D_fixed": 0.5926109621665591,
+ "F1_ptbxl_natural15160_xgb_D_fixed": 71.57346490303341,
+ "AUROC_ptbxl_natural15160_xgb_D_fixed": 93.22805986734446,
+ "ECE_ptbxl_natural15160_xgb_D_fixed": 1.047233280217113,
+ "NLL_ptbxl_natural15160_xgb_D_fixed": 0.546892411533302,
+ "F1_chapman_quota5000_xgb_D_fixed": 67.9733790936688,
+ "AUROC_chapman_quota5000_xgb_D_fixed": 91.21724762875235,
+ "ECE_chapman_quota5000_xgb_D_fixed": 1.7589873502254487,
+ "NLL_chapman_quota5000_xgb_D_fixed": 0.7489035347816584,
+ "F1_chapman_natural_xgb_D_fixed": 63.90861524618376,
+ "AUROC_chapman_natural_xgb_D_fixed": 92.16961133706468,
+ "ECE_chapman_natural_xgb_D_fixed": 1.4178623285462508,
+ "NLL_chapman_natural_xgb_D_fixed": 0.5742571312637557,
+ "F1_ptbxl_quota5000_xgb_D_tuned": 73.8668329734609,
+ "AUROC_ptbxl_quota5000_xgb_D_tuned": 92.59716290264542,
+ "ECE_ptbxl_quota5000_xgb_D_tuned": 8.362359133839607,
+ "NLL_ptbxl_quota5000_xgb_D_tuned": 0.7329206368081488,
+ "F1_ptbxl_natural5000_xgb_D_tuned": 68.7811657361252,
+ "AUROC_ptbxl_natural5000_xgb_D_tuned": 91.05186274062679,
+ "ECE_ptbxl_natural5000_xgb_D_tuned": 9.640435264408588,
+ "NLL_ptbxl_natural5000_xgb_D_tuned": 0.659226760369573,
+ "F1_ptbxl_natural15160_xgb_D_tuned": 71.60328875022385,
+ "AUROC_ptbxl_natural15160_xgb_D_tuned": 92.23525986474203,
+ "ECE_ptbxl_natural15160_xgb_D_tuned": 10.782807164267687,
+ "NLL_ptbxl_natural15160_xgb_D_tuned": 0.6180886522856739,
+ "F1_chapman_quota5000_xgb_D_tuned": 67.59203958474788,
+ "AUROC_chapman_quota5000_xgb_D_tuned": 90.5095248299749,
+ "ECE_chapman_quota5000_xgb_D_tuned": 6.153241732239723,
+ "NLL_chapman_quota5000_xgb_D_tuned": 0.7970275743944776,
+ "F1_chapman_natural_xgb_D_tuned": 64.81564252506548,
+ "AUROC_chapman_natural_xgb_D_tuned": 90.7402371006768,
+ "ECE_chapman_natural_xgb_D_tuned": 13.184762901026142,
+ "NLL_chapman_natural_xgb_D_tuned": 0.6754313374934123,
+ "ps_ptbxl_quota5000_mlp_D_tuned - S_tuned": [
+  1.2089949690823887,
+  0.3517423540547972,
+  5,
+  4,
+  0
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_tuned - S_tuned_macro_F1": [
+  1.208994969082383,
+  0.8127237086104945,
+  1.6088848118052814,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_tuned - S_tuned_NLL": [
+  -0.0019391162857558,
+  -0.0079891862336236,
+  0.003867172052879,
+  0.5113488651134886
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_tuned - S_tuned_ECE_top_label_15bin": [
+  4.243639922738077,
+  3.747342645069956,
+  4.745035669049619,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_mlp_D_tuned - S_tuned": [
+  0.9017521533832309,
+  0.5708730590335447,
+  5,
+  1,
+  0
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_tuned - S_tuned_macro_F1": [
+  0.901752153383228,
+  0.3281068773151417,
+  1.4802315793129055,
+  0.001999800019998
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_tuned - S_tuned_NLL": [
+  -0.0218785782502872,
+  -0.0287370531427919,
+  -0.0148618154009536,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_tuned - S_tuned_ECE_top_label_15bin": [
+  -0.396524867832662,
+  -1.0302311126485466,
+  0.3121564581722021,
+  0.2803719628037196
+ ],
+ "ps_ptbxl_natural15160_mlp_D_tuned - S_tuned": [
+  0.5051312531412719,
+  -0.0376502897204098,
+  1.0894120916503025
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_tuned - S_tuned_macro_F1": [
+  0.5051312531412719,
+  -0.083500042539558,
+  1.095269958943639,
+  0.0907909209079092
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_tuned - S_tuned_NLL": [
+  -0.1122620760279996,
+  -0.1178945246264958,
+  -0.1062654824946134,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_tuned - S_tuned_ECE_top_label_15bin": [
+  -11.028158064823511,
+  -11.499696013163824,
+  -10.419929978909526,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_mlp_D_tuned - S_tuned": [
+  0.967187760336364,
+  0.4571392561371267,
+  5,
+  3,
+  0
+ ],
+ "pooled_chapman_quota5000_mlp_D_tuned - S_tuned_macro_F1": [
+  0.9671877603363584,
+  0.5215867834941896,
+  1.4319530793454367,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_mlp_D_tuned - S_tuned_NLL": [
+  0.0091558497209816,
+  0.0021000441363185,
+  0.016127205867887,
+  0.0117988201179882
+ ],
+ "pooled_chapman_quota5000_mlp_D_tuned - S_tuned_ECE_top_label_15bin": [
+  6.48669059818983,
+  5.912978622195124,
+  6.890393473011254,
+  0.0001999800019998
+ ],
+ "ps_chapman_natural_mlp_D_tuned - S_tuned": [
+  1.5568884311397682,
+  0.7415965130595616,
+  2.411703863896708
+ ],
+ "pooled_chapman_natural_mlp_D_tuned - S_tuned_macro_F1": [
+  1.5568884311397682,
+  0.7356696530947172,
+  2.3410066440733157,
+  0.0003999600039996
+ ],
+ "pooled_chapman_natural_mlp_D_tuned - S_tuned_NLL": [
+  -0.0160023900030101,
+  -0.0248060982993719,
+  -0.007063042428272,
+  0.0005999400059994
+ ],
+ "pooled_chapman_natural_mlp_D_tuned - S_tuned_ECE_top_label_15bin": [
+  2.3396075960454663,
+  1.653175771624345,
+  3.0281508904044427,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_mlp_D_tuned - EM_tuned": [
+  0.9020022281958802,
+  0.34752494328391886,
+  5,
+  3,
+  0
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_tuned - EM_tuned_macro_F1": [
+  0.9020022281958688,
+  0.5303832189795348,
+  1.2694115893669498,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_tuned - EM_tuned_NLL": [
+  -0.0765562681321979,
+  -0.0826852466129256,
+  -0.0707174318806951,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_tuned - EM_tuned_ECE_top_label_15bin": [
+  -2.19977317637205,
+  -2.6913400501728058,
+  -1.7191326602205668,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_mlp_D_tuned - EM_tuned": [
+  1.0848894654215342,
+  1.1133259194990235,
+  4,
+  4,
+  0
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_tuned - EM_tuned_macro_F1": [
+  1.08488946542154,
+  0.4646011162227051,
+  1.700547888718131,
+  0.0003999600039996
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_tuned - EM_tuned_NLL": [
+  -0.1277950436883835,
+  -0.1366017514097609,
+  -0.1187133154193627,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_tuned - EM_tuned_ECE_top_label_15bin": [
+  -8.732761978268623,
+  -9.36436756077707,
+  -7.98275090358108,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_mlp_D_tuned - EM_tuned": [
+  1.006321925356744,
+  0.37399851745682,
+  1.6191783236006894
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_tuned - EM_tuned_macro_F1": [
+  1.006321925356744,
+  0.3800383458102352,
+  1.629460540252125,
+  0.0013998600139986
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_tuned - EM_tuned_NLL": [
+  -0.2134572640842945,
+  -0.220060013341119,
+  -0.2068068191811921,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_tuned - EM_tuned_ECE_top_label_15bin": [
+  -17.612836784769176,
+  -18.113652976158523,
+  -16.95874578983702,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_mlp_D_tuned - EM_tuned": [
+  0.751548060679849,
+  0.3423839546949216,
+  5,
+  3,
+  0
+ ],
+ "pooled_chapman_quota5000_mlp_D_tuned - EM_tuned_macro_F1": [
+  0.7515480606798519,
+  0.3177016690396719,
+  1.1988364967784793,
+  0.000999900009999
+ ],
+ "pooled_chapman_quota5000_mlp_D_tuned - EM_tuned_NLL": [
+  -0.0470562260111965,
+  -0.052893328241886,
+  -0.0411748153512309,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_mlp_D_tuned - EM_tuned_ECE_top_label_15bin": [
+  1.544088474869726,
+  1.070917552490532,
+  2.0423239717140804,
+  0.0001999800019998
+ ],
+ "ps_chapman_natural_mlp_D_tuned - EM_tuned": [
+  0.8160997441870421,
+  0.009636909218322,
+  1.6378926910210498
+ ],
+ "pooled_chapman_natural_mlp_D_tuned - EM_tuned_macro_F1": [
+  0.8160997441870421,
+  0.010721431453933,
+  1.600633179090732,
+  0.046995300469953
+ ],
+ "pooled_chapman_natural_mlp_D_tuned - EM_tuned_NLL": [
+  -0.0734309496412946,
+  -0.0810706784997148,
+  -0.0656598600281534,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_mlp_D_tuned - EM_tuned_ECE_top_label_15bin": [
+  -4.309338541742429,
+  -4.923758240117704,
+  -3.616582111715949,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_mlp_D_tuned - H": [
+  1.4441118360371632,
+  0.22957638787429321,
+  5,
+  5,
+  0
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_tuned - H_macro_F1": [
+  1.444111836037166,
+  1.0449283668097504,
+  1.846981601145426,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_tuned - H_NLL": [
+  0.0227319889101202,
+  0.010414117081572,
+  0.0344397483462945,
+  0.0003999600039996
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_tuned - H_ECE_top_label_15bin": [
+  6.690644044160845,
+  4.968963459166885,
+  8.087644679653646,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_mlp_D_tuned - H": [
+  1.2718494030475456,
+  0.8950192095238417,
+  5,
+  3,
+  0
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_tuned - H_macro_F1": [
+  1.271849403047554,
+  0.7234914515283097,
+  1.8327278999326075,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_tuned - H_NLL": [
+  0.0290947297211862,
+  0.016758043983153,
+  0.040597711844649,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_tuned - H_ECE_top_label_15bin": [
+  5.439129834592341,
+  3.994491911517083,
+  6.608252456986902,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_mlp_D_tuned - H": [
+  0.6515536009163014,
+  0.1125183716012141,
+  1.221900283950824
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_tuned - H_macro_F1": [
+  0.6515536009163014,
+  0.0869493339541492,
+  1.2049332875124583,
+  0.0245975402459754
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_tuned - H_NLL": [
+  0.0030235692220006,
+  -0.0036502386025315,
+  0.0096392782803625,
+  0.3655634436556344
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_tuned - H_ECE_top_label_15bin": [
+  2.9939245827751613,
+  1.8935745075974109,
+  3.7805246064699887,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_mlp_D_tuned - H": [
+  1.254231700727189,
+  0.46824579352804246,
+  5,
+  3,
+  0
+ ],
+ "pooled_chapman_quota5000_mlp_D_tuned - H_macro_F1": [
+  1.254231700727189,
+  0.7810749813470054,
+  1.7263920202811165,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_mlp_D_tuned - H_NLL": [
+  0.0347556885543433,
+  0.0194113178311991,
+  0.0495419312549088,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_mlp_D_tuned - H_ECE_top_label_15bin": [
+  9.016686685442924,
+  7.074125867716967,
+  10.60809549443275,
+  0.0001999800019998
+ ],
+ "ps_chapman_natural_mlp_D_tuned - H": [
+  1.2124061449674173,
+  0.3717926358955224,
+  2.0695884457965392
+ ],
+ "pooled_chapman_natural_mlp_D_tuned - H_macro_F1": [
+  1.2124061449674173,
+  0.3510892856905169,
+  2.0361022590940223,
+  0.0053994600539946
+ ],
+ "pooled_chapman_natural_mlp_D_tuned - H_NLL": [
+  0.0260903874446265,
+  0.0141843503386101,
+  0.0374348701163882,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_mlp_D_tuned - H_ECE_top_label_15bin": [
+  7.82343189097577,
+  6.2530968390321195,
+  8.726504922249084,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_mlp_S_tuned - H": [
+  0.23511686695477466,
+  0.3223137048686789,
+  3,
+  0,
+  0
+ ],
+ "pooled_ptbxl_quota5000_mlp_S_tuned - H_macro_F1": [
+  0.2351168669547831,
+  -0.0862709319209407,
+  0.5648548448519624,
+  0.1593840615938406
+ ],
+ "pooled_ptbxl_quota5000_mlp_S_tuned - H_NLL": [
+  0.0246711051958761,
+  0.0133769445601794,
+  0.0353794685315034,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_mlp_S_tuned - H_ECE_top_label_15bin": [
+  2.4470041214227676,
+  0.6292699009627101,
+  3.975775402723252,
+  0.005999400059994
+ ],
+ "ps_ptbxl_natural5000_mlp_S_tuned - H": [
+  0.3700972496643146,
+  0.9392963659381373,
+  3,
+  1,
+  0
+ ],
+ "pooled_ptbxl_natural5000_mlp_S_tuned - H_macro_F1": [
+  0.370097249664326,
+  -0.1497632762361835,
+  0.8968582888288,
+  0.1625837416258374
+ ],
+ "pooled_ptbxl_natural5000_mlp_S_tuned - H_NLL": [
+  0.0509733079714734,
+  0.0355734199157429,
+  0.0651772121571451,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_mlp_S_tuned - H_ECE_top_label_15bin": [
+  5.835654702425003,
+  4.010283451315759,
+  7.304238534884154,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_mlp_S_tuned - H": [
+  0.1464223477750295,
+  -0.44859698060134,
+  0.7618283512108422
+ ],
+ "pooled_ptbxl_natural15160_mlp_S_tuned - H_macro_F1": [
+  0.1464223477750295,
+  -0.4891426512300523,
+  0.7567982337459408,
+  0.6303369663033697
+ ],
+ "pooled_ptbxl_natural15160_mlp_S_tuned - H_NLL": [
+  0.1152856452500002,
+  0.1070485123590659,
+  0.123525345968727,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_mlp_S_tuned - H_ECE_top_label_15bin": [
+  14.022082647598673,
+  12.781604744948565,
+  14.821631840855314,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_mlp_S_tuned - H": [
+  0.28704394039082504,
+  0.301786677631243,
+  4,
+  0,
+  0
+ ],
+ "pooled_chapman_quota5000_mlp_S_tuned - H_macro_F1": [
+  0.2870439403908307,
+  -0.1220731647026969,
+  0.6876036430461628,
+  0.1723827617238276
+ ],
+ "pooled_chapman_quota5000_mlp_S_tuned - H_NLL": [
+  0.0255998388333617,
+  0.0132284127841735,
+  0.0374030633671428,
+  0.0003999600039996
+ ],
+ "pooled_chapman_quota5000_mlp_S_tuned - H_ECE_top_label_15bin": [
+  2.5299960872530933,
+  0.7425417342290289,
+  4.109265570859608,
+  0.0047995200479952
+ ],
+ "ps_chapman_natural_mlp_S_tuned - H": [
+  -0.3444822861723509,
+  -1.1150629211937282,
+  0.4013287699658407
+ ],
+ "pooled_chapman_natural_mlp_S_tuned - H_macro_F1": [
+  -0.3444822861723509,
+  -1.0945330969951037,
+  0.4024022125064677,
+  0.3841615838416158
+ ],
+ "pooled_chapman_natural_mlp_S_tuned - H_NLL": [
+  0.0420927774476367,
+  0.0323554755381399,
+  0.0517063692928595,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_mlp_S_tuned - H_ECE_top_label_15bin": [
+  5.4838242949303035,
+  3.8883571457867654,
+  6.428701710093902,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_mlp_EM_tuned - H": [
+  0.542109607841283,
+  0.4770155103785658,
+  5,
+  1,
+  0
+ ],
+ "pooled_ptbxl_quota5000_mlp_EM_tuned - H_macro_F1": [
+  0.5421096078412972,
+  0.1890741694548094,
+  0.9146168139103608,
+  0.0031996800319968
+ ],
+ "pooled_ptbxl_quota5000_mlp_EM_tuned - H_NLL": [
+  0.0992882570423182,
+  0.0860021222010561,
+  0.1121268227489991,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_mlp_EM_tuned - H_ECE_top_label_15bin": [
+  8.890417220532894,
+  7.119482563677431,
+  10.372939012888072,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_mlp_EM_tuned - H": [
+  0.18695993762601115,
+  0.8391254814917757,
+  4,
+  0,
+  0
+ ],
+ "pooled_ptbxl_natural5000_mlp_EM_tuned - H_macro_F1": [
+  0.186959937626014,
+  -0.4029807050980139,
+  0.8084093165221484,
+  0.5269473052694731
+ ],
+ "pooled_ptbxl_natural5000_mlp_EM_tuned - H_NLL": [
+  0.1568897734095697,
+  0.1384451174073098,
+  0.1738958364901405,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_mlp_EM_tuned - H_ECE_top_label_15bin": [
+  14.171891812860965,
+  12.33044015726894,
+  15.640255569876729,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_mlp_EM_tuned - H": [
+  -0.3547683244404425,
+  -0.9824799361760232,
+  0.2610389691674641
+ ],
+ "pooled_ptbxl_natural15160_mlp_EM_tuned - H_macro_F1": [
+  -0.3547683244404425,
+  -0.9985680840146806,
+  0.2928791740230852,
+  0.2831716828317168
+ ],
+ "pooled_ptbxl_natural15160_mlp_EM_tuned - H_NLL": [
+  0.2164808333062952,
+  0.2065501661713421,
+  0.226320022831844,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_mlp_EM_tuned - H_ECE_top_label_15bin": [
+  20.606761367544337,
+  19.35770532631839,
+  21.397080276633236,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_mlp_EM_tuned - H": [
+  0.50268364004734,
+  0.30157539836638486,
+  5,
+  0,
+  0
+ ],
+ "pooled_chapman_quota5000_mlp_EM_tuned - H_macro_F1": [
+  0.5026836400473371,
+  0.0628196227187491,
+  0.939695608366984,
+  0.0277972202779722
+ ],
+ "pooled_chapman_quota5000_mlp_EM_tuned - H_NLL": [
+  0.0818119145655398,
+  0.0670415500602172,
+  0.0960900614678777,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_mlp_EM_tuned - H_ECE_top_label_15bin": [
+  7.472598210573198,
+  5.549104072938859,
+  8.980544969002903,
+  0.0001999800019998
+ ],
+ "ps_chapman_natural_mlp_EM_tuned - H": [
+  0.3963064007803751,
+  -0.4316692153050662,
+  1.177784486649633
+ ],
+ "pooled_chapman_natural_mlp_EM_tuned - H_macro_F1": [
+  0.3963064007803751,
+  -0.4461127690935843,
+  1.2457169495123313,
+  0.35996400359964
+ ],
+ "pooled_chapman_natural_mlp_EM_tuned - H_NLL": [
+  0.0995213370859211,
+  0.0870310628878806,
+  0.111672654629859,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_mlp_EM_tuned - H_ECE_top_label_15bin": [
+  12.1327704327182,
+  10.476867233897432,
+  13.039951009258935,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_mlp_D_fixed - S_fixed": [
+  1.0088428119222215,
+  0.27587410675749247,
+  5,
+  4,
+  0
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_fixed - S_fixed_macro_F1": [
+  1.0088428119222217,
+  0.6560164704870595,
+  1.360932932611677,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_fixed - S_fixed_NLL": [
+  -0.0503499784832293,
+  -0.0592698982310454,
+  -0.0410308341386077,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_fixed - S_fixed_ECE_top_label_15bin": [
+  -3.428289108753204,
+  -4.695806682147086,
+  -1.600173411761225,
+  0.0003999600039996
+ ],
+ "ps_ptbxl_natural5000_mlp_D_fixed - S_fixed": [
+  0.9306868511603824,
+  0.5433100938832095,
+  5,
+  1,
+  0
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_fixed - S_fixed_macro_F1": [
+  0.930686851160388,
+  0.3943966970916143,
+  1.4501801771311114,
+  0.0005999400059994
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_fixed - S_fixed_NLL": [
+  -0.0619709761717067,
+  -0.0715974260570347,
+  -0.0516643980011194,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_fixed - S_fixed_ECE_top_label_15bin": [
+  -3.3242112893462172,
+  -4.643045476350189,
+  -1.4500551653206346,
+  0.0003999600039996
+ ],
+ "ps_ptbxl_natural15160_mlp_D_fixed - S_fixed": [
+  0.4888253195320118,
+  -0.1378848899892787,
+  1.0954097027967349
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_fixed - S_fixed_macro_F1": [
+  0.4888253195320118,
+  -0.1383393363407396,
+  1.1059173977817012,
+  0.1277872212778722
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_fixed - S_fixed_NLL": [
+  -0.0681837843263907,
+  -0.0739720342642394,
+  -0.0623654239780784,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_fixed - S_fixed_ECE_top_label_15bin": [
+  -6.458449205653963,
+  -7.1100979008340826,
+  -5.193278324836989,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_mlp_D_fixed - S_fixed": [
+  0.6943910358406213,
+  0.5871570701638407,
+  4,
+  2,
+  0
+ ],
+ "pooled_chapman_quota5000_mlp_D_fixed - S_fixed_macro_F1": [
+  0.69439103584061,
+  0.2549624083738877,
+  1.123553080244102,
+  0.0013998600139986
+ ],
+ "pooled_chapman_quota5000_mlp_D_fixed - S_fixed_NLL": [
+  -0.0604463796687524,
+  -0.0684079776908804,
+  -0.0523583137353004,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_mlp_D_fixed - S_fixed_ECE_top_label_15bin": [
+  -2.876083571195602,
+  -4.102907468728721,
+  -1.0336320598647026,
+  0.0013998600139986
+ ],
+ "ps_chapman_natural_mlp_D_fixed - S_fixed": [
+  0.7323458781244199,
+  -0.0648288596098288,
+  1.514281429791363
+ ],
+ "pooled_chapman_natural_mlp_D_fixed - S_fixed_macro_F1": [
+  0.7323458781244199,
+  -0.0491894575775486,
+  1.5220467359506027,
+  0.0671932806719328
+ ],
+ "pooled_chapman_natural_mlp_D_fixed - S_fixed_NLL": [
+  -0.0781009750718303,
+  -0.0855629868205985,
+  -0.070605144649301,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_mlp_D_fixed - S_fixed_ECE_top_label_15bin": [
+  -6.499336232149787,
+  -7.151431006157968,
+  -5.043160069655873,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_mlp_D_fixed - H": [
+  1.3136663829637854,
+  0.4046881112811765,
+  5,
+  5,
+  0
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_fixed - H_macro_F1": [
+  1.3136663829637882,
+  0.9552108604320952,
+  1.6718939430012598,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_fixed - H_NLL": [
+  -0.045088418678619,
+  -0.0511858589172198,
+  -0.0392876166160408,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_mlp_D_fixed - H_ECE_top_label_15bin": [
+  -2.0406403872370715,
+  -2.345740602441131,
+  -1.4452051654577251,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_mlp_D_fixed - H": [
+  1.2140604773099484,
+  0.7669378588140835,
+  5,
+  3,
+  0
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_fixed - H_macro_F1": [
+  1.2140604773099568,
+  0.7368343543012216,
+  1.7194663902650844,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_fixed - H_NLL": [
+  -0.0494311289069682,
+  -0.0560155111861836,
+  -0.0428900501201007,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_mlp_D_fixed - H_ECE_top_label_15bin": [
+  -1.909985819399357,
+  -2.193197416999937,
+  -1.440464172820748,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_mlp_D_fixed - H": [
+  0.8189279610474927,
+  0.241261762111921,
+  1.3806111164253196
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_fixed - H_macro_F1": [
+  0.8189279610474927,
+  0.2532790892088805,
+  1.381368253036774,
+  0.0055994400559944
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_fixed - H_NLL": [
+  -0.0305662983400943,
+  -0.0353416004886602,
+  -0.0258339542684591,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_mlp_D_fixed - H_ECE_top_label_15bin": [
+  -0.6673886872690398,
+  -1.006372271425098,
+  -0.1182599941460234,
+  0.0171982801719828
+ ],
+ "ps_chapman_quota5000_mlp_D_fixed - H": [
+  0.8498353803798466,
+  0.3721324710730476,
+  5,
+  2,
+  0
+ ],
+ "pooled_chapman_quota5000_mlp_D_fixed - H_macro_F1": [
+  0.8498353803798295,
+  0.4170399308271143,
+  1.2773664924588846,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_mlp_D_fixed - H_NLL": [
+  -0.0531264481248823,
+  -0.0605392689500701,
+  -0.0461484357897914,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_mlp_D_fixed - H_ECE_top_label_15bin": [
+  -2.02906934005022,
+  -2.36243300112933,
+  -1.341483048576117,
+  0.0001999800019998
+ ],
+ "ps_chapman_natural_mlp_D_fixed - H": [
+  0.459608605079211,
+  -0.4059761130516097,
+  1.2684012464254508
+ ],
+ "pooled_chapman_natural_mlp_D_fixed - H_macro_F1": [
+  0.459608605079211,
+  -0.3733862893556182,
+  1.2984807253999489,
+  0.2873712628737126
+ ],
+ "pooled_chapman_natural_mlp_D_fixed - H_NLL": [
+  -0.0430832990187227,
+  -0.0501100922575822,
+  -0.0362231273087248,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_mlp_D_fixed - H_ECE_top_label_15bin": [
+  -0.793618144876395,
+  -1.4710863875290172,
+  0.0462112371328369,
+  0.0627937206279372
+ ],
+ "ps_ptbxl_quota5000_xgb_D_tuned - S_tuned": [
+  0.42530314634546185,
+  0.21682671254445138,
+  5,
+  1,
+  0
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_tuned - S_tuned_macro_F1": [
+  0.4253031463454704,
+  0.0907760402840217,
+  0.7616597240226166,
+  0.0127987201279872
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_tuned - S_tuned_NLL": [
+  -0.0272621297042802,
+  -0.0315765138919331,
+  -0.0227945618209276,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_tuned - S_tuned_ECE_top_label_15bin": [
+  -1.538606565594673,
+  -1.9113602551460265,
+  -1.1404666412144897,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_xgb_D_tuned - S_tuned": [
+  -0.09555047524549422,
+  0.34589681241071557,
+  2,
+  0,
+  0
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_tuned - S_tuned_macro_F1": [
+  -0.0955504752454743,
+  -0.6326130466264487,
+  0.4447235964896037,
+  0.7215278472152785
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_tuned - S_tuned_NLL": [
+  0.0082001726921892,
+  0.003482014197024,
+  0.0127855254878201,
+  0.0003999600039996
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_tuned - S_tuned_ECE_top_label_15bin": [
+  1.9147598305344573,
+  1.5795421692043528,
+  2.334520061527194,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_xgb_D_tuned - S_tuned": [
+  -0.0452030448093836,
+  -0.5815284498093931,
+  0.4910283560698258
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_tuned - S_tuned_macro_F1": [
+  -0.0452030448093836,
+  -0.5523422232119592,
+  0.4487417814681483,
+  0.8555144485551445
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_tuned - S_tuned_NLL": [
+  0.0123431734835972,
+  0.0082315650297221,
+  0.0164664416329577,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_tuned - S_tuned_ECE_top_label_15bin": [
+  3.2387352150946,
+  2.920829844181881,
+  3.606155393261827,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_xgb_D_tuned - S_tuned": [
+  -0.01376103084443515,
+  0.35785628395352015,
+  3,
+  0,
+  0
+ ],
+ "pooled_chapman_quota5000_xgb_D_tuned - S_tuned_macro_F1": [
+  -0.0137610308444209,
+  -0.4007399359451948,
+  0.3725933607823641,
+  0.946105389461054
+ ],
+ "pooled_chapman_quota5000_xgb_D_tuned - S_tuned_NLL": [
+  -0.0201746301581992,
+  -0.0243542499656171,
+  -0.015919020836376,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_xgb_D_tuned - S_tuned_ECE_top_label_15bin": [
+  -0.6132943215370172,
+  -1.021107286685706,
+  -0.1559741476178169,
+  0.008999100089991
+ ],
+ "ps_chapman_natural_xgb_D_tuned - S_tuned": [
+  0.847836986548522,
+  0.1702543388219425,
+  1.497770766320887
+ ],
+ "pooled_chapman_natural_xgb_D_tuned - S_tuned_macro_F1": [
+  0.847836986548522,
+  0.1913699802783277,
+  1.510290870102211,
+  0.0091990800919908
+ ],
+ "pooled_chapman_natural_xgb_D_tuned - S_tuned_NLL": [
+  -0.0067812852204206,
+  -0.0111497327409734,
+  -0.0025222544214961,
+  0.0017998200179982
+ ],
+ "pooled_chapman_natural_xgb_D_tuned - S_tuned_ECE_top_label_15bin": [
+  1.4714684536939533,
+  1.0758934577690045,
+  1.8730148468976433,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_xgb_D_tuned - EM_tuned": [
+  0.37959108012328785,
+  0.1701990375229436,
+  5,
+  0,
+  0
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_tuned - EM_tuned_macro_F1": [
+  0.3795910801232907,
+  0.0431626923693528,
+  0.7083452812815106,
+  0.0303969603039696
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_tuned - EM_tuned_NLL": [
+  -0.1042647918745837,
+  -0.1100672321867,
+  -0.0983635242860147,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_tuned - EM_tuned_ECE_top_label_15bin": [
+  -7.758138749420642,
+  -8.12378047187775,
+  -7.27816960567683,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_xgb_D_tuned - EM_tuned": [
+  0.07132900772357402,
+  0.5950226001671155,
+  3,
+  0,
+  0
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_tuned - EM_tuned_macro_F1": [
+  0.0713290077235768,
+  -0.4498457695273877,
+  0.5853804711075963,
+  0.7767223277672233
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_tuned - EM_tuned_NLL": [
+  -0.0340920020392488,
+  -0.0390493818795102,
+  -0.0289739554589217,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_tuned - EM_tuned_ECE_top_label_15bin": [
+  -1.2949138975143448,
+  -1.6152763021633028,
+  -0.8518799926608779,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_xgb_D_tuned - EM_tuned": [
+  -0.2125780283391947,
+  -0.7027306568245525,
+  0.255131530235756
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_tuned - EM_tuned_macro_F1": [
+  -0.2125780283391947,
+  -0.7104601196393869,
+  0.2816899138370216,
+  0.3927607239276072
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_tuned - EM_tuned_NLL": [
+  0.0090188416789291,
+  0.0055885447829234,
+  0.0124382527803903,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_tuned - EM_tuned_ECE_top_label_15bin": [
+  3.5732923075556764,
+  3.2978955576992486,
+  3.9015501462080393,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_xgb_D_tuned - EM_tuned": [
+  -0.07801335488497045,
+  0.4082044713136143,
+  3,
+  0,
+  0
+ ],
+ "pooled_chapman_quota5000_xgb_D_tuned - EM_tuned_macro_F1": [
+  -0.0780133548849733,
+  -0.4777282751569416,
+  0.3159975606611336,
+  0.6881311868813119
+ ],
+ "pooled_chapman_quota5000_xgb_D_tuned - EM_tuned_NLL": [
+  -0.0202027677286847,
+  -0.0244728825054888,
+  -0.0158023285457742,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_xgb_D_tuned - EM_tuned_ECE_top_label_15bin": [
+  -0.4824652055501941,
+  -0.8594995167121288,
+  -0.0045140089124441,
+  0.0483951604839516
+ ],
+ "ps_chapman_natural_xgb_D_tuned - EM_tuned": [
+  0.8215067885596667,
+  0.1709726527946532,
+  1.4434458753023425
+ ],
+ "pooled_chapman_natural_xgb_D_tuned - EM_tuned_macro_F1": [
+  0.8215067885596667,
+  0.1484330813325325,
+  1.4852822274987727,
+  0.0147985201479852
+ ],
+ "pooled_chapman_natural_xgb_D_tuned - EM_tuned_NLL": [
+  0.02582805052459,
+  0.0206892266405803,
+  0.0310092134499454,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_xgb_D_tuned - EM_tuned_ECE_top_label_15bin": [
+  4.530882132802033,
+  4.104122018208603,
+  4.960947737341693,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_xgb_D_tuned - H": [
+  0.26448727397608707,
+  0.27246960618355204,
+  4,
+  0,
+  0
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_tuned - H_macro_F1": [
+  0.264487273976087,
+  -0.0531132611096726,
+  0.5785626012217353,
+  0.1075892410758924
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_tuned - H_NLL": [
+  0.0456054176638206,
+  0.0382934714661381,
+  0.0525338349399494,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_tuned - H_ECE_top_label_15bin": [
+  6.58876865541935,
+  4.834081944723427,
+  7.383716172988712,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_xgb_D_tuned - H": [
+  0.24557302173121515,
+  0.29617213586260066,
+  4,
+  0,
+  0
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_tuned - H_macro_F1": [
+  0.2455730217312322,
+  -0.2582920559795184,
+  0.7512954111258127,
+  0.3455654434556544
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_tuned - H_NLL": [
+  0.0538377945601109,
+  0.045527453175943,
+  0.0619125101586363,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_tuned - H_ECE_top_label_15bin": [
+  7.767889585256576,
+  5.948594271510839,
+  8.753274065473676,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_xgb_D_tuned - H": [
+  -0.0493345946738372,
+  -0.570045704560069,
+  0.4942822679803088
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_tuned - H_macro_F1": [
+  -0.0493345946738372,
+  -0.58314124275987,
+  0.4759473849603686,
+  0.8603139686031397
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_tuned - H_NLL": [
+  0.062592990955105,
+  0.0572441202873302,
+  0.067852712181704,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_tuned - H_ECE_top_label_15bin": [
+  10.138604964146827,
+  8.941221421530427,
+  10.653905812469077,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_xgb_D_tuned - H": [
+  -0.09382737421523474,
+  0.3783132985646811,
+  3,
+  0,
+  0
+ ],
+ "pooled_chapman_quota5000_xgb_D_tuned - H_macro_F1": [
+  -0.0938273742152233,
+  -0.4578578049739675,
+  0.2688628569809387,
+  0.6045395460453955
+ ],
+ "pooled_chapman_quota5000_xgb_D_tuned - H_NLL": [
+  0.0347586162000501,
+  0.0280230389202406,
+  0.0413000498703093,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_xgb_D_tuned - H_ECE_top_label_15bin": [
+  3.628311654806137,
+  1.909139469192922,
+  4.821142332293092,
+  0.0001999800019998
+ ],
+ "ps_chapman_natural_xgb_D_tuned - H": [
+  1.0548752134846922,
+  0.3291672440298233,
+  1.7448259851941148
+ ],
+ "pooled_chapman_natural_xgb_D_tuned - H_macro_F1": [
+  1.0548752134846922,
+  0.3617895677442052,
+  1.7641922845191036,
+  0.0035996400359964
+ ],
+ "pooled_chapman_natural_xgb_D_tuned - H_NLL": [
+  0.089713879261606,
+  0.0816444686365151,
+  0.0975110908131075,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_xgb_D_tuned - H_ECE_top_label_15bin": [
+  11.397918604166357,
+  9.916625970487658,
+  12.506010342715284,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_xgb_S_tuned - H": [
+  -0.1608158723693748,
+  0.26892317717935865,
+  1,
+  0,
+  0
+ ],
+ "pooled_ptbxl_quota5000_xgb_S_tuned - H_macro_F1": [
+  -0.1608158723693833,
+  -0.4364202439462879,
+  0.1186869669829898,
+  0.2511748825117488
+ ],
+ "pooled_ptbxl_quota5000_xgb_S_tuned - H_NLL": [
+  0.0728675473681008,
+  0.0652310436870543,
+  0.080391347528105,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_xgb_S_tuned - H_ECE_top_label_15bin": [
+  8.127375221014024,
+  6.260282382768393,
+  8.945449394781885,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_xgb_S_tuned - H": [
+  0.3411234969767093,
+  0.18850173853167693,
+  5,
+  0,
+  0
+ ],
+ "pooled_ptbxl_natural5000_xgb_S_tuned - H_macro_F1": [
+  0.3411234969767065,
+  -0.0983141002171969,
+  0.7760232767465188,
+  0.1353864613538646
+ ],
+ "pooled_ptbxl_natural5000_xgb_S_tuned - H_NLL": [
+  0.0456376218679217,
+  0.0382514518760456,
+  0.0526773936026448,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_xgb_S_tuned - H_ECE_top_label_15bin": [
+  5.853129754722119,
+  3.924766773304343,
+  6.866127082154155,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_xgb_S_tuned - H": [
+  -0.0041315498644536,
+  -0.4568041706648333,
+  0.4491828765279135
+ ],
+ "pooled_ptbxl_natural15160_xgb_S_tuned - H_macro_F1": [
+  -0.0041315498644536,
+  -0.4539464255241103,
+  0.4506833481659721,
+  0.996100389961004
+ ],
+ "pooled_ptbxl_natural15160_xgb_S_tuned - H_NLL": [
+  0.0502498174715078,
+  0.0460839341081971,
+  0.0543182011212184,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_xgb_S_tuned - H_ECE_top_label_15bin": [
+  6.899869749052229,
+  5.663559048581564,
+  7.388565556428795,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_xgb_S_tuned - H": [
+  -0.08006634337079957,
+  0.3480020904740379,
+  2,
+  0,
+  0
+ ],
+ "pooled_chapman_quota5000_xgb_S_tuned - H_macro_F1": [
+  -0.0800663433708024,
+  -0.3924024814130099,
+  0.2349830765820001,
+  0.6225377462253775
+ ],
+ "pooled_chapman_quota5000_xgb_S_tuned - H_NLL": [
+  0.0549332463582493,
+  0.0484346949903401,
+  0.061126131820839,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_xgb_S_tuned - H_ECE_top_label_15bin": [
+  4.241605976343154,
+  2.432479615336657,
+  5.463801107813417,
+  0.0001999800019998
+ ],
+ "ps_chapman_natural_xgb_S_tuned - H": [
+  0.2070382269361701,
+  -0.5101142780910092,
+  0.9631833985370584
+ ],
+ "pooled_chapman_natural_xgb_S_tuned - H_macro_F1": [
+  0.2070382269361701,
+  -0.5077032087067583,
+  0.9255248781091931,
+  0.5705429457054294
+ ],
+ "pooled_chapman_natural_xgb_S_tuned - H_NLL": [
+  0.0964951644820266,
+  0.0897794158853068,
+  0.1032032142818806,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_xgb_S_tuned - H_ECE_top_label_15bin": [
+  9.926450150472402,
+  8.421245887975537,
+  11.045275793839256,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_xgb_EM_tuned - H": [
+  -0.11510380614720077,
+  0.3616726904229832,
+  2,
+  0,
+  1
+ ],
+ "pooled_ptbxl_quota5000_xgb_EM_tuned - H_macro_F1": [
+  -0.1151038061472036,
+  -0.4190190702066779,
+  0.1891603599352855,
+  0.4563543645635436
+ ],
+ "pooled_ptbxl_quota5000_xgb_EM_tuned - H_NLL": [
+  0.1498702095384043,
+  0.1397208167367191,
+  0.1597312196033356,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_xgb_EM_tuned - H_ECE_top_label_15bin": [
+  14.346907404839992,
+  12.409059286761282,
+  15.159201010982692,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_xgb_EM_tuned - H": [
+  0.1742440140076411,
+  0.4893479756999047,
+  3,
+  0,
+  0
+ ],
+ "pooled_ptbxl_natural5000_xgb_EM_tuned - H_macro_F1": [
+  0.1742440140076553,
+  -0.2780413878406985,
+  0.6299242826392649,
+  0.456954304569543
+ ],
+ "pooled_ptbxl_natural5000_xgb_EM_tuned - H_NLL": [
+  0.0879297965993598,
+  0.0794259327502893,
+  0.0962035028049225,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_xgb_EM_tuned - H_ECE_top_label_15bin": [
+  9.06280348277092,
+  7.111060798326134,
+  10.056702299404144,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_xgb_EM_tuned - H": [
+  0.1632434336653574,
+  -0.2844595103879058,
+  0.5800308072033169
+ ],
+ "pooled_ptbxl_natural15160_xgb_EM_tuned - H_macro_F1": [
+  0.1632434336653574,
+  -0.2850675790688715,
+  0.6053855672562534,
+  0.4585541445855414
+ ],
+ "pooled_ptbxl_natural15160_xgb_EM_tuned - H_NLL": [
+  0.0535741492761758,
+  0.0492902475003832,
+  0.0577784102019563,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_xgb_EM_tuned - H_ECE_top_label_15bin": [
+  6.565312656591153,
+  5.335251364677574,
+  7.056341957925059,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_xgb_EM_tuned - H": [
+  -0.015814019330264266,
+  0.34304147232138793,
+  2,
+  0,
+  0
+ ],
+ "pooled_chapman_quota5000_xgb_EM_tuned - H_macro_F1": [
+  -0.01581401933025,
+  -0.368196295142603,
+  0.3400360769032772,
+  0.9507049295070492
+ ],
+ "pooled_chapman_quota5000_xgb_EM_tuned - H_NLL": [
+  0.0549613839287349,
+  0.0481796761270366,
+  0.061381765502123,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_xgb_EM_tuned - H_ECE_top_label_15bin": [
+  4.110776860356331,
+  2.241197369179129,
+  5.330425732867417,
+  0.0001999800019998
+ ],
+ "ps_chapman_natural_xgb_EM_tuned - H": [
+  0.2333684249250254,
+  -0.4795050750807106,
+  0.9474933217985844
+ ],
+ "pooled_chapman_natural_xgb_EM_tuned - H_macro_F1": [
+  0.2333684249250254,
+  -0.4726989374947681,
+  0.9323136698682304,
+  0.5127487251274873
+ ],
+ "pooled_chapman_natural_xgb_EM_tuned - H_NLL": [
+  0.0638858287370159,
+  0.0577715046377474,
+  0.0697328981897812,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_xgb_EM_tuned - H_ECE_top_label_15bin": [
+  6.867036471364323,
+  5.423130218253556,
+  7.976625927932403,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_xgb_D_fixed - S_fixed": [
+  0.48828395678457354,
+  0.43099355480205076,
+  5,
+  2,
+  0
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_fixed - S_fixed_macro_F1": [
+  0.4882839567845849,
+  0.1212137061457444,
+  0.861398635827972,
+  0.0101989801019898
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_fixed - S_fixed_NLL": [
+  -0.0671834830803194,
+  -0.0749824048873022,
+  -0.0591142938103164,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_fixed - S_fixed_ECE_top_label_15bin": [
+  -7.6527602416276945,
+  -8.37506224477589,
+  -5.860314235384764,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural5000_xgb_D_fixed - S_fixed": [
+  0.15734898052746188,
+  0.44867100721220804,
+  3,
+  0,
+  0
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_fixed - S_fixed_macro_F1": [
+  0.157348980527459,
+  -0.3555161497772172,
+  0.6787234159205123,
+  0.5557444255574443
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_fixed - S_fixed_NLL": [
+  -0.0651053944125171,
+  -0.0727829827945513,
+  -0.0569656671398006,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_fixed - S_fixed_ECE_top_label_15bin": [
+  -7.459471087217331,
+  -8.356613009139894,
+  -5.506251163873077,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_natural15160_xgb_D_fixed - S_fixed": [
+  -0.2598014456971782,
+  -0.7348255631651078,
+  0.2336350090157122
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_fixed - S_fixed_macro_F1": [
+  -0.2598014456971782,
+  -0.7614359459010561,
+  0.2404537941677382,
+  0.303969603039696
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_fixed - S_fixed_NLL": [
+  -0.0706008593179348,
+  -0.075248304290806,
+  -0.0659707008479003,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_fixed - S_fixed_ECE_top_label_15bin": [
+  -8.57324380348965,
+  -9.331194407898824,
+  -7.4129873790525105,
+  0.0001999800019998
+ ],
+ "ps_chapman_quota5000_xgb_D_fixed - S_fixed": [
+  0.43407653608376506,
+  0.27035852422112666,
+  5,
+  1,
+  0
+ ],
+ "pooled_chapman_quota5000_xgb_D_fixed - S_fixed_macro_F1": [
+  0.434076536083765,
+  0.0284233079457798,
+  0.8484701263656588,
+  0.0393960603939606
+ ],
+ "pooled_chapman_quota5000_xgb_D_fixed - S_fixed_NLL": [
+  -0.0651493252306855,
+  -0.0719796213976679,
+  -0.058055776611702,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_xgb_D_fixed - S_fixed_ECE_top_label_15bin": [
+  -5.679078532934189,
+  -6.45820788872391,
+  -3.737689705440403,
+  0.0001999800019998
+ ],
+ "ps_chapman_natural_xgb_D_fixed - S_fixed": [
+  -0.1373433531498094,
+  -0.9073780358655246,
+  0.5910848788369536
+ ],
+ "pooled_chapman_natural_xgb_D_fixed - S_fixed_macro_F1": [
+  -0.1373433531498094,
+  -0.9056887234224308,
+  0.6175554190721346,
+  0.7221277872212779
+ ],
+ "pooled_chapman_natural_xgb_D_fixed - S_fixed_NLL": [
+  -0.0730177569504778,
+  -0.0785575990010457,
+  -0.067347955542475,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_xgb_D_fixed - S_fixed_ECE_top_label_15bin": [
+  -7.280868448305053,
+  -8.189422363224397,
+  -5.7130149261475065,
+  0.0001999800019998
+ ],
+ "ps_ptbxl_quota5000_xgb_D_fixed - H": [
+  0.5061224463235959,
+  0.2779999493543104,
+  5,
+  2,
+  0
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_fixed - H_macro_F1": [
+  0.5061224463236016,
+  0.187012401754416,
+  0.8238179430471162,
+  0.0025997400259974
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_fixed - H_NLL": [
+  -0.0101957616586956,
+  -0.0135612943900608,
+  -0.0068610207576915,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_quota5000_xgb_D_fixed - H_ECE_top_label_15bin": [
+  -0.1681013216972349,
+  -0.6446002977132798,
+  0.2897753023862836,
+  0.4447555244475552
+ ],
+ "ps_ptbxl_natural5000_xgb_D_fixed - H": [
+  0.26407596080286166,
+  0.2994759911340341,
+  4,
+  0,
+  0
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_fixed - H_macro_F1": [
+  0.2640759608028702,
+  -0.1757637144200103,
+  0.7162381585308519,
+  0.2387761223877612
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_fixed - H_NLL": [
+  -0.0127780036429029,
+  -0.0161067578007221,
+  -0.0095194081652616,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural5000_xgb_D_fixed - H_ECE_top_label_15bin": [
+  -0.2795125274062155,
+  -0.5836304147198801,
+  0.190218512767553,
+  0.2877712228777122
+ ],
+ "ps_ptbxl_natural15160_xgb_D_fixed - H": [
+  -0.0791584418642799,
+  -0.5510294683607476,
+  0.4158675699766305
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_fixed - H_macro_F1": [
+  -0.0791584418642799,
+  -0.560982300366679,
+  0.4063054460287961,
+  0.7547245275472453
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_fixed - H_NLL": [
+  -0.0086032497972667,
+  -0.0107892610639807,
+  -0.0063564479889745,
+  0.0001999800019998
+ ],
+ "pooled_ptbxl_natural15160_xgb_D_fixed - H_ECE_top_label_15bin": [
+  0.4030310800962524,
+  -0.2199535806587157,
+  0.7063960335106835,
+  0.2731726827317268
+ ],
+ "ps_chapman_quota5000_xgb_D_fixed - H": [
+  0.2875121347056847,
+  0.3589329148755567,
+  4,
+  0,
+  0
+ ],
+ "pooled_chapman_quota5000_xgb_D_fixed - H_macro_F1": [
+  0.2875121347056932,
+  -0.0926054734298304,
+  0.6652835034502199,
+  0.1303869613038696
+ ],
+ "pooled_chapman_quota5000_xgb_D_fixed - H_NLL": [
+  -0.013365423412769,
+  -0.0172056297685093,
+  -0.0095375221946188,
+  0.0001999800019998
+ ],
+ "pooled_chapman_quota5000_xgb_D_fixed - H_ECE_top_label_15bin": [
+  -0.7659427272081374,
+  -1.147776818393171,
+  -0.0199254223585133,
+  0.0431956804319568
+ ],
+ "ps_chapman_natural_xgb_D_fixed - H": [
+  0.1478479346029715,
+  -0.5672084142044648,
+  0.8545167713619835
+ ],
+ "pooled_chapman_natural_xgb_D_fixed - H_macro_F1": [
+  0.1478479346029715,
+  -0.5478949493337156,
+  0.8353421379038367,
+  0.6737326267373263
+ ],
+ "pooled_chapman_natural_xgb_D_fixed - H_NLL": [
+  -0.0114603269680506,
+  -0.0148712109822235,
+  -0.0081036981598487,
+  0.0001999800019998
+ ],
+ "pooled_chapman_natural_xgb_D_fixed - H_ECE_top_label_15bin": [
+  -0.3689819683135356,
+  -0.7521119373768042,
+  0.3493631446131187,
+  0.4203579642035796
+ ],
+ "mlp_params": 15109,
+ "mlp_lat1": 0.0114,
+ "xgb_H_params_range": [
+  39658,
+  70274
+ ],
+ "xgb_H_size_MB": [
+  1.5054845809936523,
+  2.575582504272461
+ ],
+ "xgb_H_trees_range": [
+  1015,
+  1655
+ ],
+ "xgb_H_param_ratio": [
+  2.624793169633993,
+  4.651135085048646
+ ],
+ "xgb_D_fixed_params_range": [
+  75060,
+  130739
+ ],
+ "xgb_D_fixed_size_MB": [
+  2.7332677841186523,
+  4.762994766235352
+ ],
+ "xgb_D_fixed_trees_range": [
+  1740,
+  3035
+ ],
+ "xgb_D_fixed_param_ratio": [
+  4.967899927195711,
+  8.653054470845191
+ ],
+ "tabpfn_mps_s_range": [
+  8.961321957991458,
+  36.349564749980345
+ ],
+ "tabpfn_mps_s_per1000": [
+  8.961321957991458,
+  11.988642727566075
+ ],
+ "tabpfn_cpu_s_range": [
+  19.879094584000995,
+  20.457045542018022
+ ],
+ "tabpfn_cpu_s_per1000": [
+  19.879094584000995,
+  20.436608933084937
+ ],
+ "xgb_param_ratio": [
+  2.624793169633993,
+  8.653054470845191
+ ],
+ "xgb_latency_ratio": [
+  4.637364971011307,
+  9.054945476688793
+ ],
+ "mlp_size_kB": 61.7080078125,
+ "tabpfn_ckpt_MB": 202.9464750289917,
+ "xgb_trees_med_H": 1260.0,
+ "xgb_trees_med_D": 2140.0,
+ "sub_ptbxl_natural15160_male_TabPFN teacher_macro_F1": [
+  71.63,
+  70.3,
+  73.01,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_TabPFN teacher_macro_AUROC": [
+  93.57,
+  93.1,
+  94.04,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_TabPFN teacher_binary_sensitivity": [
+  81.09,
+  79.86,
+  82.25,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_TabPFN teacher_binary_specificity": [
+  91.18,
+  90.27,
+  92.09,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_TabPFN teacher_HYP_recall": [
+  25.49,
+  21.51,
+  29.65,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_TabPFN teacher_ECE_top_label_15bin": [
+  1.95,
+  1.48,
+  2.91,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP hard_macro_F1": [
+  70.39,
+  69.02,
+  71.72,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP hard_macro_AUROC": [
+  91.99,
+  91.45,
+  92.56,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP hard_binary_sensitivity": [
+  82.15,
+  80.96,
+  83.36,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP hard_binary_specificity": [
+  88.44,
+  87.43,
+  89.48,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP hard_HYP_recall": [
+  32.53,
+  28.17,
+  36.69,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP hard_ECE_top_label_15bin": [
+  2.67,
+  2.15,
+  3.7,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP smooth (fixed)_macro_F1": [
+  70.75,
+  69.41,
+  72.04,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP smooth (fixed)_macro_AUROC": [
+  91.69,
+  91.1,
+  92.26,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP smooth (fixed)_binary_sensitivity": [
+  81.38,
+  80.12,
+  82.63,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP smooth (fixed)_binary_specificity": [
+  89.49,
+  88.48,
+  90.44,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP smooth (fixed)_HYP_recall": [
+  30.55,
+  26.46,
+  34.73,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP smooth (fixed)_ECE_top_label_15bin": [
+  7.47,
+  6.65,
+  8.38,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (fixed)_macro_F1": [
+  70.43,
+  69.05,
+  71.78,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (fixed)_macro_AUROC": [
+  92.53,
+  92.01,
+  93.06,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (fixed)_binary_sensitivity": [
+  81.38,
+  80.11,
+  82.55,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (fixed)_binary_specificity": [
+  90.35,
+  89.42,
+  91.26,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (fixed)_HYP_recall": [
+  29.01,
+  24.95,
+  33.26,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (fixed)_ECE_top_label_15bin": [
+  2.18,
+  1.78,
+  3.24,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (tuned)_macro_F1": [
+  70.52,
+  69.18,
+  71.84,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (tuned)_macro_AUROC": [
+  91.49,
+  90.89,
+  92.09,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (tuned)_binary_sensitivity": [
+  81.14,
+  79.87,
+  82.37,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (tuned)_binary_specificity": [
+  90.44,
+  89.47,
+  91.38,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (tuned)_HYP_recall": [
+  29.45,
+  25.35,
+  33.71,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_MLP distil (tuned)_ECE_top_label_15bin": [
+  4.8,
+  4.04,
+  5.69,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_XGB hard_macro_F1": [
+  70.45,
+  69.14,
+  71.77,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_XGB hard_macro_AUROC": [
+  92.67,
+  92.16,
+  93.19,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_XGB hard_binary_sensitivity": [
+  80.42,
+  79.22,
+  81.68,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_XGB hard_binary_specificity": [
+  90.71,
+  89.7,
+  91.66,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_XGB hard_HYP_recall": [
+  24.62,
+  20.69,
+  28.76,
+  7489
+ ],
+ "sub_ptbxl_natural15160_male_XGB hard_ECE_top_label_15bin": [
+  1.48,
+  1.12,
+  2.51,
+  7489
+ ],
+ "sub_ptbxl_natural15160_female_TabPFN teacher_macro_F1": [
+  74.47,
+  73.1,
+  75.84,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_TabPFN teacher_macro_AUROC": [
+  94.11,
+  93.66,
+  94.54,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_TabPFN teacher_binary_sensitivity": [
+  77.77,
+  76.3,
+  79.22,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_TabPFN teacher_binary_specificity": [
+  94.11,
+  93.41,
+  94.79,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_TabPFN teacher_HYP_recall": [
+  40.0,
+  35.06,
+  45.15,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_TabPFN teacher_ECE_top_label_15bin": [
+  1.18,
+  0.88,
+  2.16,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP hard_macro_F1": [
+  71.33,
+  69.96,
+  72.69,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP hard_macro_AUROC": [
+  92.66,
+  92.1,
+  93.15,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP hard_binary_sensitivity": [
+  78.67,
+  77.3,
+  80.11,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP hard_binary_specificity": [
+  90.84,
+  89.97,
+  91.66,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP hard_HYP_recall": [
+  46.58,
+  41.55,
+  51.72,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP hard_ECE_top_label_15bin": [
+  1.97,
+  1.6,
+  2.91,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP smooth (fixed)_macro_F1": [
+  71.58,
+  70.22,
+  72.97,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP smooth (fixed)_macro_AUROC": [
+  92.51,
+  91.92,
+  93.03,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP smooth (fixed)_binary_sensitivity": [
+  77.84,
+  76.37,
+  79.24,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP smooth (fixed)_binary_specificity": [
+  91.88,
+  91.08,
+  92.65,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP smooth (fixed)_HYP_recall": [
+  44.11,
+  38.84,
+  49.41,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP smooth (fixed)_ECE_top_label_15bin": [
+  8.39,
+  7.62,
+  9.21,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (fixed)_macro_F1": [
+  73.04,
+  71.73,
+  74.32,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (fixed)_macro_AUROC": [
+  93.35,
+  92.85,
+  93.81,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (fixed)_binary_sensitivity": [
+  77.96,
+  76.5,
+  79.41,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (fixed)_binary_specificity": [
+  92.67,
+  91.94,
+  93.41,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (fixed)_HYP_recall": [
+  45.75,
+  40.58,
+  51.07,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (fixed)_ECE_top_label_15bin": [
+  1.35,
+  1.12,
+  2.4,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (tuned)_macro_F1": [
+  72.68,
+  71.33,
+  74.03,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (tuned)_macro_AUROC": [
+  92.32,
+  91.75,
+  92.85,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (tuned)_binary_sensitivity": [
+  77.22,
+  75.71,
+  78.67,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (tuned)_binary_specificity": [
+  92.8,
+  92.04,
+  93.55,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (tuned)_HYP_recall": [
+  42.19,
+  37.26,
+  47.35,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_MLP distil (tuned)_ECE_top_label_15bin": [
+  5.5,
+  4.84,
+  6.38,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_XGB hard_macro_F1": [
+  72.91,
+  71.51,
+  74.27,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_XGB hard_macro_AUROC": [
+  93.32,
+  92.81,
+  93.79,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_XGB hard_binary_sensitivity": [
+  76.91,
+  75.4,
+  78.23,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_XGB hard_binary_specificity": [
+  93.48,
+  92.73,
+  94.2,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_XGB hard_HYP_recall": [
+  36.44,
+  31.77,
+  41.21,
+  7671
+ ],
+ "sub_ptbxl_natural15160_female_XGB hard_ECE_top_label_15bin": [
+  1.18,
+  0.9,
+  2.17,
+  7671
+ ],
+ "sub_ptbxl_natural15160_age<65_TabPFN teacher_macro_F1": [
+  72.11,
+  70.69,
+  73.52,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_TabPFN teacher_macro_AUROC": [
+  93.61,
+  93.1,
+  94.09,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_TabPFN teacher_binary_sensitivity": [
+  71.79,
+  70.11,
+  73.36,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_TabPFN teacher_binary_specificity": [
+  95.03,
+  94.49,
+  95.56,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_TabPFN teacher_HYP_recall": [
+  30.66,
+  26.04,
+  35.36,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_TabPFN teacher_ECE_top_label_15bin": [
+  0.99,
+  0.79,
+  1.85,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP hard_macro_F1": [
+  69.94,
+  68.4,
+  71.41,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP hard_macro_AUROC": [
+  92.32,
+  91.73,
+  92.87,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP hard_binary_sensitivity": [
+  73.71,
+  72.13,
+  75.26,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP hard_binary_specificity": [
+  92.14,
+  91.46,
+  92.81,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP hard_HYP_recall": [
+  37.29,
+  32.39,
+  42.25,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP hard_ECE_top_label_15bin": [
+  1.2,
+  1.12,
+  2.24,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP smooth (fixed)_macro_F1": [
+  70.51,
+  68.99,
+  71.98,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP smooth (fixed)_macro_AUROC": [
+  91.84,
+  91.16,
+  92.46,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP smooth (fixed)_binary_sensitivity": [
+  72.93,
+  71.36,
+  74.48,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP smooth (fixed)_binary_specificity": [
+  93.17,
+  92.52,
+  93.78,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP smooth (fixed)_HYP_recall": [
+  35.36,
+  30.46,
+  40.17,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP smooth (fixed)_ECE_top_label_15bin": [
+  9.62,
+  8.92,
+  10.36,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (fixed)_macro_F1": [
+  70.78,
+  69.25,
+  72.25,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (fixed)_macro_AUROC": [
+  92.8,
+  92.23,
+  93.31,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (fixed)_binary_sensitivity": [
+  72.18,
+  70.58,
+  73.74,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (fixed)_binary_specificity": [
+  94.16,
+  93.59,
+  94.73,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (fixed)_HYP_recall": [
+  34.53,
+  29.78,
+  39.22,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (fixed)_ECE_top_label_15bin": [
+  1.31,
+  0.99,
+  2.2,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (tuned)_macro_F1": [
+  70.56,
+  69.08,
+  72.05,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (tuned)_macro_AUROC": [
+  91.5,
+  90.86,
+  92.12,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (tuned)_binary_sensitivity": [
+  71.73,
+  70.14,
+  73.35,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (tuned)_binary_specificity": [
+  94.11,
+  93.51,
+  94.71,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (tuned)_HYP_recall": [
+  33.15,
+  28.53,
+  37.87,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_MLP distil (tuned)_ECE_top_label_15bin": [
+  6.37,
+  5.65,
+  7.1,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_XGB hard_macro_F1": [
+  70.56,
+  69.09,
+  72.08,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_XGB hard_macro_AUROC": [
+  92.56,
+  91.96,
+  93.11,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_XGB hard_binary_sensitivity": [
+  71.43,
+  69.87,
+  73.04,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_XGB hard_binary_specificity": [
+  94.45,
+  93.87,
+  95.03,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_XGB hard_HYP_recall": [
+  28.45,
+  23.73,
+  33.05,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age<65_XGB hard_ECE_top_label_15bin": [
+  0.67,
+  0.65,
+  1.67,
+  9092
+ ],
+ "sub_ptbxl_natural15160_age>=65_TabPFN teacher_macro_F1": [
+  72.6,
+  71.25,
+  73.91,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_TabPFN teacher_macro_AUROC": [
+  93.21,
+  92.73,
+  93.72,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_TabPFN teacher_binary_sensitivity": [
+  85.54,
+  84.47,
+  86.64,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_TabPFN teacher_binary_specificity": [
+  86.21,
+  84.75,
+  87.65,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_TabPFN teacher_HYP_recall": [
+  32.97,
+  28.69,
+  37.44,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_TabPFN teacher_ECE_top_label_15bin": [
+  2.38,
+  1.84,
+  3.48,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP hard_macro_F1": [
+  70.37,
+  69.02,
+  71.67,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP hard_macro_AUROC": [
+  91.34,
+  90.75,
+  91.94,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP hard_binary_sensitivity": [
+  85.81,
+  84.75,
+  86.9,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP hard_binary_specificity": [
+  82.77,
+  81.06,
+  84.4,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP hard_HYP_recall": [
+  39.96,
+  35.5,
+  44.81,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP hard_ECE_top_label_15bin": [
+  4.5,
+  3.71,
+  5.62,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP smooth (fixed)_macro_F1": [
+  70.53,
+  69.13,
+  71.85,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP smooth (fixed)_macro_AUROC": [
+  91.26,
+  90.65,
+  91.87,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP smooth (fixed)_binary_sensitivity": [
+  84.99,
+  83.86,
+  86.08,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP smooth (fixed)_binary_specificity": [
+  83.85,
+  82.18,
+  85.44,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP smooth (fixed)_HYP_recall": [
+  37.55,
+  33.26,
+  42.4,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP smooth (fixed)_ECE_top_label_15bin": [
+  5.39,
+  4.43,
+  6.45,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (fixed)_macro_F1": [
+  71.25,
+  69.96,
+  72.58,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (fixed)_macro_AUROC": [
+  92.08,
+  91.52,
+  92.62,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (fixed)_binary_sensitivity": [
+  85.66,
+  84.51,
+  86.73,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (fixed)_binary_specificity": [
+  84.14,
+  82.57,
+  85.63,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (fixed)_HYP_recall": [
+  37.99,
+  33.55,
+  42.77,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (fixed)_ECE_top_label_15bin": [
+  3.32,
+  2.62,
+  4.48,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (tuned)_macro_F1": [
+  71.09,
+  69.76,
+  72.48,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (tuned)_macro_AUROC": [
+  91.29,
+  90.69,
+  91.9,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (tuned)_binary_sensitivity": [
+  85.19,
+  84.06,
+  86.25,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (tuned)_binary_specificity": [
+  84.73,
+  83.16,
+  86.24,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (tuned)_HYP_recall": [
+  36.68,
+  32.35,
+  41.29,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_MLP distil (tuned)_ECE_top_label_15bin": [
+  4.02,
+  3.1,
+  5.07,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_XGB hard_macro_F1": [
+  71.16,
+  69.83,
+  72.47,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_XGB hard_macro_AUROC": [
+  92.46,
+  91.95,
+  92.99,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_XGB hard_binary_sensitivity": [
+  84.47,
+  83.38,
+  85.61,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_XGB hard_binary_specificity": [
+  85.71,
+  84.21,
+  87.17,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_XGB hard_HYP_recall": [
+  31.0,
+  26.99,
+  35.49,
+  6068
+ ],
+ "sub_ptbxl_natural15160_age>=65_XGB hard_ECE_top_label_15bin": [
+  2.31,
+  1.78,
+  3.49,
+  6068
+ ],
+ "sub_chapman_natural_male_TabPFN teacher_macro_F1": [
+  63.66,
+  62.16,
+  65.1,
+  5234
+ ],
+ "sub_chapman_natural_male_TabPFN teacher_macro_AUROC": [
+  92.11,
+  91.55,
+  92.67,
+  5234
+ ],
+ "sub_chapman_natural_male_TabPFN teacher_binary_sensitivity": [
+  77.54,
+  76.12,
+  79.04,
+  5234
+ ],
+ "sub_chapman_natural_male_TabPFN teacher_binary_specificity": [
+  93.49,
+  92.48,
+  94.42,
+  5234
+ ],
+ "sub_chapman_natural_male_TabPFN teacher_HYP_recall": [
+  12.7,
+  10.13,
+  15.21,
+  5234
+ ],
+ "sub_chapman_natural_male_TabPFN teacher_ECE_top_label_15bin": [
+  3.44,
+  2.8,
+  4.66,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP hard_macro_F1": [
+  63.81,
+  62.34,
+  65.29,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP hard_macro_AUROC": [
+  89.69,
+  88.97,
+  90.35,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP hard_binary_sensitivity": [
+  80.04,
+  78.55,
+  81.42,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP hard_binary_specificity": [
+  88.06,
+  86.72,
+  89.41,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP hard_HYP_recall": [
+  26.67,
+  23.44,
+  30.09,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP hard_ECE_top_label_15bin": [
+  4.53,
+  3.75,
+  5.72,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP smooth (fixed)_macro_F1": [
+  63.51,
+  61.94,
+  64.97,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP smooth (fixed)_macro_AUROC": [
+  89.19,
+  88.45,
+  89.89,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP smooth (fixed)_binary_sensitivity": [
+  79.84,
+  78.41,
+  81.22,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP smooth (fixed)_binary_specificity": [
+  88.33,
+  86.97,
+  89.69,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP smooth (fixed)_HYP_recall": [
+  26.98,
+  23.52,
+  30.42,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP smooth (fixed)_ECE_top_label_15bin": [
+  6.14,
+  5.12,
+  7.23,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (fixed)_macro_F1": [
+  64.09,
+  62.48,
+  65.59,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (fixed)_macro_AUROC": [
+  90.57,
+  89.9,
+  91.2,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (fixed)_binary_sensitivity": [
+  78.08,
+  76.61,
+  79.51,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (fixed)_binary_specificity": [
+  91.7,
+  90.54,
+  92.84,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (fixed)_HYP_recall": [
+  23.02,
+  19.82,
+  26.41,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (fixed)_ECE_top_label_15bin": [
+  3.13,
+  2.51,
+  4.39,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (tuned)_macro_F1": [
+  64.93,
+  63.47,
+  66.47,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (tuned)_macro_AUROC": [
+  89.28,
+  88.57,
+  89.99,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (tuned)_binary_sensitivity": [
+  79.97,
+  78.55,
+  81.31,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (tuned)_binary_specificity": [
+  89.68,
+  88.43,
+  90.93,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (tuned)_HYP_recall": [
+  27.46,
+  23.9,
+  30.99,
+  5234
+ ],
+ "sub_chapman_natural_male_MLP distil (tuned)_ECE_top_label_15bin": [
+  8.9,
+  7.89,
+  10.04,
+  5234
+ ],
+ "sub_chapman_natural_male_XGB hard_macro_F1": [
+  62.54,
+  60.96,
+  64.1,
+  5234
+ ],
+ "sub_chapman_natural_male_XGB hard_macro_AUROC": [
+  91.29,
+  90.69,
+  91.86,
+  5234
+ ],
+ "sub_chapman_natural_male_XGB hard_binary_sensitivity": [
+  76.75,
+  75.21,
+  78.3,
+  5234
+ ],
+ "sub_chapman_natural_male_XGB hard_binary_specificity": [
+  92.59,
+  91.54,
+  93.67,
+  5234
+ ],
+ "sub_chapman_natural_male_XGB hard_HYP_recall": [
+  16.35,
+  13.61,
+  19.32,
+  5234
+ ],
+ "sub_chapman_natural_male_XGB hard_ECE_top_label_15bin": [
+  4.32,
+  3.49,
+  5.49,
+  5234
+ ],
+ "sub_chapman_natural_female_TabPFN teacher_macro_F1": [
+  64.94,
+  62.86,
+  67.04,
+  4081
+ ],
+ "sub_chapman_natural_female_TabPFN teacher_macro_AUROC": [
+  93.06,
+  92.3,
+  93.79,
+  4081
+ ],
+ "sub_chapman_natural_female_TabPFN teacher_binary_sensitivity": [
+  85.07,
+  83.42,
+  86.62,
+  4081
+ ],
+ "sub_chapman_natural_female_TabPFN teacher_binary_specificity": [
+  94.4,
+  93.42,
+  95.34,
+  4081
+ ],
+ "sub_chapman_natural_female_TabPFN teacher_HYP_recall": [
+  10.53,
+  6.28,
+  15.02,
+  4081
+ ],
+ "sub_chapman_natural_female_TabPFN teacher_ECE_top_label_15bin": [
+  1.8,
+  1.48,
+  3.09,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP hard_macro_F1": [
+  63.56,
+  61.52,
+  65.57,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP hard_macro_AUROC": [
+  90.72,
+  89.82,
+  91.63,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP hard_binary_sensitivity": [
+  86.42,
+  84.87,
+  87.84,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP hard_binary_specificity": [
+  91.26,
+  90.03,
+  92.43,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP hard_HYP_recall": [
+  20.0,
+  14.35,
+  25.64,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP hard_ECE_top_label_15bin": [
+  2.09,
+  1.71,
+  3.42,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP smooth (fixed)_macro_F1": [
+  63.56,
+  61.49,
+  65.68,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP smooth (fixed)_macro_AUROC": [
+  90.2,
+  89.18,
+  91.15,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP smooth (fixed)_binary_sensitivity": [
+  86.32,
+  84.74,
+  87.74,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP smooth (fixed)_binary_specificity": [
+  90.97,
+  89.72,
+  92.21,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP smooth (fixed)_HYP_recall": [
+  21.58,
+  15.9,
+  27.38,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP smooth (fixed)_ECE_top_label_15bin": [
+  10.49,
+  9.48,
+  11.61,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (fixed)_macro_F1": [
+  64.56,
+  62.5,
+  66.72,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (fixed)_macro_AUROC": [
+  91.49,
+  90.64,
+  92.34,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (fixed)_binary_sensitivity": [
+  85.87,
+  84.27,
+  87.39,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (fixed)_binary_specificity": [
+  93.1,
+  92.01,
+  94.2,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (fixed)_HYP_recall": [
+  20.0,
+  14.43,
+  25.6,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (fixed)_ECE_top_label_15bin": [
+  3.19,
+  2.41,
+  4.36,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (tuned)_macro_F1": [
+  65.17,
+  63.09,
+  67.26,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (tuned)_macro_AUROC": [
+  90.08,
+  89.09,
+  91.07,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (tuned)_binary_sensitivity": [
+  86.92,
+  85.38,
+  88.43,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (tuned)_binary_specificity": [
+  91.26,
+  90.05,
+  92.45,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (tuned)_HYP_recall": [
+  24.21,
+  18.13,
+  30.3,
+  4081
+ ],
+ "sub_chapman_natural_female_MLP distil (tuned)_ECE_top_label_15bin": [
+  12.39,
+  11.26,
+  13.51,
+  4081
+ ],
+ "sub_chapman_natural_female_XGB hard_macro_F1": [
+  63.88,
+  61.89,
+  66.03,
+  4081
+ ],
+ "sub_chapman_natural_female_XGB hard_macro_AUROC": [
+  92.17,
+  91.41,
+  92.95,
+  4081
+ ],
+ "sub_chapman_natural_female_XGB hard_binary_sensitivity": [
+  84.93,
+  83.27,
+  86.45,
+  4081
+ ],
+ "sub_chapman_natural_female_XGB hard_binary_specificity": [
+  93.82,
+  92.78,
+  94.85,
+  4081
+ ],
+ "sub_chapman_natural_female_XGB hard_HYP_recall": [
+  11.05,
+  6.86,
+  15.47,
+  4081
+ ],
+ "sub_chapman_natural_female_XGB hard_ECE_top_label_15bin": [
+  1.92,
+  1.59,
+  3.24,
+  4081
+ ],
+ "sub_chapman_natural_age<65_TabPFN teacher_macro_F1": [
+  63.25,
+  61.4,
+  64.86,
+  5186
+ ],
+ "sub_chapman_natural_age<65_TabPFN teacher_macro_AUROC": [
+  91.2,
+  90.51,
+  91.89,
+  5186
+ ],
+ "sub_chapman_natural_age<65_TabPFN teacher_binary_sensitivity": [
+  67.79,
+  65.55,
+  69.93,
+  5186
+ ],
+ "sub_chapman_natural_age<65_TabPFN teacher_binary_specificity": [
+  94.66,
+  93.89,
+  95.42,
+  5186
+ ],
+ "sub_chapman_natural_age<65_TabPFN teacher_HYP_recall": [
+  11.03,
+  8.11,
+  13.95,
+  5186
+ ],
+ "sub_chapman_natural_age<65_TabPFN teacher_ECE_top_label_15bin": [
+  1.13,
+  1.03,
+  2.39,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP hard_macro_F1": [
+  62.79,
+  60.93,
+  64.53,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP hard_macro_AUROC": [
+  88.93,
+  88.11,
+  89.74,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP hard_binary_sensitivity": [
+  71.35,
+  69.29,
+  73.39,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP hard_binary_specificity": [
+  90.64,
+  89.68,
+  91.62,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP hard_HYP_recall": [
+  24.41,
+  20.5,
+  28.8,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP hard_ECE_top_label_15bin": [
+  1.8,
+  1.63,
+  3.18,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP smooth (fixed)_macro_F1": [
+  62.52,
+  60.67,
+  64.26,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP smooth (fixed)_macro_AUROC": [
+  88.37,
+  87.5,
+  89.21,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP smooth (fixed)_binary_sensitivity": [
+  71.2,
+  69.12,
+  73.22,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP smooth (fixed)_binary_specificity": [
+  90.64,
+  89.65,
+  91.62,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP smooth (fixed)_HYP_recall": [
+  24.88,
+  20.59,
+  29.31,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP smooth (fixed)_ECE_top_label_15bin": [
+  9.08,
+  8.11,
+  10.21,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (fixed)_macro_F1": [
+  62.84,
+  60.94,
+  64.62,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (fixed)_macro_AUROC": [
+  89.8,
+  89.03,
+  90.51,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (fixed)_binary_sensitivity": [
+  69.31,
+  67.11,
+  71.39,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (fixed)_binary_specificity": [
+  93.05,
+  92.17,
+  93.93,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (fixed)_HYP_recall": [
+  21.6,
+  17.68,
+  25.68,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (fixed)_ECE_top_label_15bin": [
+  1.78,
+  1.35,
+  2.96,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (tuned)_macro_F1": [
+  64.04,
+  62.19,
+  65.88,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (tuned)_macro_AUROC": [
+  88.23,
+  87.34,
+  89.12,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (tuned)_binary_sensitivity": [
+  71.67,
+  69.61,
+  73.64,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (tuned)_binary_specificity": [
+  91.71,
+  90.78,
+  92.65,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (tuned)_HYP_recall": [
+  27.7,
+  23.39,
+  31.96,
+  5186
+ ],
+ "sub_chapman_natural_age<65_MLP distil (tuned)_ECE_top_label_15bin": [
+  11.69,
+  10.68,
+  12.78,
+  5186
+ ],
+ "sub_chapman_natural_age<65_XGB hard_macro_F1": [
+  62.2,
+  60.46,
+  63.98,
+  5186
+ ],
+ "sub_chapman_natural_age<65_XGB hard_macro_AUROC": [
+  90.46,
+  89.75,
+  91.18,
+  5186
+ ],
+ "sub_chapman_natural_age<65_XGB hard_binary_sensitivity": [
+  67.63,
+  65.44,
+  69.65,
+  5186
+ ],
+ "sub_chapman_natural_age<65_XGB hard_binary_specificity": [
+  93.96,
+  93.13,
+  94.75,
+  5186
+ ],
+ "sub_chapman_natural_age<65_XGB hard_HYP_recall": [
+  13.15,
+  10.0,
+  16.28,
+  5186
+ ],
+ "sub_chapman_natural_age<65_XGB hard_ECE_top_label_15bin": [
+  1.05,
+  0.95,
+  2.36,
+  5186
+ ],
+ "sub_chapman_natural_age>=65_TabPFN teacher_macro_F1": [
+  64.72,
+  63.03,
+  66.43,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_TabPFN teacher_macro_AUROC": [
+  93.82,
+  93.31,
+  94.32,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_TabPFN teacher_binary_sensitivity": [
+  88.39,
+  87.21,
+  89.47,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_TabPFN teacher_binary_specificity": [
+  91.56,
+  89.84,
+  93.21,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_TabPFN teacher_HYP_recall": [
+  13.45,
+  10.24,
+  16.89,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_TabPFN teacher_ECE_top_label_15bin": [
+  2.83,
+  2.2,
+  4.08,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP hard_macro_F1": [
+  64.58,
+  62.79,
+  66.22,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP hard_macro_AUROC": [
+  91.33,
+  90.63,
+  92.0,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP hard_binary_sensitivity": [
+  89.49,
+  88.47,
+  90.54,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP hard_binary_specificity": [
+  86.26,
+  84.14,
+  88.25,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP hard_HYP_recall": [
+  25.89,
+  21.68,
+  30.12,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP hard_ECE_top_label_15bin": [
+  4.03,
+  3.51,
+  5.45,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP smooth (fixed)_macro_F1": [
+  64.37,
+  62.7,
+  66.04,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP smooth (fixed)_macro_AUROC": [
+  90.8,
+  90.05,
+  91.54,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP smooth (fixed)_binary_sensitivity": [
+  89.32,
+  88.25,
+  90.37,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP smooth (fixed)_binary_specificity": [
+  86.26,
+  83.98,
+  88.26,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP smooth (fixed)_HYP_recall": [
+  26.65,
+  22.16,
+  30.87,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP smooth (fixed)_ECE_top_label_15bin": [
+  6.72,
+  5.73,
+  7.96,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (fixed)_macro_F1": [
+  65.32,
+  63.53,
+  66.97,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (fixed)_macro_AUROC": [
+  92.12,
+  91.47,
+  92.76,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (fixed)_binary_sensitivity": [
+  88.49,
+  87.34,
+  89.59,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (fixed)_binary_specificity": [
+  90.19,
+  88.19,
+  91.87,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (fixed)_HYP_recall": [
+  23.1,
+  18.97,
+  27.15,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (fixed)_ECE_top_label_15bin": [
+  3.01,
+  2.41,
+  4.29,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (tuned)_macro_F1": [
+  65.58,
+  63.73,
+  67.23,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (tuned)_macro_AUROC": [
+  91.08,
+  90.34,
+  91.82,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (tuned)_binary_sensitivity": [
+  89.55,
+  88.45,
+  90.58,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (tuned)_binary_specificity": [
+  86.36,
+  84.13,
+  88.49,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (tuned)_HYP_recall": [
+  25.63,
+  21.21,
+  29.75,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_MLP distil (tuned)_ECE_top_label_15bin": [
+  8.45,
+  7.37,
+  9.65,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_XGB hard_macro_F1": [
+  63.86,
+  62.01,
+  65.54,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_XGB hard_macro_AUROC": [
+  92.91,
+  92.35,
+  93.51,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_XGB hard_binary_sensitivity": [
+  87.62,
+  86.41,
+  88.75,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_XGB hard_binary_specificity": [
+  90.68,
+  88.8,
+  92.39,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_XGB hard_HYP_recall": [
+  17.26,
+  13.59,
+  20.88,
+  4129
+ ],
+ "sub_chapman_natural_age>=65_XGB hard_ECE_top_label_15bin": [
+  3.26,
+  2.62,
+  4.58,
+  4129
+ ],
+ "classF1_ptbxl_quota5000_TabPFN teacher_NORM": 74.3,
+ "classRecall_ptbxl_quota5000_TabPFN teacher_NORM": 78.7,
+ "classF1_ptbxl_quota5000_TabPFN teacher_AFIB/AFL": 93.8,
+ "classRecall_ptbxl_quota5000_TabPFN teacher_AFIB/AFL": 95.5,
+ "classF1_ptbxl_quota5000_TabPFN teacher_CD": 76.1,
+ "classRecall_ptbxl_quota5000_TabPFN teacher_CD": 73.1,
+ "classF1_ptbxl_quota5000_TabPFN teacher_STTC/MI": 65.2,
+ "classRecall_ptbxl_quota5000_TabPFN teacher_STTC/MI": 65.3,
+ "classF1_ptbxl_quota5000_TabPFN teacher_HYP": 65.3,
+ "classRecall_ptbxl_quota5000_TabPFN teacher_HYP": 61.9,
+ "classF1_ptbxl_quota5000_MLP hard_NORM": 71.5,
+ "classRecall_ptbxl_quota5000_MLP hard_NORM": 75.2,
+ "classF1_ptbxl_quota5000_MLP hard_AFIB/AFL": 90.9,
+ "classRecall_ptbxl_quota5000_MLP hard_AFIB/AFL": 92.6,
+ "classF1_ptbxl_quota5000_MLP hard_CD": 71.9,
+ "classRecall_ptbxl_quota5000_MLP hard_CD": 71.0,
+ "classF1_ptbxl_quota5000_MLP hard_STTC/MI": 61.4,
+ "classRecall_ptbxl_quota5000_MLP hard_STTC/MI": 59.5,
+ "classF1_ptbxl_quota5000_MLP hard_HYP": 62.1,
+ "classRecall_ptbxl_quota5000_MLP hard_HYP": 60.0,
+ "classF1_ptbxl_quota5000_MLP smooth (fixed)_NORM": 71.6,
+ "classRecall_ptbxl_quota5000_MLP smooth (fixed)_NORM": 75.6,
+ "classF1_ptbxl_quota5000_MLP smooth (fixed)_AFIB/AFL": 91.1,
+ "classRecall_ptbxl_quota5000_MLP smooth (fixed)_AFIB/AFL": 93.0,
+ "classF1_ptbxl_quota5000_MLP smooth (fixed)_CD": 72.4,
+ "classRecall_ptbxl_quota5000_MLP smooth (fixed)_CD": 70.7,
+ "classF1_ptbxl_quota5000_MLP smooth (fixed)_STTC/MI": 61.5,
+ "classRecall_ptbxl_quota5000_MLP smooth (fixed)_STTC/MI": 59.6,
+ "classF1_ptbxl_quota5000_MLP smooth (fixed)_HYP": 62.6,
+ "classRecall_ptbxl_quota5000_MLP smooth (fixed)_HYP": 60.9,
+ "classF1_ptbxl_quota5000_MLP distil (fixed)_NORM": 72.4,
+ "classRecall_ptbxl_quota5000_MLP distil (fixed)_NORM": 75.6,
+ "classF1_ptbxl_quota5000_MLP distil (fixed)_AFIB/AFL": 91.6,
+ "classRecall_ptbxl_quota5000_MLP distil (fixed)_AFIB/AFL": 93.1,
+ "classF1_ptbxl_quota5000_MLP distil (fixed)_CD": 73.3,
+ "classRecall_ptbxl_quota5000_MLP distil (fixed)_CD": 72.2,
+ "classF1_ptbxl_quota5000_MLP distil (fixed)_STTC/MI": 63.0,
+ "classRecall_ptbxl_quota5000_MLP distil (fixed)_STTC/MI": 61.7,
+ "classF1_ptbxl_quota5000_MLP distil (fixed)_HYP": 64.0,
+ "classRecall_ptbxl_quota5000_MLP distil (fixed)_HYP": 61.9,
+ "classF1_ptbxl_quota5000_MLP distil (tuned)_NORM": 72.6,
+ "classRecall_ptbxl_quota5000_MLP distil (tuned)_NORM": 75.7,
+ "classF1_ptbxl_quota5000_MLP distil (tuned)_AFIB/AFL": 91.9,
+ "classRecall_ptbxl_quota5000_MLP distil (tuned)_AFIB/AFL": 93.8,
+ "classF1_ptbxl_quota5000_MLP distil (tuned)_CD": 73.5,
+ "classRecall_ptbxl_quota5000_MLP distil (tuned)_CD": 72.2,
+ "classF1_ptbxl_quota5000_MLP distil (tuned)_STTC/MI": 63.1,
+ "classRecall_ptbxl_quota5000_MLP distil (tuned)_STTC/MI": 61.9,
+ "classF1_ptbxl_quota5000_MLP distil (tuned)_HYP": 63.9,
+ "classRecall_ptbxl_quota5000_MLP distil (tuned)_HYP": 61.5,
+ "classF1_ptbxl_quota5000_XGB hard_NORM": 72.5,
+ "classRecall_ptbxl_quota5000_XGB hard_NORM": 76.3,
+ "classF1_ptbxl_quota5000_XGB hard_AFIB/AFL": 93.3,
+ "classRecall_ptbxl_quota5000_XGB hard_AFIB/AFL": 94.7,
+ "classF1_ptbxl_quota5000_XGB hard_CD": 75.1,
+ "classRecall_ptbxl_quota5000_XGB hard_CD": 73.0,
+ "classF1_ptbxl_quota5000_XGB hard_STTC/MI": 64.0,
+ "classRecall_ptbxl_quota5000_XGB hard_STTC/MI": 64.9,
+ "classF1_ptbxl_quota5000_XGB hard_HYP": 63.2,
+ "classRecall_ptbxl_quota5000_XGB hard_HYP": 58.8,
+ "classF1_ptbxl_natural5000_TabPFN teacher_NORM": 87.6,
+ "classRecall_ptbxl_natural5000_TabPFN teacher_NORM": 92.7,
+ "classF1_ptbxl_natural5000_TabPFN teacher_AFIB/AFL": 89.9,
+ "classRecall_ptbxl_natural5000_TabPFN teacher_AFIB/AFL": 92.0,
+ "classF1_ptbxl_natural5000_TabPFN teacher_CD": 66.4,
+ "classRecall_ptbxl_natural5000_TabPFN teacher_CD": 58.3,
+ "classF1_ptbxl_natural5000_TabPFN teacher_STTC/MI": 68.8,
+ "classRecall_ptbxl_natural5000_TabPFN teacher_STTC/MI": 67.4,
+ "classF1_ptbxl_natural5000_TabPFN teacher_HYP": 41.3,
+ "classRecall_ptbxl_natural5000_TabPFN teacher_HYP": 30.1,
+ "classF1_ptbxl_natural5000_MLP hard_NORM": 85.9,
+ "classRecall_ptbxl_natural5000_MLP hard_NORM": 89.1,
+ "classF1_ptbxl_natural5000_MLP hard_AFIB/AFL": 83.2,
+ "classRecall_ptbxl_natural5000_MLP hard_AFIB/AFL": 85.5,
+ "classF1_ptbxl_natural5000_MLP hard_CD": 59.6,
+ "classRecall_ptbxl_natural5000_MLP hard_CD": 54.0,
+ "classF1_ptbxl_natural5000_MLP hard_STTC/MI": 65.1,
+ "classRecall_ptbxl_natural5000_MLP hard_STTC/MI": 64.6,
+ "classF1_ptbxl_natural5000_MLP hard_HYP": 38.5,
+ "classRecall_ptbxl_natural5000_MLP hard_HYP": 31.7,
+ "classF1_ptbxl_natural5000_MLP smooth (fixed)_NORM": 86.0,
+ "classRecall_ptbxl_natural5000_MLP smooth (fixed)_NORM": 90.5,
+ "classF1_ptbxl_natural5000_MLP smooth (fixed)_AFIB/AFL": 84.1,
+ "classRecall_ptbxl_natural5000_MLP smooth (fixed)_AFIB/AFL": 86.4,
+ "classF1_ptbxl_natural5000_MLP smooth (fixed)_CD": 60.0,
+ "classRecall_ptbxl_natural5000_MLP smooth (fixed)_CD": 52.7,
+ "classF1_ptbxl_natural5000_MLP smooth (fixed)_STTC/MI": 64.7,
+ "classRecall_ptbxl_natural5000_MLP smooth (fixed)_STTC/MI": 62.9,
+ "classF1_ptbxl_natural5000_MLP smooth (fixed)_HYP": 39.0,
+ "classRecall_ptbxl_natural5000_MLP smooth (fixed)_HYP": 31.6,
+ "classF1_ptbxl_natural5000_MLP distil (fixed)_NORM": 86.4,
+ "classRecall_ptbxl_natural5000_MLP distil (fixed)_NORM": 91.0,
+ "classF1_ptbxl_natural5000_MLP distil (fixed)_AFIB/AFL": 85.2,
+ "classRecall_ptbxl_natural5000_MLP distil (fixed)_AFIB/AFL": 87.0,
+ "classF1_ptbxl_natural5000_MLP distil (fixed)_CD": 60.5,
+ "classRecall_ptbxl_natural5000_MLP distil (fixed)_CD": 54.1,
+ "classF1_ptbxl_natural5000_MLP distil (fixed)_STTC/MI": 65.5,
+ "classRecall_ptbxl_natural5000_MLP distil (fixed)_STTC/MI": 63.4,
+ "classF1_ptbxl_natural5000_MLP distil (fixed)_HYP": 40.8,
+ "classRecall_ptbxl_natural5000_MLP distil (fixed)_HYP": 32.6,
+ "classF1_ptbxl_natural5000_MLP distil (tuned)_NORM": 86.3,
+ "classRecall_ptbxl_natural5000_MLP distil (tuned)_NORM": 91.0,
+ "classF1_ptbxl_natural5000_MLP distil (tuned)_AFIB/AFL": 85.3,
+ "classRecall_ptbxl_natural5000_MLP distil (tuned)_AFIB/AFL": 86.9,
+ "classF1_ptbxl_natural5000_MLP distil (tuned)_CD": 60.9,
+ "classRecall_ptbxl_natural5000_MLP distil (tuned)_CD": 53.8,
+ "classF1_ptbxl_natural5000_MLP distil (tuned)_STTC/MI": 65.3,
+ "classRecall_ptbxl_natural5000_MLP distil (tuned)_STTC/MI": 63.4,
+ "classF1_ptbxl_natural5000_MLP distil (tuned)_HYP": 40.8,
+ "classRecall_ptbxl_natural5000_MLP distil (tuned)_HYP": 32.8,
+ "classF1_ptbxl_natural5000_XGB hard_NORM": 86.6,
+ "classRecall_ptbxl_natural5000_XGB hard_NORM": 92.1,
+ "classF1_ptbxl_natural5000_XGB hard_AFIB/AFL": 89.3,
+ "classRecall_ptbxl_natural5000_XGB hard_AFIB/AFL": 89.8,
+ "classF1_ptbxl_natural5000_XGB hard_CD": 63.4,
+ "classRecall_ptbxl_natural5000_XGB hard_CD": 54.2,
+ "classF1_ptbxl_natural5000_XGB hard_STTC/MI": 68.0,
+ "classRecall_ptbxl_natural5000_XGB hard_STTC/MI": 67.6,
+ "classF1_ptbxl_natural5000_XGB hard_HYP": 35.3,
+ "classRecall_ptbxl_natural5000_XGB hard_HYP": 24.4,
+ "classF1_ptbxl_natural15160_TabPFN teacher_NORM": 88.0,
+ "classRecall_ptbxl_natural15160_TabPFN teacher_NORM": 92.8,
+ "classF1_ptbxl_natural15160_TabPFN teacher_AFIB/AFL": 91.9,
+ "classRecall_ptbxl_natural15160_TabPFN teacher_AFIB/AFL": 94.0,
+ "classF1_ptbxl_natural15160_TabPFN teacher_CD": 71.0,
+ "classRecall_ptbxl_natural15160_TabPFN teacher_CD": 63.1,
+ "classF1_ptbxl_natural15160_TabPFN teacher_STTC/MI": 70.8,
+ "classRecall_ptbxl_natural15160_TabPFN teacher_STTC/MI": 69.6,
+ "classF1_ptbxl_natural15160_TabPFN teacher_HYP": 43.4,
+ "classRecall_ptbxl_natural15160_TabPFN teacher_HYP": 32.0,
+ "classF1_ptbxl_natural15160_MLP hard_NORM": 86.8,
+ "classRecall_ptbxl_natural15160_MLP hard_NORM": 89.8,
+ "classF1_ptbxl_natural15160_MLP hard_AFIB/AFL": 87.4,
+ "classRecall_ptbxl_natural15160_MLP hard_AFIB/AFL": 90.7,
+ "classF1_ptbxl_natural15160_MLP hard_CD": 67.4,
+ "classRecall_ptbxl_natural15160_MLP hard_CD": 61.0,
+ "classF1_ptbxl_natural15160_MLP hard_STTC/MI": 67.8,
+ "classRecall_ptbxl_natural15160_MLP hard_STTC/MI": 66.9,
+ "classF1_ptbxl_natural15160_MLP hard_HYP": 45.3,
+ "classRecall_ptbxl_natural15160_MLP hard_HYP": 38.8,
+ "classF1_ptbxl_natural15160_MLP smooth (fixed)_NORM": 87.0,
+ "classRecall_ptbxl_natural15160_MLP smooth (fixed)_NORM": 90.8,
+ "classF1_ptbxl_natural15160_MLP smooth (fixed)_AFIB/AFL": 88.1,
+ "classRecall_ptbxl_natural15160_MLP smooth (fixed)_AFIB/AFL": 91.0,
+ "classF1_ptbxl_natural15160_MLP smooth (fixed)_CD": 67.6,
+ "classRecall_ptbxl_natural15160_MLP smooth (fixed)_CD": 59.6,
+ "classF1_ptbxl_natural15160_MLP smooth (fixed)_STTC/MI": 68.3,
+ "classRecall_ptbxl_natural15160_MLP smooth (fixed)_STTC/MI": 67.6,
+ "classF1_ptbxl_natural15160_MLP smooth (fixed)_HYP": 45.4,
+ "classRecall_ptbxl_natural15160_MLP smooth (fixed)_HYP": 36.6,
+ "classF1_ptbxl_natural15160_MLP distil (fixed)_NORM": 87.5,
+ "classRecall_ptbxl_natural15160_MLP distil (fixed)_NORM": 91.6,
+ "classF1_ptbxl_natural15160_MLP distil (fixed)_AFIB/AFL": 88.1,
+ "classRecall_ptbxl_natural15160_MLP distil (fixed)_AFIB/AFL": 92.0,
+ "classF1_ptbxl_natural15160_MLP distil (fixed)_CD": 68.7,
+ "classRecall_ptbxl_natural15160_MLP distil (fixed)_CD": 60.2,
+ "classF1_ptbxl_natural15160_MLP distil (fixed)_STTC/MI": 68.9,
+ "classRecall_ptbxl_natural15160_MLP distil (fixed)_STTC/MI": 67.7,
+ "classF1_ptbxl_natural15160_MLP distil (fixed)_HYP": 45.6,
+ "classRecall_ptbxl_natural15160_MLP distil (fixed)_HYP": 36.5,
+ "classF1_ptbxl_natural15160_MLP distil (tuned)_NORM": 87.4,
+ "classRecall_ptbxl_natural15160_MLP distil (tuned)_NORM": 91.7,
+ "classF1_ptbxl_natural15160_MLP distil (tuned)_AFIB/AFL": 88.5,
+ "classRecall_ptbxl_natural15160_MLP distil (tuned)_AFIB/AFL": 91.0,
+ "classF1_ptbxl_natural15160_MLP distil (tuned)_CD": 68.9,
+ "classRecall_ptbxl_natural15160_MLP distil (tuned)_CD": 61.1,
+ "classF1_ptbxl_natural15160_MLP distil (tuned)_STTC/MI": 68.8,
+ "classRecall_ptbxl_natural15160_MLP distil (tuned)_STTC/MI": 67.3,
+ "classF1_ptbxl_natural15160_MLP distil (tuned)_HYP": 44.3,
+ "classRecall_ptbxl_natural15160_MLP distil (tuned)_HYP": 35.1,
+ "classF1_ptbxl_natural15160_XGB hard_NORM": 87.5,
+ "classRecall_ptbxl_natural15160_XGB hard_NORM": 92.2,
+ "classF1_ptbxl_natural15160_XGB hard_AFIB/AFL": 91.3,
+ "classRecall_ptbxl_natural15160_XGB hard_AFIB/AFL": 92.4,
+ "classF1_ptbxl_natural15160_XGB hard_CD": 69.8,
+ "classRecall_ptbxl_natural15160_XGB hard_CD": 62.7,
+ "classF1_ptbxl_natural15160_XGB hard_STTC/MI": 69.2,
+ "classRecall_ptbxl_natural15160_XGB hard_STTC/MI": 67.8,
+ "classF1_ptbxl_natural15160_XGB hard_HYP": 40.6,
+ "classRecall_ptbxl_natural15160_XGB hard_HYP": 29.9,
+ "classF1_chapman_quota5000_TabPFN teacher_NORM": 72.0,
+ "classRecall_chapman_quota5000_TabPFN teacher_NORM": 77.2,
+ "classF1_chapman_quota5000_TabPFN teacher_AFIB/AFL": 92.2,
+ "classRecall_chapman_quota5000_TabPFN teacher_AFIB/AFL": 93.2,
+ "classF1_chapman_quota5000_TabPFN teacher_CD": 68.9,
+ "classRecall_chapman_quota5000_TabPFN teacher_CD": 65.2,
+ "classF1_chapman_quota5000_TabPFN teacher_STTC/MI": 65.6,
+ "classRecall_chapman_quota5000_TabPFN teacher_STTC/MI": 69.4,
+ "classF1_chapman_quota5000_TabPFN teacher_HYP": 45.8,
+ "classRecall_chapman_quota5000_TabPFN teacher_HYP": 38.1,
+ "classF1_chapman_quota5000_MLP hard_NORM": 68.9,
+ "classRecall_chapman_quota5000_MLP hard_NORM": 71.1,
+ "classF1_chapman_quota5000_MLP hard_AFIB/AFL": 88.9,
+ "classRecall_chapman_quota5000_MLP hard_AFIB/AFL": 90.2,
+ "classF1_chapman_quota5000_MLP hard_CD": 61.7,
+ "classRecall_chapman_quota5000_MLP hard_CD": 59.3,
+ "classF1_chapman_quota5000_MLP hard_STTC/MI": 60.5,
+ "classRecall_chapman_quota5000_MLP hard_STTC/MI": 61.4,
+ "classF1_chapman_quota5000_MLP hard_HYP": 46.3,
+ "classRecall_chapman_quota5000_MLP hard_HYP": 43.5,
+ "classF1_chapman_quota5000_MLP smooth (fixed)_NORM": 68.7,
+ "classRecall_chapman_quota5000_MLP smooth (fixed)_NORM": 71.6,
+ "classF1_chapman_quota5000_MLP smooth (fixed)_AFIB/AFL": 89.0,
+ "classRecall_chapman_quota5000_MLP smooth (fixed)_AFIB/AFL": 90.4,
+ "classF1_chapman_quota5000_MLP smooth (fixed)_CD": 61.8,
+ "classRecall_chapman_quota5000_MLP smooth (fixed)_CD": 57.8,
+ "classF1_chapman_quota5000_MLP smooth (fixed)_STTC/MI": 61.0,
+ "classRecall_chapman_quota5000_MLP smooth (fixed)_STTC/MI": 61.9,
+ "classF1_chapman_quota5000_MLP smooth (fixed)_HYP": 46.7,
+ "classRecall_chapman_quota5000_MLP smooth (fixed)_HYP": 43.9,
+ "classF1_chapman_quota5000_MLP distil (fixed)_NORM": 69.8,
+ "classRecall_chapman_quota5000_MLP distil (fixed)_NORM": 73.3,
+ "classF1_chapman_quota5000_MLP distil (fixed)_AFIB/AFL": 89.5,
+ "classRecall_chapman_quota5000_MLP distil (fixed)_AFIB/AFL": 90.5,
+ "classF1_chapman_quota5000_MLP distil (fixed)_CD": 62.9,
+ "classRecall_chapman_quota5000_MLP distil (fixed)_CD": 59.6,
+ "classF1_chapman_quota5000_MLP distil (fixed)_STTC/MI": 62.1,
+ "classRecall_chapman_quota5000_MLP distil (fixed)_STTC/MI": 64.1,
+ "classF1_chapman_quota5000_MLP distil (fixed)_HYP": 46.2,
+ "classRecall_chapman_quota5000_MLP distil (fixed)_HYP": 41.8,
+ "classF1_chapman_quota5000_MLP distil (tuned)_NORM": 70.0,
+ "classRecall_chapman_quota5000_MLP distil (tuned)_NORM": 73.1,
+ "classF1_chapman_quota5000_MLP distil (tuned)_AFIB/AFL": 89.8,
+ "classRecall_chapman_quota5000_MLP distil (tuned)_AFIB/AFL": 91.5,
+ "classF1_chapman_quota5000_MLP distil (tuned)_CD": 63.3,
+ "classRecall_chapman_quota5000_MLP distil (tuned)_CD": 59.7,
+ "classF1_chapman_quota5000_MLP distil (tuned)_STTC/MI": 62.4,
+ "classRecall_chapman_quota5000_MLP distil (tuned)_STTC/MI": 64.3,
+ "classF1_chapman_quota5000_MLP distil (tuned)_HYP": 47.1,
+ "classRecall_chapman_quota5000_MLP distil (tuned)_HYP": 42.7,
+ "classF1_chapman_quota5000_XGB hard_NORM": 71.1,
+ "classRecall_chapman_quota5000_XGB hard_NORM": 75.7,
+ "classF1_chapman_quota5000_XGB hard_AFIB/AFL": 90.7,
+ "classRecall_chapman_quota5000_XGB hard_AFIB/AFL": 91.9,
+ "classF1_chapman_quota5000_XGB hard_CD": 66.7,
+ "classRecall_chapman_quota5000_XGB hard_CD": 61.6,
+ "classF1_chapman_quota5000_XGB hard_STTC/MI": 65.0,
+ "classRecall_chapman_quota5000_XGB hard_STTC/MI": 67.9,
+ "classF1_chapman_quota5000_XGB hard_HYP": 44.9,
+ "classRecall_chapman_quota5000_XGB hard_HYP": 39.3,
+ "classF1_chapman_natural_TabPFN teacher_NORM": 86.7,
+ "classRecall_chapman_natural_TabPFN teacher_NORM": 93.9,
+ "classF1_chapman_natural_TabPFN teacher_AFIB/AFL": 93.9,
+ "classRecall_chapman_natural_TabPFN teacher_AFIB/AFL": 95.1,
+ "classF1_chapman_natural_TabPFN teacher_CD": 61.5,
+ "classRecall_chapman_natural_TabPFN teacher_CD": 54.7,
+ "classF1_chapman_natural_TabPFN teacher_STTC/MI": 61.4,
+ "classRecall_chapman_natural_TabPFN teacher_STTC/MI": 60.9,
+ "classF1_chapman_natural_TabPFN teacher_HYP": 19.6,
+ "classRecall_chapman_natural_TabPFN teacher_HYP": 12.2,
+ "classF1_chapman_natural_MLP hard_NORM": 85.4,
+ "classRecall_chapman_natural_MLP hard_NORM": 89.6,
+ "classF1_chapman_natural_MLP hard_AFIB/AFL": 92.0,
+ "classRecall_chapman_natural_MLP hard_AFIB/AFL": 92.9,
+ "classF1_chapman_natural_MLP hard_CD": 58.1,
+ "classRecall_chapman_natural_MLP hard_CD": 55.8,
+ "classF1_chapman_natural_MLP hard_STTC/MI": 55.8,
+ "classRecall_chapman_natural_MLP hard_STTC/MI": 53.4,
+ "classF1_chapman_natural_MLP hard_HYP": 30.9,
+ "classRecall_chapman_natural_MLP hard_HYP": 25.1,
+ "classF1_chapman_natural_MLP smooth (fixed)_NORM": 85.3,
+ "classRecall_chapman_natural_MLP smooth (fixed)_NORM": 89.6,
+ "classF1_chapman_natural_MLP smooth (fixed)_AFIB/AFL": 91.8,
+ "classRecall_chapman_natural_MLP smooth (fixed)_AFIB/AFL": 93.9,
+ "classF1_chapman_natural_MLP smooth (fixed)_CD": 57.0,
+ "classRecall_chapman_natural_MLP smooth (fixed)_CD": 51.2,
+ "classF1_chapman_natural_MLP smooth (fixed)_STTC/MI": 55.5,
+ "classRecall_chapman_natural_MLP smooth (fixed)_STTC/MI": 52.9,
+ "classF1_chapman_natural_MLP smooth (fixed)_HYP": 31.2,
+ "classRecall_chapman_natural_MLP smooth (fixed)_HYP": 25.7,
+ "classF1_chapman_natural_MLP distil (fixed)_NORM": 86.2,
+ "classRecall_chapman_natural_MLP distil (fixed)_NORM": 92.4,
+ "classF1_chapman_natural_MLP distil (fixed)_AFIB/AFL": 92.2,
+ "classRecall_chapman_natural_MLP distil (fixed)_AFIB/AFL": 93.6,
+ "classF1_chapman_natural_MLP distil (fixed)_CD": 58.1,
+ "classRecall_chapman_natural_MLP distil (fixed)_CD": 51.0,
+ "classF1_chapman_natural_MLP distil (fixed)_STTC/MI": 57.8,
+ "classRecall_chapman_natural_MLP distil (fixed)_STTC/MI": 55.5,
+ "classF1_chapman_natural_MLP distil (fixed)_HYP": 30.2,
+ "classRecall_chapman_natural_MLP distil (fixed)_HYP": 22.3,
+ "classF1_chapman_natural_MLP distil (tuned)_NORM": 85.9,
+ "classRecall_chapman_natural_MLP distil (tuned)_NORM": 90.4,
+ "classF1_chapman_natural_MLP distil (tuned)_AFIB/AFL": 92.4,
+ "classRecall_chapman_natural_MLP distil (tuned)_AFIB/AFL": 93.8,
+ "classF1_chapman_natural_MLP distil (tuned)_CD": 57.5,
+ "classRecall_chapman_natural_MLP distil (tuned)_CD": 52.4,
+ "classF1_chapman_natural_MLP distil (tuned)_STTC/MI": 58.7,
+ "classRecall_chapman_natural_MLP distil (tuned)_STTC/MI": 57.1,
+ "classF1_chapman_natural_MLP distil (tuned)_HYP": 33.7,
+ "classRecall_chapman_natural_MLP distil (tuned)_HYP": 26.7,
+ "classF1_chapman_natural_XGB hard_NORM": 86.1,
+ "classRecall_chapman_natural_XGB hard_NORM": 93.2,
+ "classF1_chapman_natural_XGB hard_AFIB/AFL": 92.8,
+ "classRecall_chapman_natural_XGB hard_AFIB/AFL": 94.0,
+ "classF1_chapman_natural_XGB hard_CD": 57.8,
+ "classRecall_chapman_natural_XGB hard_CD": 49.7,
+ "classF1_chapman_natural_XGB hard_STTC/MI": 59.7,
+ "classRecall_chapman_natural_XGB hard_STTC/MI": 58.3,
+ "classF1_chapman_natural_XGB hard_HYP": 22.4,
+ "classRecall_chapman_natural_XGB hard_HYP": 15.1,
+ "arch_v1_3D_DS": 0.1482056974569601,
+ "arch_v1_3D_DH": 0.9573889076803677,
+ "arch_v1_3B_DS": 1.35,
+ "arch_v2_3D_DS": 0.054242687845384996,
+ "arch_v2_3D_DH": 0.7313636663682344,
+ "arch_v2_3B_DS": 0.88
+}

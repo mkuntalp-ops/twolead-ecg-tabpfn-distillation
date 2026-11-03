@@ -1,0 +1,22 @@
+{
+ "feat_rules": "S1",
+ "feat_criteria": "S2",
+ "feat_agree": "S3",
+ "grid_mlp": "S4",
+ "grid_xgb": "S5",
+ "selected": "S6",
+ "perseed": "S7",
+ "pooled": "S8",
+ "full": "S9",
+ "confgap": "S10",
+ "classF1_ptbxl_quota5000": "S11",
+ "classF1_ptbxl_natural5000": "S12",
+ "classF1_ptbxl_natural15160": "S13",
+ "classF1_chapman_quota5000": "S14",
+ "classF1_chapman_natural": "S15",
+ "cm_ptbxl_natural15160": "S16",
+ "cm_chapman_natural": "S17",
+ "sub_ptbxl_natural15160": "S18",
+ "sub_chapman_natural": "S19",
+ "tripod": "S20"
+}
