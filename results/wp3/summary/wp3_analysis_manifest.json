@@ -1,0 +1,72 @@
+{
+  "bootstrap": {
+    "B": 2000,
+    "seed": "2026 + partition seed",
+    "unit": "patient"
+  },
+  "contrasts": [
+    "D_tuned - S_tuned",
+    "D_tuned - EM_tuned",
+    "D_tuned - H",
+    "S_tuned - H",
+    "EM_tuned - H",
+    "D_fixed - S_fixed",
+    "D_fixed - H"
+  ],
+  "families": {
+    "S": [
+      "S_e0.05",
+      "S_e0.10",
+      "S_e0.15",
+      "S_e0.20",
+      "S_e0.25",
+      "S_e0.30"
+    ],
+    "D": [
+      "D_a0.25_T1",
+      "D_a0.25_T2",
+      "D_a0.25_T4",
+      "D_a0.50_T1",
+      "D_a0.50_T2",
+      "D_a0.50_T4",
+      "D_a0.75_T1",
+      "D_a0.75_T2",
+      "D_a0.75_T4",
+      "D_a1.00_T1",
+      "D_a1.00_T2",
+      "D_a1.00_T4"
+    ],
+    "EM": [
+      "EM_a0.25_T1",
+      "EM_a0.25_T2",
+      "EM_a0.25_T4",
+      "EM_a0.50_T1",
+      "EM_a0.50_T2",
+      "EM_a0.50_T4",
+      "EM_a0.75_T1",
+      "EM_a0.75_T2",
+      "EM_a0.75_T4",
+      "EM_a1.00_T1",
+      "EM_a1.00_T2",
+      "EM_a1.00_T4"
+    ]
+  },
+  "alphas": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "temperatures": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "self_checks_on_first_result": {
+    "auroc_mann_whitney_vs_sklearn_max_abs_diff": 2.220446049250313e-16,
+    "nll_vs_sklearn_log_loss_abs_diff": 0.0,
+    "ece_on_calibrated_synthetic_(expected_~0)": 0.0017476721138922585,
+    "ece_on_overconfident_by_0.10_synthetic_(expected_~0.10)": 0.10102384978379385
+  },
+  "script_sha256": "a1261fb7b07ddd1cc22fb4e36530bf5ea2e2c9f96fb1f329b39423e2add63375"
+}

@@ -1,0 +1,282 @@
+{
+ "written": "2026-11-03T14:21:42",
+ "checks": {
+  "scripts_unchanged_since_runs": true,
+  "inputs_unchanged_since_extraction": true,
+  "predictions_match_inputs": true,
+  "checkpoint_not_modified_after_runs": true
+ },
+ "scripts": {
+  "wp3_teacher_mlp.py": {
+   "sha256_at_run": "26e56a31d4b63254e855d0b3d192773d511b01e36f97033eaa87a12120410608",
+   "sha256_now": "26e56a31d4b63254e855d0b3d192773d511b01e36f97033eaa87a12120410608"
+  },
+  "wp3_common.py": {
+   "sha256_at_run": "5ea403bbeab9da44c9fe551e67b1bfb059075729852d993186d6aab8fb49f40d",
+   "sha256_now": "5ea403bbeab9da44c9fe551e67b1bfb059075729852d993186d6aab8fb49f40d"
+  },
+  "wp3_xgb.py": {
+   "sha256_at_run": "717d9c94003d15d90ed7c947af645df49f0731f9989dbfaa5f61953678f3f4d9",
+   "sha256_now": "717d9c94003d15d90ed7c947af645df49f0731f9989dbfaa5f61953678f3f4d9"
+  }
+ },
+ "analysis_scripts_sha256_now": {
+  "wp3_analyze.py": "a1261fb7b07ddd1cc22fb4e36530bf5ea2e2c9f96fb1f329b39423e2add63375",
+  "wp3_confidence_gap.py": "e23ca6cdc642cfd15d17e1982f7692de68f1e2157301717dfcc8dd1c581dcabd",
+  "wp3_cost_nn.py": "e22ce4a7d2270c83cc762ef8adfd05c794755e83af86424b94d99cf942618720",
+  "wp3_cost_xgb.py": "33b17a3b9162fce0dc6a6a34590e36c642edd59bd22919b9316b7330c15fd229",
+  "wp3_pooled.py": "e854cc733580e2de93b8f7d2b1609aa490bd7b972894edbb206413fea0cd7e8d",
+  "wp3_provenance.py": "7c020834c03b9112a835a8d2429e1cd7a3fa2ba64b2b4727f84a51029a299c36",
+  "wp3_secondary.py": "8211189a45908c21366624d04c8cd12cc552cdc800e1cde974100f982ecfdd59"
+ },
+ "run_commands": [
+  "$PY -u $W/wp3_teacher_mlp.py --cohort $c >> $R/$c/mlp.log 2>&1",
+  "$PY -u $W/wp3_xgb.py --cohort $c >> $R/$c/xgb.log 2>&1 &",
+  "$PY -u $W/wp3_analyze.py > $R/analyze.log 2>&1"
+ ],
+ "run_script_sha256": "07edc01a6598254726b0183d2f404ab06a51f465b1951eccc1fe91dcf5fdf5ed",
+ "inputs": {
+  "ptbxl_eligible_cohort_15160_features_v2.csv": {
+   "sha256_at_extraction": "d0a66867c1d88e830a807931358ede04e3267e23e204f79e2acc7493c2ea3bbe",
+   "sha256_now": "d0a66867c1d88e830a807931358ede04e3267e23e204f79e2acc7493c2ea3bbe"
+  },
+  "ptbxl_54features_v2.csv": {
+   "sha256_at_extraction": "b1d4eedb11e108b587d7239b5d96973118944718be6439e9f1b3d1f530e0453a",
+   "sha256_now": "b1d4eedb11e108b587d7239b5d96973118944718be6439e9f1b3d1f530e0453a"
+  },
+  "chapman_eligible_features_v2.csv": {
+   "sha256_at_extraction": "053af88edbb14e6dbc039a889c9d83f6e0a77a682a7feefede3589af8c52500b",
+   "sha256_now": "053af88edbb14e6dbc039a889c9d83f6e0a77a682a7feefede3589af8c52500b"
+  }
+ },
+ "predictions": {
+  "ptbxl_quota5000/seed42_mlp.npz": {
+   "sha256": "7174ddfabcbb91f667aa44579a16d201c8c5ae1cbbe99af794aa8dc126f7454d",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed42_teacher.npz": {
+   "sha256": "d9dadb42c0e92cac29d27617ff54e5cac970dcc1feac7a553d9ef1bbccf905bc",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed42_xgb.npz": {
+   "sha256": "f34882f3a0b575b0cb02c9a7d2d146945430f525daa4dbc6dad745c41d71815e",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed43_mlp.npz": {
+   "sha256": "56fd0ad3ff23cb979f02b95602c75f46969bdd34f9b4210e78c922c5714f8c4e",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed43_teacher.npz": {
+   "sha256": "3e2bd03a672a8bef90700c879059c0f44d55b9b719a30bf8bb9565872f4a7a62",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed43_xgb.npz": {
+   "sha256": "5e96dee482968a4d16e62c7ab6c23eae8444652fcc468615f6750e2dc8b6657d",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed44_mlp.npz": {
+   "sha256": "17b30347a4185e5b40d2fc9be7cdcc32cb7b8b3acd9b119425da1bd8775fa9f4",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed44_teacher.npz": {
+   "sha256": "a67e7e9a3781b86586fe85abc0947bd0a54e725e4fa20400e037ebfc7fe6b07c",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed44_xgb.npz": {
+   "sha256": "6ec8fca5182073e63fd3f8f1a56369ba12ff8cba6a5f7bee23e90bf8b4e7ef1f",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed45_mlp.npz": {
+   "sha256": "b943bf28464a567d7ee622d22825f853ecaf419632e17dc919e5e3ee6a77b50a",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed45_teacher.npz": {
+   "sha256": "eabfa046fbf3fe3d736f0ac881321187aaa335ba95f98d200d12710d33b43199",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed45_xgb.npz": {
+   "sha256": "8cfc3119601254de9a087fdeeb2dbce7e5d078459a6254b25659238aa7a45b70",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed46_mlp.npz": {
+   "sha256": "6ea2bd4f7d513a36766811b194b4fc1b08444f433c9ae1d4783bd55dc630df48",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed46_teacher.npz": {
+   "sha256": "ee4f3759dd0e516ba21fcde5bb44a3f6e51614e23f50f88ee4adef07b07882e3",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/seed46_xgb.npz": {
+   "sha256": "953eaa9327e52639fef656a34ac8c0b813516a1af3a37a22d411d01d359f1dd4",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_quota5000/cohort_records.csv": {
+   "sha256": "6034a780bb2f728588c8a3cf36db00e425d402551610fa0d73f2f83fdd05c125"
+  },
+  "ptbxl_natural5000/seed42_mlp.npz": {
+   "sha256": "fd3d32d66badfb84d5908cad4f633e77f964e1955967d99f3949b559c77dca28",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed42_teacher.npz": {
+   "sha256": "6a9e63ebbb38275948350995fe237fb9e5b465da39699d03a23c6aa7738ab61c",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed42_xgb.npz": {
+   "sha256": "5e1b58d28074f9790fcd814f2d82ce1fd8d51bf06a397a62016da68104e962a5",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed43_mlp.npz": {
+   "sha256": "c2a2f6dd30d383bade18d9d47157da2f8182fd0dd62193849aab865d3aa29d63",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed43_teacher.npz": {
+   "sha256": "cd46ccbde5dd7163e02be862cdb5e91d6fc2b042f70b41d37f1416847e694059",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed43_xgb.npz": {
+   "sha256": "4b1b7dbe49e0044bcad438b058b9a367efa0b252a650b480cb29057e9e74db86",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed44_mlp.npz": {
+   "sha256": "ee052fef727fc77d993e35a8f6549874cfeaf9d89870478115d0e7e62b86f5f8",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed44_teacher.npz": {
+   "sha256": "fef2b5e12c591f5933f6763371412737950417794020d7bc5c1549ee6237f8b0",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed44_xgb.npz": {
+   "sha256": "a57ccb194176da4ee042f0e79c15483f5bf25b687228aaaeee536c3a57d31972",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed45_mlp.npz": {
+   "sha256": "d2a89d01a9adb2d828f24c4f91d7d7c7fa67bfa6757d9af94569476fe3006e2a",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed45_teacher.npz": {
+   "sha256": "a0169d3f8d9a164ddf2d5f1e339be0c6a34b75ed9d739876bdda008c36c2f713",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed45_xgb.npz": {
+   "sha256": "8ba555de362a5b36dd91d0e76766a938432ef1ff9448eab0164820963e5d5349",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed46_mlp.npz": {
+   "sha256": "791cf409a4870050dc2df3c6d42ff0ba344b1efff25e297a7c2a407897a7b1f8",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed46_teacher.npz": {
+   "sha256": "d54fd0c42150fb42ce859e38e54bebc83ed30a6c7e092e04d90f21d3d6a626b3",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/seed46_xgb.npz": {
+   "sha256": "8d96e73b903a9ef1c9ce0354161b8ec0f0b3e21f1acbe02c5d801d956dd32c5b",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural5000/cohort_records.csv": {
+   "sha256": "4561fb540aa36c238ae62ce393de7d3b814b0366e1a95de3c0a81abba574d818"
+  },
+  "ptbxl_natural15160/seed42_mlp.npz": {
+   "sha256": "0b2d402dbbe63d2c28a084531422fdab333f473510f145d85a6a58d29a6f3a14",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural15160/seed42_teacher.npz": {
+   "sha256": "dbf42f56a2594e294cf6d6a6c6b3e1bc50ef2fe884fa44103fcac18d26a9c2f8",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural15160/seed42_xgb.npz": {
+   "sha256": "1576f06a39cfb87f305c25512ad72d31579af7f04472110451fe734ef28f366f",
+   "records_and_labels_match_inputs": true
+  },
+  "ptbxl_natural15160/cohort_records.csv": {
+   "sha256": "3f5b58e1400bc5e31d593fa1952bb3ccc80fb967a4c5fcda271290780858337b"
+  },
+  "chapman_quota5000/seed42_mlp.npz": {
+   "sha256": "e24bae197e6718e9dbde1d9f416902b625c62b7367a0169b89bbef81e2807431",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed42_teacher.npz": {
+   "sha256": "ec1b14a96fe58f14c04ce489a462dc9e6406085f72d59784e3bf1cd1c047e7f7",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed42_xgb.npz": {
+   "sha256": "31248e8bc8898950b2c321b046d4e7685005fb72efce4cf421f9aa877a542ed2",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed43_mlp.npz": {
+   "sha256": "815c7bc42b96de702bd861692660defd5d254e0c92bc4d0d1d2e0168e2556d23",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed43_teacher.npz": {
+   "sha256": "6744388e78aff9d387410d7a9e8b7a4c2d59b210f5e834c523b946e93ad2d439",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed43_xgb.npz": {
+   "sha256": "40d1705be64b25dd2620e323d56262dba38209bd896d9fa4715378f4f7453292",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed44_mlp.npz": {
+   "sha256": "47776d43306dd86396ba42aa76b8282741326291cdcd61c53d9c741c7f620e54",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed44_teacher.npz": {
+   "sha256": "0f991b41b726eecc36dc17337e5d9b4a9729d3870571dcff98175f92da27d76e",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed44_xgb.npz": {
+   "sha256": "eed5f2eb310909fb01e896d814ea71ac261386f7d550f44a10eb3bcb0521f284",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed45_mlp.npz": {
+   "sha256": "52e7f14682da5fb16c574c918826cf314180ffac14af24fa3c6f82210edc8917",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed45_teacher.npz": {
+   "sha256": "9f4905f7800e100ed5a5eacb72b0e13fbd3f6ca7bc87a0c0e237bde0c1c130ed",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed45_xgb.npz": {
+   "sha256": "9ccebf80980c1ab5929f785e2b013487791e1ed37313c4d9373fc96f32a884bb",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed46_mlp.npz": {
+   "sha256": "36eaf4ba4e5eee5a0c43e3e92946cada728d0049686c4fe2632bd83304662281",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed46_teacher.npz": {
+   "sha256": "bfe04fe7eaca18d49f040b0337ad4912c3cad791ed05cdb80f207ea03755413d",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/seed46_xgb.npz": {
+   "sha256": "de9adf7966be1488442e88a39631df8aa5d02b3b05c55ad70140ebb31e5d9d35",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_quota5000/cohort_records.csv": {
+   "sha256": "80e776188d8c4e4382e6355aa7287d4a234c00059b99deefbdaae8cc80e227fd"
+  },
+  "chapman_natural/seed42_mlp.npz": {
+   "sha256": "ee7a8a64f561c5bb7f24dd78ee6a10096442265724f1c741771ca9c516025e4f",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_natural/seed42_teacher.npz": {
+   "sha256": "c321a4f3c2cb7f32d49458351a8ab1e63c8cb8584cf72901538715b689db44d8",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_natural/seed42_xgb.npz": {
+   "sha256": "4733a18bb9b172fa81c301f7620f0189f1e8e0fdec5526b3156ecae952c48bc6",
+   "records_and_labels_match_inputs": true
+  },
+  "chapman_natural/cohort_records.csv": {
+   "sha256": "d6ecf14421344c6c229e11411cb83bf7765dbc5a76bf9854f397a85766c0a07e"
+  }
+ },
+ "tabpfn_checkpoint": {
+  "file": "tabpfn-v3-classifier-v3_20260417_multiclass.ckpt",
+  "path_used_by_scripts": "/Volumes/KIOXIA/AI Models/tabpfn/tabpfn-v3-classifier-v3_20260417_multiclass.ckpt",
+  "bytes": 212804803,
+  "sha256": "517c40ca21e0e1b1fa6629ded4b0412ffb7b2e577eb6cb96e5be5c487fadfb03",
+  "mtime": "2026-09-21T15:58:10",
+  "earliest_run_manifest_mtime": "2026-11-02T16:26:25",
+  "source": "TabPFN v3 multiclass classifier checkpoint for the tabpfn package (Prior Labs); pre-training data provenance not verified here"
+ }
+}

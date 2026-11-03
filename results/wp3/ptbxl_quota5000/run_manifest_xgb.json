@@ -1,0 +1,33 @@
+{
+  "cohort": "ptbxl_quota5000",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "xgb_params": {
+    "objective": "multi:softprob",
+    "num_class": 5,
+    "n_estimators": 2000,
+    "learning_rate": 0.05,
+    "max_depth": 4,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "tree_method": "hist",
+    "eval_metric": "mlogloss",
+    "early_stopping_rounds": 50,
+    "n_jobs": 8
+  },
+  "versions": {
+    "python": "3.12.14",
+    "xgboost": "3.4.1",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3"
+  },
+  "script_sha256": {
+    "wp3_xgb.py": "717d9c94003d15d90ed7c947af645df49f0731f9989dbfaa5f61953678f3f4d9",
+    "wp3_common.py": "5ea403bbeab9da44c9fe551e67b1bfb059075729852d993186d6aab8fb49f40d"
+  }
+}

@@ -1,0 +1,1106 @@
+cohort,seed,model,reference,pred_NORM,pred_AFIB/AFL,pred_CD,pred_STTC/MI,pred_HYP
+ptbxl_quota5000,42,TabPFN teacher,NORM,820,6,64,113,42
+ptbxl_quota5000,42,TabPFN teacher,AFIB/AFL,8,998,22,13,4
+ptbxl_quota5000,42,TabPFN teacher,CD,105,42,767,93,38
+ptbxl_quota5000,42,TabPFN teacher,STTC/MI,119,24,75,690,137
+ptbxl_quota5000,42,TabPFN teacher,HYP,109,14,42,154,501
+ptbxl_quota5000,42,MLP hard,NORM,819,9,63,99,55
+ptbxl_quota5000,42,MLP hard,AFIB/AFL,8,966,42,18,11
+ptbxl_quota5000,42,MLP hard,CD,126,48,714,97,60
+ptbxl_quota5000,42,MLP hard,STTC/MI,155,37,85,632,136
+ptbxl_quota5000,42,MLP hard,HYP,112,20,38,161,489
+ptbxl_quota5000,42,MLP smooth (fixed),NORM,790,8,71,116,60
+ptbxl_quota5000,42,MLP smooth (fixed),AFIB/AFL,9,971,41,14,10
+ptbxl_quota5000,42,MLP smooth (fixed),CD,125,45,716,104,55
+ptbxl_quota5000,42,MLP smooth (fixed),STTC/MI,131,36,82,647,149
+ptbxl_quota5000,42,MLP smooth (fixed),HYP,108,25,43,144,500
+ptbxl_quota5000,42,MLP distil (fixed),NORM,803,9,71,109,53
+ptbxl_quota5000,42,MLP distil (fixed),AFIB/AFL,9,965,46,15,10
+ptbxl_quota5000,42,MLP distil (fixed),CD,116,41,741,97,50
+ptbxl_quota5000,42,MLP distil (fixed),STTC/MI,118,31,88,666,142
+ptbxl_quota5000,42,MLP distil (fixed),HYP,104,21,44,142,509
+ptbxl_quota5000,42,MLP smooth (tuned),NORM,772,8,78,121,66
+ptbxl_quota5000,42,MLP smooth (tuned),AFIB/AFL,9,967,41,19,9
+ptbxl_quota5000,42,MLP smooth (tuned),CD,109,43,720,109,64
+ptbxl_quota5000,42,MLP smooth (tuned),STTC/MI,110,32,85,662,156
+ptbxl_quota5000,42,MLP smooth (tuned),HYP,96,24,48,146,506
+ptbxl_quota5000,42,MLP distil (tuned),NORM,796,9,83,113,44
+ptbxl_quota5000,42,MLP distil (tuned),AFIB/AFL,8,985,35,10,7
+ptbxl_quota5000,42,MLP distil (tuned),CD,103,44,754,96,48
+ptbxl_quota5000,42,MLP distil (tuned),STTC/MI,123,36,97,646,143
+ptbxl_quota5000,42,MLP distil (tuned),HYP,113,22,43,145,497
+ptbxl_quota5000,42,MLP entropy-matched (tuned),NORM,777,10,89,110,59
+ptbxl_quota5000,42,MLP entropy-matched (tuned),AFIB/AFL,10,965,44,13,13
+ptbxl_quota5000,42,MLP entropy-matched (tuned),CD,110,51,744,88,52
+ptbxl_quota5000,42,MLP entropy-matched (tuned),STTC/MI,112,38,90,654,151
+ptbxl_quota5000,42,MLP entropy-matched (tuned),HYP,91,26,51,152,500
+ptbxl_quota5000,42,XGB hard,NORM,796,11,68,120,50
+ptbxl_quota5000,42,XGB hard,AFIB/AFL,8,988,28,16,5
+ptbxl_quota5000,42,XGB hard,CD,123,38,754,98,32
+ptbxl_quota5000,42,XGB hard,STTC/MI,130,26,83,670,136
+ptbxl_quota5000,42,XGB hard,HYP,107,18,43,166,486
+ptbxl_quota5000,42,XGB smooth (fixed),NORM,804,8,62,128,43
+ptbxl_quota5000,42,XGB smooth (fixed),AFIB/AFL,9,978,32,19,7
+ptbxl_quota5000,42,XGB smooth (fixed),CD,122,35,755,95,38
+ptbxl_quota5000,42,XGB smooth (fixed),STTC/MI,128,27,70,693,127
+ptbxl_quota5000,42,XGB smooth (fixed),HYP,111,16,40,169,484
+ptbxl_quota5000,42,XGB distil (fixed),NORM,813,9,66,116,41
+ptbxl_quota5000,42,XGB distil (fixed),AFIB/AFL,8,991,26,16,4
+ptbxl_quota5000,42,XGB distil (fixed),CD,116,35,763,95,36
+ptbxl_quota5000,42,XGB distil (fixed),STTC/MI,131,28,77,677,132
+ptbxl_quota5000,42,XGB distil (fixed),HYP,112,18,44,161,485
+ptbxl_quota5000,42,XGB distil (tuned),NORM,810,7,69,120,39
+ptbxl_quota5000,42,XGB distil (tuned),AFIB/AFL,10,984,30,18,3
+ptbxl_quota5000,42,XGB distil (tuned),CD,117,29,767,98,34
+ptbxl_quota5000,42,XGB distil (tuned),STTC/MI,129,24,81,676,135
+ptbxl_quota5000,42,XGB distil (tuned),HYP,109,15,45,169,482
+ptbxl_quota5000,42,XGB smooth (tuned),NORM,802,9,63,129,42
+ptbxl_quota5000,42,XGB smooth (tuned),AFIB/AFL,8,979,31,20,7
+ptbxl_quota5000,42,XGB smooth (tuned),CD,119,35,763,91,37
+ptbxl_quota5000,42,XGB smooth (tuned),STTC/MI,133,26,71,683,132
+ptbxl_quota5000,42,XGB smooth (tuned),HYP,111,14,41,173,481
+ptbxl_quota5000,42,XGB entropy-matched (tuned),NORM,802,8,66,128,41
+ptbxl_quota5000,42,XGB entropy-matched (tuned),AFIB/AFL,10,983,29,18,5
+ptbxl_quota5000,42,XGB entropy-matched (tuned),CD,122,35,758,94,36
+ptbxl_quota5000,42,XGB entropy-matched (tuned),STTC/MI,138,29,76,669,133
+ptbxl_quota5000,42,XGB entropy-matched (tuned),HYP,115,18,44,162,481
+ptbxl_quota5000,43,TabPFN teacher,NORM,820,3,55,117,50
+ptbxl_quota5000,43,TabPFN teacher,AFIB/AFL,6,1000,20,10,9
+ptbxl_quota5000,43,TabPFN teacher,CD,109,42,760,91,43
+ptbxl_quota5000,43,TabPFN teacher,STTC/MI,132,23,73,681,136
+ptbxl_quota5000,43,TabPFN teacher,HYP,94,12,46,150,518
+ptbxl_quota5000,43,MLP hard,NORM,771,9,90,115,60
+ptbxl_quota5000,43,MLP hard,AFIB/AFL,8,980,28,10,19
+ptbxl_quota5000,43,MLP hard,CD,109,60,734,90,52
+ptbxl_quota5000,43,MLP hard,STTC/MI,129,38,99,623,156
+ptbxl_quota5000,43,MLP hard,HYP,95,20,56,162,487
+ptbxl_quota5000,43,MLP smooth (fixed),NORM,804,6,64,102,69
+ptbxl_quota5000,43,MLP smooth (fixed),AFIB/AFL,13,981,26,11,14
+ptbxl_quota5000,43,MLP smooth (fixed),CD,126,51,710,92,66
+ptbxl_quota5000,43,MLP smooth (fixed),STTC/MI,142,36,78,612,177
+ptbxl_quota5000,43,MLP smooth (fixed),HYP,95,23,39,147,516
+ptbxl_quota5000,43,MLP distil (fixed),NORM,790,6,78,115,56
+ptbxl_quota5000,43,MLP distil (fixed),AFIB/AFL,10,969,40,13,13
+ptbxl_quota5000,43,MLP distil (fixed),CD,105,47,750,93,50
+ptbxl_quota5000,43,MLP distil (fixed),STTC/MI,127,33,94,642,149
+ptbxl_quota5000,43,MLP distil (fixed),HYP,103,21,46,149,501
+ptbxl_quota5000,43,MLP smooth (tuned),NORM,781,10,76,104,74
+ptbxl_quota5000,43,MLP smooth (tuned),AFIB/AFL,9,977,26,13,20
+ptbxl_quota5000,43,MLP smooth (tuned),CD,111,53,731,90,60
+ptbxl_quota5000,43,MLP smooth (tuned),STTC/MI,140,35,88,614,168
+ptbxl_quota5000,43,MLP smooth (tuned),HYP,86,25,47,142,520
+ptbxl_quota5000,43,MLP distil (tuned),NORM,797,5,85,103,55
+ptbxl_quota5000,43,MLP distil (tuned),AFIB/AFL,10,974,39,13,9
+ptbxl_quota5000,43,MLP distil (tuned),CD,99,46,755,95,50
+ptbxl_quota5000,43,MLP distil (tuned),STTC/MI,129,35,95,637,149
+ptbxl_quota5000,43,MLP distil (tuned),HYP,106,19,46,150,499
+ptbxl_quota5000,43,MLP entropy-matched (tuned),NORM,783,12,88,111,51
+ptbxl_quota5000,43,MLP entropy-matched (tuned),AFIB/AFL,7,979,37,14,8
+ptbxl_quota5000,43,MLP entropy-matched (tuned),CD,109,56,744,87,49
+ptbxl_quota5000,43,MLP entropy-matched (tuned),STTC/MI,137,42,89,622,155
+ptbxl_quota5000,43,MLP entropy-matched (tuned),HYP,96,28,53,150,493
+ptbxl_quota5000,43,XGB hard,NORM,792,10,73,122,48
+ptbxl_quota5000,43,XGB hard,AFIB/AFL,7,994,25,12,7
+ptbxl_quota5000,43,XGB hard,CD,116,38,762,96,33
+ptbxl_quota5000,43,XGB hard,STTC/MI,127,24,79,682,133
+ptbxl_quota5000,43,XGB hard,HYP,112,19,45,163,481
+ptbxl_quota5000,43,XGB smooth (fixed),NORM,789,9,71,130,46
+ptbxl_quota5000,43,XGB smooth (fixed),AFIB/AFL,9,989,31,9,7
+ptbxl_quota5000,43,XGB smooth (fixed),CD,129,39,753,88,36
+ptbxl_quota5000,43,XGB smooth (fixed),STTC/MI,134,23,71,695,122
+ptbxl_quota5000,43,XGB smooth (fixed),HYP,106,19,45,175,475
+ptbxl_quota5000,43,XGB distil (fixed),NORM,805,7,67,123,43
+ptbxl_quota5000,43,XGB distil (fixed),AFIB/AFL,8,996,26,10,5
+ptbxl_quota5000,43,XGB distil (fixed),CD,111,39,771,92,32
+ptbxl_quota5000,43,XGB distil (fixed),STTC/MI,126,27,77,692,123
+ptbxl_quota5000,43,XGB distil (fixed),HYP,105,17,44,165,489
+ptbxl_quota5000,43,XGB distil (tuned),NORM,799,9,69,124,44
+ptbxl_quota5000,43,XGB distil (tuned),AFIB/AFL,7,989,33,12,4
+ptbxl_quota5000,43,XGB distil (tuned),CD,116,37,771,88,33
+ptbxl_quota5000,43,XGB distil (tuned),STTC/MI,132,25,78,685,125
+ptbxl_quota5000,43,XGB distil (tuned),HYP,110,17,44,164,485
+ptbxl_quota5000,43,XGB smooth (tuned),NORM,797,8,69,127,44
+ptbxl_quota5000,43,XGB smooth (tuned),AFIB/AFL,7,988,31,13,6
+ptbxl_quota5000,43,XGB smooth (tuned),CD,126,42,756,88,33
+ptbxl_quota5000,43,XGB smooth (tuned),STTC/MI,135,23,73,684,130
+ptbxl_quota5000,43,XGB smooth (tuned),HYP,107,20,44,175,474
+ptbxl_quota5000,43,XGB entropy-matched (tuned),NORM,809,7,65,120,44
+ptbxl_quota5000,43,XGB entropy-matched (tuned),AFIB/AFL,9,986,33,11,6
+ptbxl_quota5000,43,XGB entropy-matched (tuned),CD,124,37,761,92,31
+ptbxl_quota5000,43,XGB entropy-matched (tuned),STTC/MI,140,26,78,677,124
+ptbxl_quota5000,43,XGB entropy-matched (tuned),HYP,107,19,44,163,487
+ptbxl_quota5000,44,TabPFN teacher,NORM,821,4,57,116,47
+ptbxl_quota5000,44,TabPFN teacher,AFIB/AFL,7,993,27,11,7
+ptbxl_quota5000,44,TabPFN teacher,CD,110,45,757,95,38
+ptbxl_quota5000,44,TabPFN teacher,STTC/MI,124,25,82,677,137
+ptbxl_quota5000,44,TabPFN teacher,HYP,107,13,44,157,499
+ptbxl_quota5000,44,MLP hard,NORM,773,7,100,104,61
+ptbxl_quota5000,44,MLP hard,AFIB/AFL,13,959,48,11,14
+ptbxl_quota5000,44,MLP hard,CD,113,46,761,80,45
+ptbxl_quota5000,44,MLP hard,STTC/MI,135,36,106,609,159
+ptbxl_quota5000,44,MLP hard,HYP,95,25,58,130,512
+ptbxl_quota5000,44,MLP smooth (fixed),NORM,772,8,99,109,57
+ptbxl_quota5000,44,MLP smooth (fixed),AFIB/AFL,10,959,52,11,13
+ptbxl_quota5000,44,MLP smooth (fixed),CD,111,41,766,80,47
+ptbxl_quota5000,44,MLP smooth (fixed),STTC/MI,144,37,103,605,156
+ptbxl_quota5000,44,MLP smooth (fixed),HYP,95,24,61,141,499
+ptbxl_quota5000,44,MLP distil (fixed),NORM,791,6,90,101,57
+ptbxl_quota5000,44,MLP distil (fixed),AFIB/AFL,10,963,50,11,11
+ptbxl_quota5000,44,MLP distil (fixed),CD,109,42,771,82,41
+ptbxl_quota5000,44,MLP distil (fixed),STTC/MI,139,35,97,615,159
+ptbxl_quota5000,44,MLP distil (fixed),HYP,99,19,54,140,508
+ptbxl_quota5000,44,MLP smooth (tuned),NORM,767,7,90,121,60
+ptbxl_quota5000,44,MLP smooth (tuned),AFIB/AFL,10,959,53,11,12
+ptbxl_quota5000,44,MLP smooth (tuned),CD,107,42,753,97,46
+ptbxl_quota5000,44,MLP smooth (tuned),STTC/MI,134,35,96,627,153
+ptbxl_quota5000,44,MLP smooth (tuned),HYP,85,25,60,147,503
+ptbxl_quota5000,44,MLP distil (tuned),NORM,789,8,80,115,53
+ptbxl_quota5000,44,MLP distil (tuned),AFIB/AFL,7,980,32,11,15
+ptbxl_quota5000,44,MLP distil (tuned),CD,102,45,758,98,42
+ptbxl_quota5000,44,MLP distil (tuned),STTC/MI,124,36,86,646,153
+ptbxl_quota5000,44,MLP distil (tuned),HYP,94,27,47,139,513
+ptbxl_quota5000,44,MLP entropy-matched (tuned),NORM,769,7,75,128,66
+ptbxl_quota5000,44,MLP entropy-matched (tuned),AFIB/AFL,8,970,40,13,14
+ptbxl_quota5000,44,MLP entropy-matched (tuned),CD,113,47,735,99,51
+ptbxl_quota5000,44,MLP entropy-matched (tuned),STTC/MI,127,36,80,643,159
+ptbxl_quota5000,44,MLP entropy-matched (tuned),HYP,93,25,48,156,498
+ptbxl_quota5000,44,XGB hard,NORM,795,8,70,127,45
+ptbxl_quota5000,44,XGB hard,AFIB/AFL,9,990,28,14,4
+ptbxl_quota5000,44,XGB hard,CD,116,36,763,92,38
+ptbxl_quota5000,44,XGB hard,STTC/MI,122,23,85,683,132
+ptbxl_quota5000,44,XGB hard,HYP,109,18,48,167,478
+ptbxl_quota5000,44,XGB smooth (fixed),NORM,799,8,65,128,45
+ptbxl_quota5000,44,XGB smooth (fixed),AFIB/AFL,10,983,29,17,6
+ptbxl_quota5000,44,XGB smooth (fixed),CD,118,36,764,96,31
+ptbxl_quota5000,44,XGB smooth (fixed),STTC/MI,126,23,71,698,127
+ptbxl_quota5000,44,XGB smooth (fixed),HYP,113,16,43,177,471
+ptbxl_quota5000,44,XGB distil (fixed),NORM,801,6,75,120,43
+ptbxl_quota5000,44,XGB distil (fixed),AFIB/AFL,7,987,33,13,5
+ptbxl_quota5000,44,XGB distil (fixed),CD,106,41,770,96,32
+ptbxl_quota5000,44,XGB distil (fixed),STTC/MI,124,28,82,678,133
+ptbxl_quota5000,44,XGB distil (fixed),HYP,111,16,45,165,483
+ptbxl_quota5000,44,XGB distil (tuned),NORM,803,6,67,123,46
+ptbxl_quota5000,44,XGB distil (tuned),AFIB/AFL,7,989,28,15,6
+ptbxl_quota5000,44,XGB distil (tuned),CD,112,37,767,98,31
+ptbxl_quota5000,44,XGB distil (tuned),STTC/MI,128,23,78,690,126
+ptbxl_quota5000,44,XGB distil (tuned),HYP,110,15,49,172,474
+ptbxl_quota5000,44,XGB smooth (tuned),NORM,789,8,69,128,51
+ptbxl_quota5000,44,XGB smooth (tuned),AFIB/AFL,7,987,30,14,7
+ptbxl_quota5000,44,XGB smooth (tuned),CD,109,38,765,98,35
+ptbxl_quota5000,44,XGB smooth (tuned),STTC/MI,127,25,78,685,130
+ptbxl_quota5000,44,XGB smooth (tuned),HYP,106,16,45,182,471
+ptbxl_quota5000,44,XGB entropy-matched (tuned),NORM,804,10,65,122,44
+ptbxl_quota5000,44,XGB entropy-matched (tuned),AFIB/AFL,9,988,32,10,6
+ptbxl_quota5000,44,XGB entropy-matched (tuned),CD,115,40,766,91,33
+ptbxl_quota5000,44,XGB entropy-matched (tuned),STTC/MI,137,34,77,670,127
+ptbxl_quota5000,44,XGB entropy-matched (tuned),HYP,111,19,46,171,473
+ptbxl_quota5000,45,TabPFN teacher,NORM,825,4,62,106,48
+ptbxl_quota5000,45,TabPFN teacher,AFIB/AFL,6,999,20,13,7
+ptbxl_quota5000,45,TabPFN teacher,CD,111,45,767,87,35
+ptbxl_quota5000,45,TabPFN teacher,STTC/MI,130,23,74,689,129
+ptbxl_quota5000,45,TabPFN teacher,HYP,100,15,46,148,511
+ptbxl_quota5000,45,MLP hard,NORM,773,11,85,112,64
+ptbxl_quota5000,45,MLP hard,AFIB/AFL,8,966,37,19,15
+ptbxl_quota5000,45,MLP hard,CD,113,46,742,88,56
+ptbxl_quota5000,45,MLP hard,STTC/MI,148,35,92,637,133
+ptbxl_quota5000,45,MLP hard,HYP,109,29,57,162,463
+ptbxl_quota5000,45,MLP smooth (fixed),NORM,790,13,81,108,53
+ptbxl_quota5000,45,MLP smooth (fixed),AFIB/AFL,9,976,35,11,14
+ptbxl_quota5000,45,MLP smooth (fixed),CD,109,53,749,87,47
+ptbxl_quota5000,45,MLP smooth (fixed),STTC/MI,152,38,91,625,139
+ptbxl_quota5000,45,MLP smooth (fixed),HYP,110,28,50,151,481
+ptbxl_quota5000,45,MLP distil (fixed),NORM,789,9,81,110,56
+ptbxl_quota5000,45,MLP distil (fixed),AFIB/AFL,7,979,33,16,10
+ptbxl_quota5000,45,MLP distil (fixed),CD,111,47,746,91,50
+ptbxl_quota5000,45,MLP distil (fixed),STTC/MI,141,32,85,639,148
+ptbxl_quota5000,45,MLP distil (fixed),HYP,102,21,53,137,507
+ptbxl_quota5000,45,MLP smooth (tuned),NORM,756,13,87,116,73
+ptbxl_quota5000,45,MLP smooth (tuned),AFIB/AFL,7,970,36,15,17
+ptbxl_quota5000,45,MLP smooth (tuned),CD,108,53,734,93,57
+ptbxl_quota5000,45,MLP smooth (tuned),STTC/MI,141,36,75,646,147
+ptbxl_quota5000,45,MLP smooth (tuned),HYP,101,28,47,152,492
+ptbxl_quota5000,45,MLP distil (tuned),NORM,792,8,77,111,57
+ptbxl_quota5000,45,MLP distil (tuned),AFIB/AFL,7,980,32,16,10
+ptbxl_quota5000,45,MLP distil (tuned),CD,111,47,747,92,48
+ptbxl_quota5000,45,MLP distil (tuned),STTC/MI,143,32,83,638,149
+ptbxl_quota5000,45,MLP distil (tuned),HYP,105,20,50,138,507
+ptbxl_quota5000,45,MLP entropy-matched (tuned),NORM,780,16,78,110,61
+ptbxl_quota5000,45,MLP entropy-matched (tuned),AFIB/AFL,9,980,32,14,10
+ptbxl_quota5000,45,MLP entropy-matched (tuned),CD,103,51,751,86,54
+ptbxl_quota5000,45,MLP entropy-matched (tuned),STTC/MI,127,37,86,645,150
+ptbxl_quota5000,45,MLP entropy-matched (tuned),HYP,101,29,47,153,490
+ptbxl_quota5000,45,XGB hard,NORM,797,7,66,129,46
+ptbxl_quota5000,45,XGB hard,AFIB/AFL,6,989,32,12,6
+ptbxl_quota5000,45,XGB hard,CD,112,35,769,95,34
+ptbxl_quota5000,45,XGB hard,STTC/MI,127,24,78,681,135
+ptbxl_quota5000,45,XGB hard,HYP,101,15,49,166,489
+ptbxl_quota5000,45,XGB smooth (fixed),NORM,804,8,59,125,49
+ptbxl_quota5000,45,XGB smooth (fixed),AFIB/AFL,8,988,27,14,8
+ptbxl_quota5000,45,XGB smooth (fixed),CD,122,38,758,91,36
+ptbxl_quota5000,45,XGB smooth (fixed),STTC/MI,125,23,71,695,131
+ptbxl_quota5000,45,XGB smooth (fixed),HYP,104,18,49,167,482
+ptbxl_quota5000,45,XGB distil (fixed),NORM,798,7,72,121,47
+ptbxl_quota5000,45,XGB distil (fixed),AFIB/AFL,7,995,25,13,5
+ptbxl_quota5000,45,XGB distil (fixed),CD,117,35,779,84,30
+ptbxl_quota5000,45,XGB distil (fixed),STTC/MI,119,27,81,681,137
+ptbxl_quota5000,45,XGB distil (fixed),HYP,100,19,50,163,488
+ptbxl_quota5000,45,XGB distil (tuned),NORM,796,6,70,126,47
+ptbxl_quota5000,45,XGB distil (tuned),AFIB/AFL,7,986,28,16,8
+ptbxl_quota5000,45,XGB distil (tuned),CD,117,34,776,88,30
+ptbxl_quota5000,45,XGB distil (tuned),STTC/MI,119,23,82,686,135
+ptbxl_quota5000,45,XGB distil (tuned),HYP,98,17,47,162,496
+ptbxl_quota5000,45,XGB smooth (tuned),NORM,801,8,62,127,47
+ptbxl_quota5000,45,XGB smooth (tuned),AFIB/AFL,9,991,29,9,7
+ptbxl_quota5000,45,XGB smooth (tuned),CD,125,37,758,92,33
+ptbxl_quota5000,45,XGB smooth (tuned),STTC/MI,131,26,71,687,130
+ptbxl_quota5000,45,XGB smooth (tuned),HYP,102,17,50,173,478
+ptbxl_quota5000,45,XGB entropy-matched (tuned),NORM,801,8,66,122,48
+ptbxl_quota5000,45,XGB entropy-matched (tuned),AFIB/AFL,7,994,28,10,6
+ptbxl_quota5000,45,XGB entropy-matched (tuned),CD,119,41,766,88,31
+ptbxl_quota5000,45,XGB entropy-matched (tuned),STTC/MI,130,29,73,689,124
+ptbxl_quota5000,45,XGB entropy-matched (tuned),HYP,103,18,48,168,483
+ptbxl_quota5000,46,TabPFN teacher,NORM,824,5,55,110,51
+ptbxl_quota5000,46,TabPFN teacher,AFIB/AFL,8,998,21,13,5
+ptbxl_quota5000,46,TabPFN teacher,CD,108,42,771,89,35
+ptbxl_quota5000,46,TabPFN teacher,STTC/MI,135,24,75,677,134
+ptbxl_quota5000,46,TabPFN teacher,HYP,100,15,44,154,507
+ptbxl_quota5000,46,MLP hard,NORM,793,5,95,92,60
+ptbxl_quota5000,46,MLP hard,AFIB/AFL,13,965,42,15,10
+ptbxl_quota5000,46,MLP hard,CD,110,41,757,88,49
+ptbxl_quota5000,46,MLP hard,STTC/MI,148,31,109,608,149
+ptbxl_quota5000,46,MLP hard,HYP,93,23,52,144,508
+ptbxl_quota5000,46,MLP smooth (fixed),NORM,795,8,87,98,57
+ptbxl_quota5000,46,MLP smooth (fixed),AFIB/AFL,11,971,38,15,10
+ptbxl_quota5000,46,MLP smooth (fixed),CD,110,48,754,86,47
+ptbxl_quota5000,46,MLP smooth (fixed),STTC/MI,147,34,104,623,137
+ptbxl_quota5000,46,MLP smooth (fixed),HYP,97,25,48,148,502
+ptbxl_quota5000,46,MLP distil (fixed),NORM,778,6,90,111,60
+ptbxl_quota5000,46,MLP distil (fixed),AFIB/AFL,10,986,32,11,6
+ptbxl_quota5000,46,MLP distil (fixed),CD,104,43,767,87,44
+ptbxl_quota5000,46,MLP distil (fixed),STTC/MI,136,31,88,663,127
+ptbxl_quota5000,46,MLP distil (fixed),HYP,80,25,45,157,513
+ptbxl_quota5000,46,MLP smooth (tuned),NORM,793,6,86,97,63
+ptbxl_quota5000,46,MLP smooth (tuned),AFIB/AFL,10,971,41,13,10
+ptbxl_quota5000,46,MLP smooth (tuned),CD,115,49,741,90,50
+ptbxl_quota5000,46,MLP smooth (tuned),STTC/MI,147,33,100,608,157
+ptbxl_quota5000,46,MLP smooth (tuned),HYP,95,29,49,133,514
+ptbxl_quota5000,46,MLP distil (tuned),NORM,783,6,85,110,61
+ptbxl_quota5000,46,MLP distil (tuned),AFIB/AFL,9,983,34,10,9
+ptbxl_quota5000,46,MLP distil (tuned),CD,104,44,761,87,49
+ptbxl_quota5000,46,MLP distil (tuned),STTC/MI,128,33,92,668,124
+ptbxl_quota5000,46,MLP distil (tuned),HYP,96,19,50,148,507
+ptbxl_quota5000,46,MLP entropy-matched (tuned),NORM,779,8,92,107,59
+ptbxl_quota5000,46,MLP entropy-matched (tuned),AFIB/AFL,10,980,36,11,8
+ptbxl_quota5000,46,MLP entropy-matched (tuned),CD,106,51,755,83,50
+ptbxl_quota5000,46,MLP entropy-matched (tuned),STTC/MI,134,40,108,632,131
+ptbxl_quota5000,46,MLP entropy-matched (tuned),HYP,84,26,54,149,507
+ptbxl_quota5000,46,XGB hard,NORM,805,6,66,117,51
+ptbxl_quota5000,46,XGB hard,AFIB/AFL,8,988,33,10,6
+ptbxl_quota5000,46,XGB hard,CD,115,34,764,95,37
+ptbxl_quota5000,46,XGB hard,STTC/MI,124,25,79,677,140
+ptbxl_quota5000,46,XGB hard,HYP,108,19,43,173,477
+ptbxl_quota5000,46,XGB smooth (fixed),NORM,805,6,62,119,53
+ptbxl_quota5000,46,XGB smooth (fixed),AFIB/AFL,9,985,35,11,5
+ptbxl_quota5000,46,XGB smooth (fixed),CD,123,36,758,92,36
+ptbxl_quota5000,46,XGB smooth (fixed),STTC/MI,135,28,77,682,123
+ptbxl_quota5000,46,XGB smooth (fixed),HYP,106,18,49,181,466
+ptbxl_quota5000,46,XGB distil (fixed),NORM,803,6,70,125,41
+ptbxl_quota5000,46,XGB distil (fixed),AFIB/AFL,9,990,32,10,4
+ptbxl_quota5000,46,XGB distil (fixed),CD,113,37,769,91,35
+ptbxl_quota5000,46,XGB distil (fixed),STTC/MI,128,25,81,684,127
+ptbxl_quota5000,46,XGB distil (fixed),HYP,107,16,48,161,488
+ptbxl_quota5000,46,XGB distil (tuned),NORM,802,6,70,116,51
+ptbxl_quota5000,46,XGB distil (tuned),AFIB/AFL,10,984,30,14,7
+ptbxl_quota5000,46,XGB distil (tuned),CD,115,38,760,93,39
+ptbxl_quota5000,46,XGB distil (tuned),STTC/MI,124,23,87,669,142
+ptbxl_quota5000,46,XGB distil (tuned),HYP,101,16,47,172,484
+ptbxl_quota5000,46,XGB smooth (tuned),NORM,811,6,60,118,50
+ptbxl_quota5000,46,XGB smooth (tuned),AFIB/AFL,10,981,38,13,3
+ptbxl_quota5000,46,XGB smooth (tuned),CD,122,34,753,99,37
+ptbxl_quota5000,46,XGB smooth (tuned),STTC/MI,137,26,78,677,127
+ptbxl_quota5000,46,XGB smooth (tuned),HYP,103,18,46,184,469
+ptbxl_quota5000,46,XGB entropy-matched (tuned),NORM,813,8,68,109,47
+ptbxl_quota5000,46,XGB entropy-matched (tuned),AFIB/AFL,12,986,32,11,4
+ptbxl_quota5000,46,XGB entropy-matched (tuned),CD,122,42,760,86,35
+ptbxl_quota5000,46,XGB entropy-matched (tuned),STTC/MI,144,33,78,668,122
+ptbxl_quota5000,46,XGB entropy-matched (tuned),HYP,109,19,52,185,455
+ptbxl_natural5000,42,TabPFN teacher,NORM,2457,4,31,155,9
+ptbxl_natural5000,42,TabPFN teacher,AFIB/AFL,6,348,15,10,2
+ptbxl_natural5000,42,TabPFN teacher,CD,140,19,318,61,5
+ptbxl_natural5000,42,TabPFN teacher,STTC/MI,295,17,42,770,26
+ptbxl_natural5000,42,TabPFN teacher,HYP,69,4,7,103,87
+ptbxl_natural5000,42,MLP hard,NORM,2367,16,61,179,33
+ptbxl_natural5000,42,MLP hard,AFIB/AFL,7,332,22,18,2
+ptbxl_natural5000,42,MLP hard,CD,143,23,297,72,8
+ptbxl_natural5000,42,MLP hard,STTC/MI,281,24,62,734,49
+ptbxl_natural5000,42,MLP hard,HYP,66,5,12,106,81
+ptbxl_natural5000,42,MLP smooth (fixed),NORM,2392,12,44,180,28
+ptbxl_natural5000,42,MLP smooth (fixed),AFIB/AFL,11,332,21,14,3
+ptbxl_natural5000,42,MLP smooth (fixed),CD,150,26,291,66,10
+ptbxl_natural5000,42,MLP smooth (fixed),STTC/MI,289,26,58,726,51
+ptbxl_natural5000,42,MLP smooth (fixed),HYP,71,6,10,91,92
+ptbxl_natural5000,42,MLP distil (fixed),NORM,2401,11,49,172,23
+ptbxl_natural5000,42,MLP distil (fixed),AFIB/AFL,8,338,17,16,2
+ptbxl_natural5000,42,MLP distil (fixed),CD,143,19,307,67,7
+ptbxl_natural5000,42,MLP distil (fixed),STTC/MI,286,22,56,741,45
+ptbxl_natural5000,42,MLP distil (fixed),HYP,67,4,14,97,88
+ptbxl_natural5000,42,MLP smooth (tuned),NORM,2396,12,44,179,25
+ptbxl_natural5000,42,MLP smooth (tuned),AFIB/AFL,9,331,22,15,4
+ptbxl_natural5000,42,MLP smooth (tuned),CD,153,23,289,66,12
+ptbxl_natural5000,42,MLP smooth (tuned),STTC/MI,305,26,57,707,55
+ptbxl_natural5000,42,MLP smooth (tuned),HYP,76,6,9,93,86
+ptbxl_natural5000,42,MLP distil (tuned),NORM,2408,10,35,177,26
+ptbxl_natural5000,42,MLP distil (tuned),AFIB/AFL,9,333,19,19,1
+ptbxl_natural5000,42,MLP distil (tuned),CD,148,25,291,70,9
+ptbxl_natural5000,42,MLP distil (tuned),STTC/MI,295,23,46,749,37
+ptbxl_natural5000,42,MLP distil (tuned),HYP,68,4,7,103,88
+ptbxl_natural5000,42,MLP entropy-matched (tuned),NORM,2386,17,45,186,22
+ptbxl_natural5000,42,MLP entropy-matched (tuned),AFIB/AFL,11,336,19,12,3
+ptbxl_natural5000,42,MLP entropy-matched (tuned),CD,147,22,296,68,10
+ptbxl_natural5000,42,MLP entropy-matched (tuned),STTC/MI,300,36,56,706,52
+ptbxl_natural5000,42,MLP entropy-matched (tuned),HYP,72,10,10,95,83
+ptbxl_natural5000,42,XGB hard,NORM,2446,7,24,174,5
+ptbxl_natural5000,42,XGB hard,AFIB/AFL,9,344,15,11,2
+ptbxl_natural5000,42,XGB hard,CD,162,16,294,69,2
+ptbxl_natural5000,42,XGB hard,STTC/MI,296,15,41,773,25
+ptbxl_natural5000,42,XGB hard,HYP,84,4,7,111,64
+ptbxl_natural5000,42,XGB smooth (fixed),NORM,2448,6,27,173,2
+ptbxl_natural5000,42,XGB smooth (fixed),AFIB/AFL,10,339,17,12,3
+ptbxl_natural5000,42,XGB smooth (fixed),CD,153,16,303,69,2
+ptbxl_natural5000,42,XGB smooth (fixed),STTC/MI,306,14,35,772,23
+ptbxl_natural5000,42,XGB smooth (fixed),HYP,82,4,8,114,62
+ptbxl_natural5000,42,XGB distil (fixed),NORM,2449,6,26,173,2
+ptbxl_natural5000,42,XGB distil (fixed),AFIB/AFL,9,344,15,11,2
+ptbxl_natural5000,42,XGB distil (fixed),CD,155,18,308,60,2
+ptbxl_natural5000,42,XGB distil (fixed),STTC/MI,297,15,40,768,30
+ptbxl_natural5000,42,XGB distil (fixed),HYP,79,4,7,114,66
+ptbxl_natural5000,42,XGB distil (tuned),NORM,2444,6,29,172,5
+ptbxl_natural5000,42,XGB distil (tuned),AFIB/AFL,10,343,15,11,2
+ptbxl_natural5000,42,XGB distil (tuned),CD,152,19,308,60,4
+ptbxl_natural5000,42,XGB distil (tuned),STTC/MI,291,15,44,771,29
+ptbxl_natural5000,42,XGB distil (tuned),HYP,79,4,10,113,64
+ptbxl_natural5000,42,XGB smooth (tuned),NORM,2455,6,26,169,0
+ptbxl_natural5000,42,XGB smooth (tuned),AFIB/AFL,10,338,16,14,3
+ptbxl_natural5000,42,XGB smooth (tuned),CD,147,16,307,72,1
+ptbxl_natural5000,42,XGB smooth (tuned),STTC/MI,306,14,36,770,24
+ptbxl_natural5000,42,XGB smooth (tuned),HYP,84,4,7,112,63
+ptbxl_natural5000,42,XGB entropy-matched (tuned),NORM,2461,6,25,162,2
+ptbxl_natural5000,42,XGB entropy-matched (tuned),AFIB/AFL,9,346,15,10,1
+ptbxl_natural5000,42,XGB entropy-matched (tuned),CD,155,18,302,66,2
+ptbxl_natural5000,42,XGB entropy-matched (tuned),STTC/MI,313,18,35,763,21
+ptbxl_natural5000,42,XGB entropy-matched (tuned),HYP,78,5,7,111,69
+ptbxl_natural5000,43,TabPFN teacher,NORM,2465,4,25,155,7
+ptbxl_natural5000,43,TabPFN teacher,AFIB/AFL,7,350,15,8,1
+ptbxl_natural5000,43,TabPFN teacher,CD,134,21,324,59,5
+ptbxl_natural5000,43,TabPFN teacher,STTC/MI,291,17,41,774,27
+ptbxl_natural5000,43,TabPFN teacher,HYP,67,5,8,111,79
+ptbxl_natural5000,43,MLP hard,NORM,2349,17,51,217,22
+ptbxl_natural5000,43,MLP hard,AFIB/AFL,13,324,20,18,6
+ptbxl_natural5000,43,MLP hard,CD,132,25,278,99,9
+ptbxl_natural5000,43,MLP hard,STTC/MI,250,27,38,786,49
+ptbxl_natural5000,43,MLP hard,HYP,61,8,10,118,73
+ptbxl_natural5000,43,MLP smooth (fixed),NORM,2421,16,35,171,13
+ptbxl_natural5000,43,MLP smooth (fixed),AFIB/AFL,9,335,17,14,6
+ptbxl_natural5000,43,MLP smooth (fixed),CD,152,24,277,81,9
+ptbxl_natural5000,43,MLP smooth (fixed),STTC/MI,310,25,51,711,53
+ptbxl_natural5000,43,MLP smooth (fixed),HYP,74,7,11,101,77
+ptbxl_natural5000,43,MLP distil (fixed),NORM,2434,16,42,152,12
+ptbxl_natural5000,43,MLP distil (fixed),AFIB/AFL,10,334,19,13,5
+ptbxl_natural5000,43,MLP distil (fixed),CD,159,26,281,72,5
+ptbxl_natural5000,43,MLP distil (fixed),STTC/MI,311,32,56,707,44
+ptbxl_natural5000,43,MLP distil (fixed),HYP,68,7,6,102,87
+ptbxl_natural5000,43,MLP smooth (tuned),NORM,2411,15,38,178,14
+ptbxl_natural5000,43,MLP smooth (tuned),AFIB/AFL,9,335,16,15,6
+ptbxl_natural5000,43,MLP smooth (tuned),CD,146,20,290,79,8
+ptbxl_natural5000,43,MLP smooth (tuned),STTC/MI,293,27,54,727,49
+ptbxl_natural5000,43,MLP smooth (tuned),HYP,76,7,12,91,84
+ptbxl_natural5000,43,MLP distil (tuned),NORM,2422,10,35,179,10
+ptbxl_natural5000,43,MLP distil (tuned),AFIB/AFL,8,333,21,14,5
+ptbxl_natural5000,43,MLP distil (tuned),CD,160,22,284,73,4
+ptbxl_natural5000,43,MLP distil (tuned),STTC/MI,297,21,58,737,37
+ptbxl_natural5000,43,MLP distil (tuned),HYP,70,4,8,105,83
+ptbxl_natural5000,43,MLP entropy-matched (tuned),NORM,2395,15,50,177,19
+ptbxl_natural5000,43,MLP entropy-matched (tuned),AFIB/AFL,9,333,13,20,6
+ptbxl_natural5000,43,MLP entropy-matched (tuned),CD,138,28,292,79,6
+ptbxl_natural5000,43,MLP entropy-matched (tuned),STTC/MI,307,36,49,711,47
+ptbxl_natural5000,43,MLP entropy-matched (tuned),HYP,67,8,9,105,81
+ptbxl_natural5000,43,XGB hard,NORM,2453,7,28,158,10
+ptbxl_natural5000,43,XGB hard,AFIB/AFL,10,344,15,12,0
+ptbxl_natural5000,43,XGB hard,CD,155,17,294,72,5
+ptbxl_natural5000,43,XGB hard,STTC/MI,292,19,39,775,25
+ptbxl_natural5000,43,XGB hard,HYP,86,5,5,110,64
+ptbxl_natural5000,43,XGB smooth (fixed),NORM,2461,6,22,160,7
+ptbxl_natural5000,43,XGB smooth (fixed),AFIB/AFL,9,341,18,11,2
+ptbxl_natural5000,43,XGB smooth (fixed),CD,164,16,288,72,3
+ptbxl_natural5000,43,XGB smooth (fixed),STTC/MI,300,19,39,769,23
+ptbxl_natural5000,43,XGB smooth (fixed),HYP,82,5,7,111,65
+ptbxl_natural5000,43,XGB distil (fixed),NORM,2458,7,29,154,8
+ptbxl_natural5000,43,XGB distil (fixed),AFIB/AFL,9,343,17,11,1
+ptbxl_natural5000,43,XGB distil (fixed),CD,159,15,305,60,4
+ptbxl_natural5000,43,XGB distil (fixed),STTC/MI,295,17,48,768,22
+ptbxl_natural5000,43,XGB distil (fixed),HYP,82,4,7,112,65
+ptbxl_natural5000,43,XGB distil (tuned),NORM,2454,10,26,160,6
+ptbxl_natural5000,43,XGB distil (tuned),AFIB/AFL,9,345,17,9,1
+ptbxl_natural5000,43,XGB distil (tuned),CD,151,18,304,66,4
+ptbxl_natural5000,43,XGB distil (tuned),STTC/MI,288,18,48,766,30
+ptbxl_natural5000,43,XGB distil (tuned),HYP,77,4,5,118,66
+ptbxl_natural5000,43,XGB smooth (tuned),NORM,2460,6,23,159,8
+ptbxl_natural5000,43,XGB smooth (tuned),AFIB/AFL,10,342,17,11,1
+ptbxl_natural5000,43,XGB smooth (tuned),CD,161,15,287,74,6
+ptbxl_natural5000,43,XGB smooth (tuned),STTC/MI,302,18,39,768,23
+ptbxl_natural5000,43,XGB smooth (tuned),HYP,84,4,6,109,67
+ptbxl_natural5000,43,XGB entropy-matched (tuned),NORM,2460,7,25,157,7
+ptbxl_natural5000,43,XGB entropy-matched (tuned),AFIB/AFL,12,340,18,10,1
+ptbxl_natural5000,43,XGB entropy-matched (tuned),CD,158,19,295,67,4
+ptbxl_natural5000,43,XGB entropy-matched (tuned),STTC/MI,299,19,42,771,19
+ptbxl_natural5000,43,XGB entropy-matched (tuned),HYP,82,6,7,114,61
+ptbxl_natural5000,44,TabPFN teacher,NORM,2467,5,28,150,6
+ptbxl_natural5000,44,TabPFN teacher,AFIB/AFL,7,351,14,7,2
+ptbxl_natural5000,44,TabPFN teacher,CD,142,24,311,60,6
+ptbxl_natural5000,44,TabPFN teacher,STTC/MI,289,18,42,774,27
+ptbxl_natural5000,44,TabPFN teacher,HYP,68,6,7,111,78
+ptbxl_natural5000,44,MLP hard,NORM,2364,15,67,188,22
+ptbxl_natural5000,44,MLP hard,AFIB/AFL,13,322,23,18,5
+ptbxl_natural5000,44,MLP hard,CD,131,31,303,70,8
+ptbxl_natural5000,44,MLP hard,STTC/MI,276,28,74,712,60
+ptbxl_natural5000,44,MLP hard,HYP,70,6,11,83,100
+ptbxl_natural5000,44,MLP smooth (fixed),NORM,2389,15,43,183,26
+ptbxl_natural5000,44,MLP smooth (fixed),AFIB/AFL,13,326,21,19,2
+ptbxl_natural5000,44,MLP smooth (fixed),CD,150,26,283,74,10
+ptbxl_natural5000,44,MLP smooth (fixed),STTC/MI,302,27,42,717,62
+ptbxl_natural5000,44,MLP smooth (fixed),HYP,71,6,9,90,94
+ptbxl_natural5000,44,MLP distil (fixed),NORM,2441,10,44,147,14
+ptbxl_natural5000,44,MLP distil (fixed),AFIB/AFL,12,328,21,13,7
+ptbxl_natural5000,44,MLP distil (fixed),CD,159,28,280,68,8
+ptbxl_natural5000,44,MLP distil (fixed),STTC/MI,300,26,51,719,54
+ptbxl_natural5000,44,MLP distil (fixed),HYP,70,4,7,101,88
+ptbxl_natural5000,44,MLP smooth (tuned),NORM,2399,13,38,184,22
+ptbxl_natural5000,44,MLP smooth (tuned),AFIB/AFL,10,326,22,20,3
+ptbxl_natural5000,44,MLP smooth (tuned),CD,145,30,292,68,8
+ptbxl_natural5000,44,MLP smooth (tuned),STTC/MI,301,27,56,712,54
+ptbxl_natural5000,44,MLP smooth (tuned),HYP,79,5,10,87,89
+ptbxl_natural5000,44,MLP distil (tuned),NORM,2409,12,43,166,26
+ptbxl_natural5000,44,MLP distil (tuned),AFIB/AFL,11,323,30,13,4
+ptbxl_natural5000,44,MLP distil (tuned),CD,141,27,294,70,11
+ptbxl_natural5000,44,MLP distil (tuned),STTC/MI,303,27,57,697,66
+ptbxl_natural5000,44,MLP distil (tuned),HYP,73,5,9,84,99
+ptbxl_natural5000,44,MLP entropy-matched (tuned),NORM,2370,14,52,195,25
+ptbxl_natural5000,44,MLP entropy-matched (tuned),AFIB/AFL,8,339,15,16,3
+ptbxl_natural5000,44,MLP entropy-matched (tuned),CD,134,23,307,69,10
+ptbxl_natural5000,44,MLP entropy-matched (tuned),STTC/MI,284,37,55,720,54
+ptbxl_natural5000,44,MLP entropy-matched (tuned),HYP,67,6,9,91,97
+ptbxl_natural5000,44,XGB hard,NORM,2453,6,30,158,9
+ptbxl_natural5000,44,XGB hard,AFIB/AFL,13,341,14,12,1
+ptbxl_natural5000,44,XGB hard,CD,159,16,297,70,1
+ptbxl_natural5000,44,XGB hard,STTC/MI,293,18,39,776,24
+ptbxl_natural5000,44,XGB hard,HYP,77,4,6,118,65
+ptbxl_natural5000,44,XGB smooth (fixed),NORM,2450,5,26,166,9
+ptbxl_natural5000,44,XGB smooth (fixed),AFIB/AFL,9,339,18,14,1
+ptbxl_natural5000,44,XGB smooth (fixed),CD,158,15,304,64,2
+ptbxl_natural5000,44,XGB smooth (fixed),STTC/MI,297,17,34,788,14
+ptbxl_natural5000,44,XGB smooth (fixed),HYP,80,3,6,120,61
+ptbxl_natural5000,44,XGB distil (fixed),NORM,2449,6,31,160,10
+ptbxl_natural5000,44,XGB distil (fixed),AFIB/AFL,12,343,16,9,1
+ptbxl_natural5000,44,XGB distil (fixed),CD,153,18,302,65,5
+ptbxl_natural5000,44,XGB distil (fixed),STTC/MI,294,16,43,777,20
+ptbxl_natural5000,44,XGB distil (fixed),HYP,79,5,7,114,65
+ptbxl_natural5000,44,XGB distil (tuned),NORM,2454,6,33,154,9
+ptbxl_natural5000,44,XGB distil (tuned),AFIB/AFL,13,343,16,9,0
+ptbxl_natural5000,44,XGB distil (tuned),CD,152,14,305,69,3
+ptbxl_natural5000,44,XGB distil (tuned),STTC/MI,298,17,41,775,19
+ptbxl_natural5000,44,XGB distil (tuned),HYP,80,5,5,113,67
+ptbxl_natural5000,44,XGB smooth (tuned),NORM,2454,5,26,166,5
+ptbxl_natural5000,44,XGB smooth (tuned),AFIB/AFL,10,341,16,13,1
+ptbxl_natural5000,44,XGB smooth (tuned),CD,151,16,306,67,3
+ptbxl_natural5000,44,XGB smooth (tuned),STTC/MI,292,17,37,784,20
+ptbxl_natural5000,44,XGB smooth (tuned),HYP,80,3,6,119,62
+ptbxl_natural5000,44,XGB entropy-matched (tuned),NORM,2446,6,29,167,8
+ptbxl_natural5000,44,XGB entropy-matched (tuned),AFIB/AFL,11,343,17,9,1
+ptbxl_natural5000,44,XGB entropy-matched (tuned),CD,155,20,302,64,2
+ptbxl_natural5000,44,XGB entropy-matched (tuned),STTC/MI,301,17,36,777,19
+ptbxl_natural5000,44,XGB entropy-matched (tuned),HYP,80,5,6,112,67
+ptbxl_natural5000,45,TabPFN teacher,NORM,2462,6,37,147,4
+ptbxl_natural5000,45,TabPFN teacher,AFIB/AFL,6,351,13,8,3
+ptbxl_natural5000,45,TabPFN teacher,CD,144,21,317,55,6
+ptbxl_natural5000,45,TabPFN teacher,STTC/MI,285,16,42,779,28
+ptbxl_natural5000,45,TabPFN teacher,HYP,70,5,7,113,75
+ptbxl_natural5000,45,MLP hard,NORM,2383,15,46,194,18
+ptbxl_natural5000,45,MLP hard,AFIB/AFL,11,321,22,22,5
+ptbxl_natural5000,45,MLP hard,CD,150,24,289,67,13
+ptbxl_natural5000,45,MLP hard,STTC/MI,269,30,58,748,45
+ptbxl_natural5000,45,MLP hard,HYP,69,6,11,103,81
+ptbxl_natural5000,45,MLP smooth (fixed),NORM,2389,13,47,195,12
+ptbxl_natural5000,45,MLP smooth (fixed),AFIB/AFL,10,330,20,15,6
+ptbxl_natural5000,45,MLP smooth (fixed),CD,153,21,288,74,7
+ptbxl_natural5000,45,MLP smooth (fixed),STTC/MI,274,30,43,763,40
+ptbxl_natural5000,45,MLP smooth (fixed),HYP,65,7,12,103,83
+ptbxl_natural5000,45,MLP distil (fixed),NORM,2414,12,48,167,15
+ptbxl_natural5000,45,MLP distil (fixed),AFIB/AFL,9,331,21,15,5
+ptbxl_natural5000,45,MLP distil (fixed),CD,139,23,300,71,10
+ptbxl_natural5000,45,MLP distil (fixed),STTC/MI,288,24,63,732,43
+ptbxl_natural5000,45,MLP distil (fixed),HYP,71,5,10,95,89
+ptbxl_natural5000,45,MLP smooth (tuned),NORM,2393,14,51,186,12
+ptbxl_natural5000,45,MLP smooth (tuned),AFIB/AFL,9,326,22,18,6
+ptbxl_natural5000,45,MLP smooth (tuned),CD,155,22,292,68,6
+ptbxl_natural5000,45,MLP smooth (tuned),STTC/MI,281,28,47,761,33
+ptbxl_natural5000,45,MLP smooth (tuned),HYP,74,8,12,97,79
+ptbxl_natural5000,45,MLP distil (tuned),NORM,2421,11,42,168,14
+ptbxl_natural5000,45,MLP distil (tuned),AFIB/AFL,8,334,24,11,4
+ptbxl_natural5000,45,MLP distil (tuned),CD,148,23,296,70,6
+ptbxl_natural5000,45,MLP distil (tuned),STTC/MI,285,28,53,744,40
+ptbxl_natural5000,45,MLP distil (tuned),HYP,71,5,7,101,86
+ptbxl_natural5000,45,MLP entropy-matched (tuned),NORM,2391,15,43,193,14
+ptbxl_natural5000,45,MLP entropy-matched (tuned),AFIB/AFL,8,340,18,12,3
+ptbxl_natural5000,45,MLP entropy-matched (tuned),CD,151,26,285,73,8
+ptbxl_natural5000,45,MLP entropy-matched (tuned),STTC/MI,281,34,47,749,39
+ptbxl_natural5000,45,MLP entropy-matched (tuned),HYP,73,10,11,101,75
+ptbxl_natural5000,45,XGB hard,NORM,2435,6,32,172,11
+ptbxl_natural5000,45,XGB hard,AFIB/AFL,13,340,15,10,3
+ptbxl_natural5000,45,XGB hard,CD,160,15,293,72,3
+ptbxl_natural5000,45,XGB hard,STTC/MI,284,17,43,784,22
+ptbxl_natural5000,45,XGB hard,HYP,83,5,7,104,71
+ptbxl_natural5000,45,XGB smooth (fixed),NORM,2448,6,27,166,9
+ptbxl_natural5000,45,XGB smooth (fixed),AFIB/AFL,11,342,13,12,3
+ptbxl_natural5000,45,XGB smooth (fixed),CD,163,14,294,70,2
+ptbxl_natural5000,45,XGB smooth (fixed),STTC/MI,287,14,36,792,21
+ptbxl_natural5000,45,XGB smooth (fixed),HYP,77,5,7,113,68
+ptbxl_natural5000,45,XGB distil (fixed),NORM,2444,7,31,167,7
+ptbxl_natural5000,45,XGB distil (fixed),AFIB/AFL,12,343,15,9,2
+ptbxl_natural5000,45,XGB distil (fixed),CD,156,16,301,66,4
+ptbxl_natural5000,45,XGB distil (fixed),STTC/MI,284,18,47,780,21
+ptbxl_natural5000,45,XGB distil (fixed),HYP,80,5,8,112,65
+ptbxl_natural5000,45,XGB distil (tuned),NORM,2441,6,28,172,9
+ptbxl_natural5000,45,XGB distil (tuned),AFIB/AFL,10,341,16,11,3
+ptbxl_natural5000,45,XGB distil (tuned),CD,158,17,295,71,2
+ptbxl_natural5000,45,XGB distil (tuned),STTC/MI,292,15,41,780,22
+ptbxl_natural5000,45,XGB distil (tuned),HYP,78,5,6,114,67
+ptbxl_natural5000,45,XGB smooth (tuned),NORM,2447,6,27,167,9
+ptbxl_natural5000,45,XGB smooth (tuned),AFIB/AFL,12,343,13,10,3
+ptbxl_natural5000,45,XGB smooth (tuned),CD,161,14,294,72,2
+ptbxl_natural5000,45,XGB smooth (tuned),STTC/MI,295,16,40,781,18
+ptbxl_natural5000,45,XGB smooth (tuned),HYP,77,5,9,108,71
+ptbxl_natural5000,45,XGB entropy-matched (tuned),NORM,2438,6,31,170,11
+ptbxl_natural5000,45,XGB entropy-matched (tuned),AFIB/AFL,11,345,15,8,2
+ptbxl_natural5000,45,XGB entropy-matched (tuned),CD,159,14,301,66,3
+ptbxl_natural5000,45,XGB entropy-matched (tuned),STTC/MI,293,17,35,784,21
+ptbxl_natural5000,45,XGB entropy-matched (tuned),HYP,80,5,8,111,66
+ptbxl_natural5000,46,TabPFN teacher,NORM,2460,6,36,145,9
+ptbxl_natural5000,46,TabPFN teacher,AFIB/AFL,5,352,14,8,2
+ptbxl_natural5000,46,TabPFN teacher,CD,145,20,312,60,6
+ptbxl_natural5000,46,TabPFN teacher,STTC/MI,282,18,43,776,31
+ptbxl_natural5000,46,TabPFN teacher,HYP,66,4,4,108,88
+ptbxl_natural5000,46,MLP hard,NORM,2371,16,61,185,23
+ptbxl_natural5000,46,MLP hard,AFIB/AFL,7,330,24,16,4
+ptbxl_natural5000,46,MLP hard,CD,142,27,300,66,8
+ptbxl_natural5000,46,MLP hard,STTC/MI,273,32,60,733,52
+ptbxl_natural5000,46,MLP hard,HYP,62,5,9,101,93
+ptbxl_natural5000,46,MLP smooth (fixed),NORM,2424,13,48,157,14
+ptbxl_natural5000,46,MLP smooth (fixed),AFIB/AFL,11,322,27,16,5
+ptbxl_natural5000,46,MLP smooth (fixed),CD,154,25,291,66,7
+ptbxl_natural5000,46,MLP smooth (fixed),STTC/MI,316,30,53,702,49
+ptbxl_natural5000,46,MLP smooth (fixed),HYP,70,5,9,105,81
+ptbxl_natural5000,46,MLP distil (fixed),NORM,2395,13,52,183,13
+ptbxl_natural5000,46,MLP distil (fixed),AFIB/AFL,7,326,27,15,6
+ptbxl_natural5000,46,MLP distil (fixed),CD,146,20,302,66,9
+ptbxl_natural5000,46,MLP distil (fixed),STTC/MI,278,23,58,749,42
+ptbxl_natural5000,46,MLP distil (fixed),HYP,67,5,9,101,88
+ptbxl_natural5000,46,MLP smooth (tuned),NORM,2408,14,47,170,17
+ptbxl_natural5000,46,MLP smooth (tuned),AFIB/AFL,10,329,20,18,4
+ptbxl_natural5000,46,MLP smooth (tuned),CD,155,25,289,66,8
+ptbxl_natural5000,46,MLP smooth (tuned),STTC/MI,312,33,50,708,47
+ptbxl_natural5000,46,MLP smooth (tuned),HYP,74,6,9,98,83
+ptbxl_natural5000,46,MLP distil (tuned),NORM,2423,11,43,166,13
+ptbxl_natural5000,46,MLP distil (tuned),AFIB/AFL,9,332,23,13,4
+ptbxl_natural5000,46,MLP distil (tuned),CD,149,20,295,72,7
+ptbxl_natural5000,46,MLP distil (tuned),STTC/MI,299,28,51,721,51
+ptbxl_natural5000,46,MLP distil (tuned),HYP,72,4,8,99,87
+ptbxl_natural5000,46,MLP entropy-matched (tuned),NORM,2386,12,50,189,19
+ptbxl_natural5000,46,MLP entropy-matched (tuned),AFIB/AFL,6,340,17,13,5
+ptbxl_natural5000,46,MLP entropy-matched (tuned),CD,153,28,284,68,10
+ptbxl_natural5000,46,MLP entropy-matched (tuned),STTC/MI,287,37,53,722,51
+ptbxl_natural5000,46,MLP entropy-matched (tuned),HYP,72,7,10,102,79
+ptbxl_natural5000,46,XGB hard,NORM,2441,6,33,163,13
+ptbxl_natural5000,46,XGB hard,AFIB/AFL,10,342,16,11,2
+ptbxl_natural5000,46,XGB hard,CD,165,14,294,70,0
+ptbxl_natural5000,46,XGB hard,STTC/MI,297,16,40,778,19
+ptbxl_natural5000,46,XGB hard,HYP,83,4,6,112,65
+ptbxl_natural5000,46,XGB smooth (fixed),NORM,2459,6,22,159,10
+ptbxl_natural5000,46,XGB smooth (fixed),AFIB/AFL,8,342,17,11,3
+ptbxl_natural5000,46,XGB smooth (fixed),CD,163,15,292,69,4
+ptbxl_natural5000,46,XGB smooth (fixed),STTC/MI,300,16,38,771,25
+ptbxl_natural5000,46,XGB smooth (fixed),HYP,85,3,5,111,66
+ptbxl_natural5000,46,XGB distil (fixed),NORM,2452,7,27,163,7
+ptbxl_natural5000,46,XGB distil (fixed),AFIB/AFL,11,341,18,9,2
+ptbxl_natural5000,46,XGB distil (fixed),CD,159,17,299,63,5
+ptbxl_natural5000,46,XGB distil (fixed),STTC/MI,284,17,42,780,27
+ptbxl_natural5000,46,XGB distil (fixed),HYP,80,5,4,112,69
+ptbxl_natural5000,46,XGB distil (tuned),NORM,2450,7,25,163,11
+ptbxl_natural5000,46,XGB distil (tuned),AFIB/AFL,10,343,16,9,3
+ptbxl_natural5000,46,XGB distil (tuned),CD,154,17,300,67,5
+ptbxl_natural5000,46,XGB distil (tuned),STTC/MI,291,17,43,772,27
+ptbxl_natural5000,46,XGB distil (tuned),HYP,77,4,4,115,70
+ptbxl_natural5000,46,XGB smooth (tuned),NORM,2459,6,23,158,10
+ptbxl_natural5000,46,XGB smooth (tuned),AFIB/AFL,9,340,17,12,3
+ptbxl_natural5000,46,XGB smooth (tuned),CD,163,13,293,71,3
+ptbxl_natural5000,46,XGB smooth (tuned),STTC/MI,293,18,35,780,24
+ptbxl_natural5000,46,XGB smooth (tuned),HYP,84,4,3,109,70
+ptbxl_natural5000,46,XGB entropy-matched (tuned),NORM,2461,6,23,155,11
+ptbxl_natural5000,46,XGB entropy-matched (tuned),AFIB/AFL,11,339,20,8,3
+ptbxl_natural5000,46,XGB entropy-matched (tuned),CD,159,16,297,68,3
+ptbxl_natural5000,46,XGB entropy-matched (tuned),STTC/MI,297,18,39,775,21
+ptbxl_natural5000,46,XGB entropy-matched (tuned),HYP,85,4,4,115,62
+ptbxl_natural15160,42,TabPFN teacher,NORM,7472,9,101,447,23
+ptbxl_natural15160,42,TabPFN teacher,AFIB/AFL,14,1086,27,27,1
+ptbxl_natural15160,42,TabPFN teacher,CD,401,51,1040,145,10
+ptbxl_natural15160,42,TabPFN teacher,STTC/MI,826,49,96,2425,90
+ptbxl_natural15160,42,TabPFN teacher,HYP,210,13,19,316,262
+ptbxl_natural15160,42,MLP hard,NORM,7228,35,143,581,65
+ptbxl_natural15160,42,MLP hard,AFIB/AFL,23,1048,37,39,8
+ptbxl_natural15160,42,MLP hard,CD,383,58,1004,180,22
+ptbxl_natural15160,42,MLP hard,STTC/MI,770,85,130,2331,170
+ptbxl_natural15160,42,MLP hard,HYP,205,18,18,261,318
+ptbxl_natural15160,42,MLP smooth (fixed),NORM,7312,25,116,564,35
+ptbxl_natural15160,42,MLP smooth (fixed),AFIB/AFL,26,1051,36,38,4
+ptbxl_natural15160,42,MLP smooth (fixed),CD,403,56,981,187,20
+ptbxl_natural15160,42,MLP smooth (fixed),STTC/MI,798,80,107,2357,144
+ptbxl_natural15160,42,MLP smooth (fixed),HYP,211,20,16,273,300
+ptbxl_natural15160,42,MLP distil (fixed),NORM,7378,28,93,515,38
+ptbxl_natural15160,42,MLP distil (fixed),AFIB/AFL,18,1063,34,36,4
+ptbxl_natural15160,42,MLP distil (fixed),CD,408,70,991,162,16
+ptbxl_natural15160,42,MLP distil (fixed),STTC/MI,799,82,111,2359,135
+ptbxl_natural15160,42,MLP distil (fixed),HYP,209,16,11,285,299
+ptbxl_natural15160,42,MLP smooth (tuned),NORM,7231,20,149,609,43
+ptbxl_natural15160,42,MLP smooth (tuned),AFIB/AFL,26,1046,39,41,3
+ptbxl_natural15160,42,MLP smooth (tuned),CD,380,57,1016,173,21
+ptbxl_natural15160,42,MLP smooth (tuned),STTC/MI,771,73,139,2355,148
+ptbxl_natural15160,42,MLP smooth (tuned),HYP,199,17,21,283,300
+ptbxl_natural15160,42,MLP distil (tuned),NORM,7387,23,99,504,39
+ptbxl_natural15160,42,MLP distil (tuned),AFIB/AFL,21,1051,40,37,6
+ptbxl_natural15160,42,MLP distil (tuned),CD,407,60,1006,156,18
+ptbxl_natural15160,42,MLP distil (tuned),STTC/MI,826,69,117,2346,128
+ptbxl_natural15160,42,MLP distil (tuned),HYP,213,17,13,289,288
+ptbxl_natural15160,42,MLP entropy-matched (tuned),NORM,7289,23,130,566,44
+ptbxl_natural15160,42,MLP entropy-matched (tuned),AFIB/AFL,24,1047,43,38,3
+ptbxl_natural15160,42,MLP entropy-matched (tuned),CD,394,61,1007,169,16
+ptbxl_natural15160,42,MLP entropy-matched (tuned),STTC/MI,822,84,135,2317,128
+ptbxl_natural15160,42,MLP entropy-matched (tuned),HYP,212,19,20,289,280
+ptbxl_natural15160,42,XGB hard,NORM,7427,13,106,473,33
+ptbxl_natural15160,42,XGB hard,AFIB/AFL,20,1067,32,33,3
+ptbxl_natural15160,42,XGB hard,CD,406,40,1032,158,11
+ptbxl_natural15160,42,XGB hard,STTC/MI,853,51,123,2363,96
+ptbxl_natural15160,42,XGB hard,HYP,226,11,19,319,245
+ptbxl_natural15160,42,XGB smooth (fixed),NORM,7446,11,90,479,26
+ptbxl_natural15160,42,XGB smooth (fixed),AFIB/AFL,23,1063,33,33,3
+ptbxl_natural15160,42,XGB smooth (fixed),CD,411,40,1018,164,14
+ptbxl_natural15160,42,XGB smooth (fixed),STTC/MI,859,45,103,2408,71
+ptbxl_natural15160,42,XGB smooth (fixed),HYP,226,13,19,325,237
+ptbxl_natural15160,42,XGB distil (fixed),NORM,7449,13,105,461,24
+ptbxl_natural15160,42,XGB distil (fixed),AFIB/AFL,19,1072,28,33,3
+ptbxl_natural15160,42,XGB distil (fixed),CD,407,43,1020,168,9
+ptbxl_natural15160,42,XGB distil (fixed),STTC/MI,844,50,114,2388,90
+ptbxl_natural15160,42,XGB distil (fixed),HYP,227,13,17,329,234
+ptbxl_natural15160,42,XGB distil (tuned),NORM,7428,14,95,490,25
+ptbxl_natural15160,42,XGB distil (tuned),AFIB/AFL,22,1066,28,36,3
+ptbxl_natural15160,42,XGB distil (tuned),CD,409,44,1009,174,11
+ptbxl_natural15160,42,XGB distil (tuned),STTC/MI,853,47,111,2386,89
+ptbxl_natural15160,42,XGB distil (tuned),HYP,226,13,19,319,243
+ptbxl_natural15160,42,XGB smooth (tuned),NORM,7446,11,95,468,32
+ptbxl_natural15160,42,XGB smooth (tuned),AFIB/AFL,23,1062,36,31,3
+ptbxl_natural15160,42,XGB smooth (tuned),CD,408,40,1018,169,12
+ptbxl_natural15160,42,XGB smooth (tuned),STTC/MI,871,47,106,2386,76
+ptbxl_natural15160,42,XGB smooth (tuned),HYP,228,13,19,322,238
+ptbxl_natural15160,42,XGB entropy-matched (tuned),NORM,7426,12,104,479,31
+ptbxl_natural15160,42,XGB entropy-matched (tuned),AFIB/AFL,21,1066,37,28,3
+ptbxl_natural15160,42,XGB entropy-matched (tuned),CD,412,39,1026,156,14
+ptbxl_natural15160,42,XGB entropy-matched (tuned),STTC/MI,848,51,100,2403,84
+ptbxl_natural15160,42,XGB entropy-matched (tuned),HYP,222,15,18,323,242
+chapman_quota5000,42,TabPFN teacher,NORM,925,1,19,131,120
+chapman_quota5000,42,TabPFN teacher,AFIB/AFL,1,1115,34,43,4
+chapman_quota5000,42,TabPFN teacher,CD,47,48,394,87,14
+chapman_quota5000,42,TabPFN teacher,STTC/MI,182,42,52,827,94
+chapman_quota5000,42,TabPFN teacher,HYP,205,18,32,242,323
+chapman_quota5000,42,MLP hard,NORM,850,5,37,141,163
+chapman_quota5000,42,MLP hard,AFIB/AFL,5,1084,46,50,12
+chapman_quota5000,42,MLP hard,CD,51,54,349,99,37
+chapman_quota5000,42,MLP hard,STTC/MI,171,58,53,751,164
+chapman_quota5000,42,MLP hard,HYP,182,29,34,210,365
+chapman_quota5000,42,MLP smooth (fixed),NORM,872,7,37,129,151
+chapman_quota5000,42,MLP smooth (fixed),AFIB/AFL,7,1087,44,46,13
+chapman_quota5000,42,MLP smooth (fixed),CD,55,55,345,97,38
+chapman_quota5000,42,MLP smooth (fixed),STTC/MI,183,57,54,745,158
+chapman_quota5000,42,MLP smooth (fixed),HYP,201,34,35,190,360
+chapman_quota5000,42,MLP distil (fixed),NORM,885,6,30,125,150
+chapman_quota5000,42,MLP distil (fixed),AFIB/AFL,6,1081,52,45,13
+chapman_quota5000,42,MLP distil (fixed),CD,52,56,357,94,31
+chapman_quota5000,42,MLP distil (fixed),STTC/MI,184,48,63,758,144
+chapman_quota5000,42,MLP distil (fixed),HYP,193,25,40,209,353
+chapman_quota5000,42,MLP smooth (tuned),NORM,859,8,33,143,153
+chapman_quota5000,42,MLP smooth (tuned),AFIB/AFL,5,1081,47,49,15
+chapman_quota5000,42,MLP smooth (tuned),CD,59,50,342,104,35
+chapman_quota5000,42,MLP smooth (tuned),STTC/MI,170,50,49,778,150
+chapman_quota5000,42,MLP smooth (tuned),HYP,192,35,32,209,352
+chapman_quota5000,42,MLP distil (tuned),NORM,899,5,35,114,143
+chapman_quota5000,42,MLP distil (tuned),AFIB/AFL,3,1096,45,45,8
+chapman_quota5000,42,MLP distil (tuned),CD,48,60,349,112,21
+chapman_quota5000,42,MLP distil (tuned),STTC/MI,185,49,59,778,126
+chapman_quota5000,42,MLP distil (tuned),HYP,202,24,36,214,344
+chapman_quota5000,42,MLP entropy-matched (tuned),NORM,869,8,45,116,158
+chapman_quota5000,42,MLP entropy-matched (tuned),AFIB/AFL,6,1087,50,42,12
+chapman_quota5000,42,MLP entropy-matched (tuned),CD,55,55,356,91,33
+chapman_quota5000,42,MLP entropy-matched (tuned),STTC/MI,184,53,58,746,156
+chapman_quota5000,42,MLP entropy-matched (tuned),HYP,188,30,42,207,353
+chapman_quota5000,42,XGB hard,NORM,910,6,25,116,139
+chapman_quota5000,42,XGB hard,AFIB/AFL,5,1101,35,46,10
+chapman_quota5000,42,XGB hard,CD,56,52,364,92,26
+chapman_quota5000,42,XGB hard,STTC/MI,153,48,50,816,130
+chapman_quota5000,42,XGB hard,HYP,229,20,22,231,318
+chapman_quota5000,42,XGB smooth (fixed),NORM,918,4,21,122,131
+chapman_quota5000,42,XGB smooth (fixed),AFIB/AFL,5,1101,34,47,10
+chapman_quota5000,42,XGB smooth (fixed),CD,54,56,365,95,20
+chapman_quota5000,42,XGB smooth (fixed),STTC/MI,150,48,46,828,125
+chapman_quota5000,42,XGB smooth (fixed),HYP,227,20,26,234,313
+chapman_quota5000,42,XGB distil (fixed),NORM,925,3,23,122,123
+chapman_quota5000,42,XGB distil (fixed),AFIB/AFL,6,1102,37,44,8
+chapman_quota5000,42,XGB distil (fixed),CD,57,58,358,102,15
+chapman_quota5000,42,XGB distil (fixed),STTC/MI,148,44,52,837,116
+chapman_quota5000,42,XGB distil (fixed),HYP,217,23,26,231,323
+chapman_quota5000,42,XGB distil (tuned),NORM,917,3,21,129,126
+chapman_quota5000,42,XGB distil (tuned),AFIB/AFL,6,1097,38,43,13
+chapman_quota5000,42,XGB distil (tuned),CD,59,54,363,95,19
+chapman_quota5000,42,XGB distil (tuned),STTC/MI,157,46,49,822,123
+chapman_quota5000,42,XGB distil (tuned),HYP,221,13,30,234,322
+chapman_quota5000,42,XGB smooth (tuned),NORM,918,5,22,117,134
+chapman_quota5000,42,XGB smooth (tuned),AFIB/AFL,5,1100,35,44,13
+chapman_quota5000,42,XGB smooth (tuned),CD,55,56,359,99,21
+chapman_quota5000,42,XGB smooth (tuned),STTC/MI,157,50,43,816,131
+chapman_quota5000,42,XGB smooth (tuned),HYP,229,19,24,230,318
+chapman_quota5000,42,XGB entropy-matched (tuned),NORM,917,7,20,120,132
+chapman_quota5000,42,XGB entropy-matched (tuned),AFIB/AFL,5,1105,33,43,11
+chapman_quota5000,42,XGB entropy-matched (tuned),CD,57,57,364,95,17
+chapman_quota5000,42,XGB entropy-matched (tuned),STTC/MI,161,55,46,816,119
+chapman_quota5000,42,XGB entropy-matched (tuned),HYP,237,22,23,225,313
+chapman_quota5000,43,TabPFN teacher,NORM,927,0,22,129,118
+chapman_quota5000,43,TabPFN teacher,AFIB/AFL,1,1121,35,38,2
+chapman_quota5000,43,TabPFN teacher,CD,46,56,378,94,16
+chapman_quota5000,43,TabPFN teacher,STTC/MI,181,36,55,828,97
+chapman_quota5000,43,TabPFN teacher,HYP,219,15,34,237,315
+chapman_quota5000,43,MLP hard,NORM,858,4,33,140,161
+chapman_quota5000,43,MLP hard,AFIB/AFL,3,1073,54,54,13
+chapman_quota5000,43,MLP hard,CD,53,70,346,91,30
+chapman_quota5000,43,MLP hard,STTC/MI,166,60,75,755,141
+chapman_quota5000,43,MLP hard,HYP,201,29,43,213,334
+chapman_quota5000,43,MLP smooth (fixed),NORM,813,8,31,152,192
+chapman_quota5000,43,MLP smooth (fixed),AFIB/AFL,4,1076,42,64,11
+chapman_quota5000,43,MLP smooth (fixed),CD,58,60,331,101,40
+chapman_quota5000,43,MLP smooth (fixed),STTC/MI,167,58,61,743,168
+chapman_quota5000,43,MLP smooth (fixed),HYP,179,29,32,206,374
+chapman_quota5000,43,MLP distil (fixed),NORM,875,4,22,139,156
+chapman_quota5000,43,MLP distil (fixed),AFIB/AFL,4,1082,42,58,11
+chapman_quota5000,43,MLP distil (fixed),CD,50,63,343,108,26
+chapman_quota5000,43,MLP distil (fixed),STTC/MI,177,50,63,775,132
+chapman_quota5000,43,MLP distil (fixed),HYP,190,27,35,217,351
+chapman_quota5000,43,MLP smooth (tuned),NORM,862,5,32,137,160
+chapman_quota5000,43,MLP smooth (tuned),AFIB/AFL,5,1086,46,49,11
+chapman_quota5000,43,MLP smooth (tuned),CD,57,65,338,95,35
+chapman_quota5000,43,MLP smooth (tuned),STTC/MI,194,56,61,744,142
+chapman_quota5000,43,MLP smooth (tuned),HYP,198,23,38,203,358
+chapman_quota5000,43,MLP distil (tuned),NORM,853,5,29,141,168
+chapman_quota5000,43,MLP distil (tuned),AFIB/AFL,3,1087,44,57,6
+chapman_quota5000,43,MLP distil (tuned),CD,52,57,352,107,22
+chapman_quota5000,43,MLP distil (tuned),STTC/MI,169,53,66,785,124
+chapman_quota5000,43,MLP distil (tuned),HYP,181,25,29,221,364
+chapman_quota5000,43,MLP entropy-matched (tuned),NORM,857,10,25,138,166
+chapman_quota5000,43,MLP entropy-matched (tuned),AFIB/AFL,4,1084,40,60,9
+chapman_quota5000,43,MLP entropy-matched (tuned),CD,54,62,335,105,34
+chapman_quota5000,43,MLP entropy-matched (tuned),STTC/MI,177,58,56,753,153
+chapman_quota5000,43,MLP entropy-matched (tuned),HYP,180,25,38,213,364
+chapman_quota5000,43,XGB hard,NORM,908,8,23,132,125
+chapman_quota5000,43,XGB hard,AFIB/AFL,3,1103,36,43,12
+chapman_quota5000,43,XGB hard,CD,63,56,357,90,24
+chapman_quota5000,43,XGB hard,STTC/MI,151,50,45,815,136
+chapman_quota5000,43,XGB hard,HYP,228,20,32,216,324
+chapman_quota5000,43,XGB smooth (fixed),NORM,904,9,28,124,131
+chapman_quota5000,43,XGB smooth (fixed),AFIB/AFL,4,1105,34,44,10
+chapman_quota5000,43,XGB smooth (fixed),CD,60,61,362,84,23
+chapman_quota5000,43,XGB smooth (fixed),STTC/MI,158,55,37,817,130
+chapman_quota5000,43,XGB smooth (fixed),HYP,233,22,31,227,307
+chapman_quota5000,43,XGB distil (fixed),NORM,926,2,19,130,119
+chapman_quota5000,43,XGB distil (fixed),AFIB/AFL,4,1108,35,40,10
+chapman_quota5000,43,XGB distil (fixed),CD,60,59,355,96,20
+chapman_quota5000,43,XGB distil (fixed),STTC/MI,146,51,44,828,128
+chapman_quota5000,43,XGB distil (fixed),HYP,221,21,31,236,311
+chapman_quota5000,43,XGB distil (tuned),NORM,912,4,25,130,125
+chapman_quota5000,43,XGB distil (tuned),AFIB/AFL,3,1103,39,39,13
+chapman_quota5000,43,XGB distil (tuned),CD,61,62,355,92,20
+chapman_quota5000,43,XGB distil (tuned),STTC/MI,151,49,44,823,130
+chapman_quota5000,43,XGB distil (tuned),HYP,221,22,35,221,321
+chapman_quota5000,43,XGB smooth (tuned),NORM,909,7,29,131,120
+chapman_quota5000,43,XGB smooth (tuned),AFIB/AFL,5,1104,37,41,10
+chapman_quota5000,43,XGB smooth (tuned),CD,63,61,356,87,23
+chapman_quota5000,43,XGB smooth (tuned),STTC/MI,158,51,40,823,125
+chapman_quota5000,43,XGB smooth (tuned),HYP,227,20,34,221,318
+chapman_quota5000,43,XGB entropy-matched (tuned),NORM,922,7,24,126,117
+chapman_quota5000,43,XGB entropy-matched (tuned),AFIB/AFL,4,1111,37,37,8
+chapman_quota5000,43,XGB entropy-matched (tuned),CD,62,63,359,86,20
+chapman_quota5000,43,XGB entropy-matched (tuned),STTC/MI,167,58,43,801,128
+chapman_quota5000,43,XGB entropy-matched (tuned),HYP,226,24,31,229,310
+chapman_quota5000,44,TabPFN teacher,NORM,921,1,22,131,121
+chapman_quota5000,44,TabPFN teacher,AFIB/AFL,1,1111,40,42,3
+chapman_quota5000,44,TabPFN teacher,CD,51,45,387,89,18
+chapman_quota5000,44,TabPFN teacher,STTC/MI,193,43,47,830,84
+chapman_quota5000,44,TabPFN teacher,HYP,213,13,33,253,308
+chapman_quota5000,44,MLP hard,NORM,861,6,42,139,148
+chapman_quota5000,44,MLP hard,AFIB/AFL,5,1083,41,58,10
+chapman_quota5000,44,MLP hard,CD,48,62,347,99,34
+chapman_quota5000,44,MLP hard,STTC/MI,204,57,75,726,135
+chapman_quota5000,44,MLP hard,HYP,197,28,38,209,348
+chapman_quota5000,44,MLP smooth (fixed),NORM,852,7,31,149,157
+chapman_quota5000,44,MLP smooth (fixed),AFIB/AFL,6,1080,41,58,12
+chapman_quota5000,44,MLP smooth (fixed),CD,58,56,335,91,50
+chapman_quota5000,44,MLP smooth (fixed),STTC/MI,190,52,58,738,159
+chapman_quota5000,44,MLP smooth (fixed),HYP,199,23,36,199,363
+chapman_quota5000,44,MLP distil (fixed),NORM,868,7,29,139,153
+chapman_quota5000,44,MLP distil (fixed),AFIB/AFL,4,1089,43,52,9
+chapman_quota5000,44,MLP distil (fixed),CD,52,59,339,109,31
+chapman_quota5000,44,MLP distil (fixed),STTC/MI,183,56,70,764,124
+chapman_quota5000,44,MLP distil (fixed),HYP,197,24,29,226,344
+chapman_quota5000,44,MLP smooth (tuned),NORM,870,6,28,144,148
+chapman_quota5000,44,MLP smooth (tuned),AFIB/AFL,8,1081,38,59,11
+chapman_quota5000,44,MLP smooth (tuned),CD,58,58,330,99,45
+chapman_quota5000,44,MLP smooth (tuned),STTC/MI,204,48,60,737,148
+chapman_quota5000,44,MLP smooth (tuned),HYP,197,26,36,198,363
+chapman_quota5000,44,MLP distil (tuned),NORM,868,7,36,122,163
+chapman_quota5000,44,MLP distil (tuned),AFIB/AFL,4,1102,39,43,9
+chapman_quota5000,44,MLP distil (tuned),CD,52,57,357,92,32
+chapman_quota5000,44,MLP distil (tuned),STTC/MI,191,59,66,753,128
+chapman_quota5000,44,MLP distil (tuned),HYP,182,22,34,222,360
+chapman_quota5000,44,MLP entropy-matched (tuned),NORM,826,8,37,143,182
+chapman_quota5000,44,MLP entropy-matched (tuned),AFIB/AFL,9,1079,44,50,15
+chapman_quota5000,44,MLP entropy-matched (tuned),CD,54,49,353,95,39
+chapman_quota5000,44,MLP entropy-matched (tuned),STTC/MI,186,46,69,743,153
+chapman_quota5000,44,MLP entropy-matched (tuned),HYP,170,19,40,213,378
+chapman_quota5000,44,XGB hard,NORM,893,4,30,135,134
+chapman_quota5000,44,XGB hard,AFIB/AFL,4,1095,39,50,9
+chapman_quota5000,44,XGB hard,CD,50,53,360,102,25
+chapman_quota5000,44,XGB hard,STTC/MI,166,54,47,813,117
+chapman_quota5000,44,XGB hard,HYP,235,14,27,227,317
+chapman_quota5000,44,XGB smooth (fixed),NORM,898,3,30,136,129
+chapman_quota5000,44,XGB smooth (fixed),AFIB/AFL,4,1091,36,57,9
+chapman_quota5000,44,XGB smooth (fixed),CD,49,54,357,105,25
+chapman_quota5000,44,XGB smooth (fixed),STTC/MI,170,50,44,818,115
+chapman_quota5000,44,XGB smooth (fixed),HYP,229,20,23,222,326
+chapman_quota5000,44,XGB distil (fixed),NORM,915,3,28,128,122
+chapman_quota5000,44,XGB distil (fixed),AFIB/AFL,5,1100,38,47,7
+chapman_quota5000,44,XGB distil (fixed),CD,56,57,361,101,15
+chapman_quota5000,44,XGB distil (fixed),STTC/MI,167,58,48,826,98
+chapman_quota5000,44,XGB distil (fixed),HYP,229,21,24,232,314
+chapman_quota5000,44,XGB distil (tuned),NORM,904,4,23,138,127
+chapman_quota5000,44,XGB distil (tuned),AFIB/AFL,5,1091,43,48,10
+chapman_quota5000,44,XGB distil (tuned),CD,52,59,359,101,19
+chapman_quota5000,44,XGB distil (tuned),STTC/MI,179,55,59,805,99
+chapman_quota5000,44,XGB distil (tuned),HYP,225,18,25,230,322
+chapman_quota5000,44,XGB smooth (tuned),NORM,899,4,31,138,124
+chapman_quota5000,44,XGB smooth (tuned),AFIB/AFL,4,1095,36,52,10
+chapman_quota5000,44,XGB smooth (tuned),CD,54,53,353,108,22
+chapman_quota5000,44,XGB smooth (tuned),STTC/MI,162,52,49,820,114
+chapman_quota5000,44,XGB smooth (tuned),HYP,220,20,23,225,332
+chapman_quota5000,44,XGB entropy-matched (tuned),NORM,911,3,30,129,123
+chapman_quota5000,44,XGB entropy-matched (tuned),AFIB/AFL,5,1101,34,46,11
+chapman_quota5000,44,XGB entropy-matched (tuned),CD,52,55,366,97,20
+chapman_quota5000,44,XGB entropy-matched (tuned),STTC/MI,167,59,51,811,109
+chapman_quota5000,44,XGB entropy-matched (tuned),HYP,235,18,27,222,318
+chapman_quota5000,45,TabPFN teacher,NORM,927,2,19,134,114
+chapman_quota5000,45,TabPFN teacher,AFIB/AFL,1,1109,42,43,2
+chapman_quota5000,45,TabPFN teacher,CD,49,50,381,91,19
+chapman_quota5000,45,TabPFN teacher,STTC/MI,178,37,54,830,98
+chapman_quota5000,45,TabPFN teacher,HYP,228,17,31,247,297
+chapman_quota5000,45,MLP hard,NORM,841,5,41,137,172
+chapman_quota5000,45,MLP hard,AFIB/AFL,3,1084,48,56,6
+chapman_quota5000,45,MLP hard,CD,49,62,349,94,36
+chapman_quota5000,45,MLP hard,STTC/MI,176,58,73,730,160
+chapman_quota5000,45,MLP hard,HYP,188,30,35,203,364
+chapman_quota5000,45,MLP smooth (fixed),NORM,858,6,34,131,167
+chapman_quota5000,45,MLP smooth (fixed),AFIB/AFL,3,1082,51,52,9
+chapman_quota5000,45,MLP smooth (fixed),CD,52,57,356,90,35
+chapman_quota5000,45,MLP smooth (fixed),STTC/MI,173,60,67,735,162
+chapman_quota5000,45,MLP smooth (fixed),HYP,182,32,37,203,366
+chapman_quota5000,45,MLP distil (fixed),NORM,906,6,36,109,139
+chapman_quota5000,45,MLP distil (fixed),AFIB/AFL,3,1086,52,50,6
+chapman_quota5000,45,MLP distil (fixed),CD,61,50,356,94,29
+chapman_quota5000,45,MLP distil (fixed),STTC/MI,201,56,67,749,124
+chapman_quota5000,45,MLP distil (fixed),HYP,217,28,34,219,322
+chapman_quota5000,45,MLP smooth (tuned),NORM,841,5,35,138,177
+chapman_quota5000,45,MLP smooth (tuned),AFIB/AFL,3,1080,50,52,12
+chapman_quota5000,45,MLP smooth (tuned),CD,54,59,349,89,39
+chapman_quota5000,45,MLP smooth (tuned),STTC/MI,166,64,63,737,167
+chapman_quota5000,45,MLP smooth (tuned),HYP,173,29,35,204,379
+chapman_quota5000,45,MLP distil (tuned),NORM,880,7,34,120,155
+chapman_quota5000,45,MLP distil (tuned),AFIB/AFL,5,1093,49,47,3
+chapman_quota5000,45,MLP distil (tuned),CD,54,60,351,96,29
+chapman_quota5000,45,MLP distil (tuned),STTC/MI,173,63,62,767,132
+chapman_quota5000,45,MLP distil (tuned),HYP,203,32,34,219,332
+chapman_quota5000,45,MLP entropy-matched (tuned),NORM,848,7,39,130,172
+chapman_quota5000,45,MLP entropy-matched (tuned),AFIB/AFL,5,1073,53,56,10
+chapman_quota5000,45,MLP entropy-matched (tuned),CD,50,48,353,108,31
+chapman_quota5000,45,MLP entropy-matched (tuned),STTC/MI,169,56,61,766,145
+chapman_quota5000,45,MLP entropy-matched (tuned),HYP,177,31,33,224,355
+chapman_quota5000,45,XGB hard,NORM,912,3,22,129,130
+chapman_quota5000,45,XGB hard,AFIB/AFL,5,1097,40,49,6
+chapman_quota5000,45,XGB hard,CD,59,49,363,94,25
+chapman_quota5000,45,XGB hard,STTC/MI,152,55,44,817,129
+chapman_quota5000,45,XGB hard,HYP,234,21,22,227,316
+chapman_quota5000,45,XGB smooth (fixed),NORM,916,3,22,127,128
+chapman_quota5000,45,XGB smooth (fixed),AFIB/AFL,7,1094,39,51,6
+chapman_quota5000,45,XGB smooth (fixed),CD,59,55,359,93,24
+chapman_quota5000,45,XGB smooth (fixed),STTC/MI,153,52,41,828,123
+chapman_quota5000,45,XGB smooth (fixed),HYP,241,23,25,236,295
+chapman_quota5000,45,XGB distil (fixed),NORM,919,2,20,131,124
+chapman_quota5000,45,XGB distil (fixed),AFIB/AFL,4,1102,40,45,6
+chapman_quota5000,45,XGB distil (fixed),CD,56,58,357,98,21
+chapman_quota5000,45,XGB distil (fixed),STTC/MI,163,50,46,823,115
+chapman_quota5000,45,XGB distil (fixed),HYP,234,22,24,238,302
+chapman_quota5000,45,XGB distil (tuned),NORM,925,2,22,126,121
+chapman_quota5000,45,XGB distil (tuned),AFIB/AFL,4,1099,43,46,5
+chapman_quota5000,45,XGB distil (tuned),CD,51,54,365,98,22
+chapman_quota5000,45,XGB distil (tuned),STTC/MI,155,52,44,820,126
+chapman_quota5000,45,XGB distil (tuned),HYP,230,20,24,242,304
+chapman_quota5000,45,XGB smooth (tuned),NORM,911,3,25,124,133
+chapman_quota5000,45,XGB smooth (tuned),AFIB/AFL,5,1092,45,49,6
+chapman_quota5000,45,XGB smooth (tuned),CD,56,49,364,97,24
+chapman_quota5000,45,XGB smooth (tuned),STTC/MI,148,52,41,826,130
+chapman_quota5000,45,XGB smooth (tuned),HYP,235,22,24,240,299
+chapman_quota5000,45,XGB entropy-matched (tuned),NORM,925,3,20,128,120
+chapman_quota5000,45,XGB entropy-matched (tuned),AFIB/AFL,5,1107,34,44,7
+chapman_quota5000,45,XGB entropy-matched (tuned),CD,54,60,362,94,20
+chapman_quota5000,45,XGB entropy-matched (tuned),STTC/MI,158,54,40,822,123
+chapman_quota5000,45,XGB entropy-matched (tuned),HYP,246,24,26,234,290
+chapman_quota5000,46,TabPFN teacher,NORM,915,2,23,128,128
+chapman_quota5000,46,TabPFN teacher,AFIB/AFL,1,1122,36,36,2
+chapman_quota5000,46,TabPFN teacher,CD,43,54,384,90,19
+chapman_quota5000,46,TabPFN teacher,STTC/MI,176,44,51,837,89
+chapman_quota5000,46,TabPFN teacher,HYP,215,16,26,242,321
+chapman_quota5000,46,MLP hard,NORM,843,6,35,140,172
+chapman_quota5000,46,MLP hard,AFIB/AFL,4,1074,45,55,19
+chapman_quota5000,46,MLP hard,CD,47,57,358,86,42
+chapman_quota5000,46,MLP hard,STTC/MI,185,54,78,713,167
+chapman_quota5000,46,MLP hard,HYP,175,22,41,208,374
+chapman_quota5000,46,MLP smooth (fixed),NORM,886,8,34,132,136
+chapman_quota5000,46,MLP smooth (fixed),AFIB/AFL,5,1087,42,58,5
+chapman_quota5000,46,MLP smooth (fixed),CD,66,58,339,99,28
+chapman_quota5000,46,MLP smooth (fixed),STTC/MI,204,68,65,745,115
+chapman_quota5000,46,MLP smooth (fixed),HYP,209,28,30,218,335
+chapman_quota5000,46,MLP distil (fixed),NORM,848,5,35,151,157
+chapman_quota5000,46,MLP distil (fixed),AFIB/AFL,3,1081,45,57,11
+chapman_quota5000,46,MLP distil (fixed),CD,46,52,362,101,29
+chapman_quota5000,46,MLP distil (fixed),STTC/MI,170,53,56,791,127
+chapman_quota5000,46,MLP distil (fixed),HYP,192,26,34,224,344
+chapman_quota5000,46,MLP smooth (tuned),NORM,859,7,36,131,163
+chapman_quota5000,46,MLP smooth (tuned),AFIB/AFL,5,1086,46,52,8
+chapman_quota5000,46,MLP smooth (tuned),CD,59,54,351,88,38
+chapman_quota5000,46,MLP smooth (tuned),STTC/MI,186,54,80,733,144
+chapman_quota5000,46,MLP smooth (tuned),HYP,188,25,37,224,346
+chapman_quota5000,46,MLP distil (tuned),NORM,872,7,26,143,148
+chapman_quota5000,46,MLP distil (tuned),AFIB/AFL,3,1098,37,51,8
+chapman_quota5000,46,MLP distil (tuned),CD,52,57,351,103,27
+chapman_quota5000,46,MLP distil (tuned),STTC/MI,184,61,59,765,128
+chapman_quota5000,46,MLP distil (tuned),HYP,191,25,28,226,350
+chapman_quota5000,46,MLP entropy-matched (tuned),NORM,874,10,37,131,144
+chapman_quota5000,46,MLP entropy-matched (tuned),AFIB/AFL,7,1084,41,52,13
+chapman_quota5000,46,MLP entropy-matched (tuned),CD,57,46,352,97,38
+chapman_quota5000,46,MLP entropy-matched (tuned),STTC/MI,188,52,72,743,142
+chapman_quota5000,46,MLP entropy-matched (tuned),HYP,201,25,35,210,349
+chapman_quota5000,46,XGB hard,NORM,905,5,29,127,130
+chapman_quota5000,46,XGB hard,AFIB/AFL,4,1105,38,41,9
+chapman_quota5000,46,XGB hard,CD,53,53,372,92,20
+chapman_quota5000,46,XGB hard,STTC/MI,156,54,50,804,133
+chapman_quota5000,46,XGB hard,HYP,215,16,24,227,338
+chapman_quota5000,46,XGB smooth (fixed),NORM,900,5,27,137,127
+chapman_quota5000,46,XGB smooth (fixed),AFIB/AFL,6,1098,42,43,8
+chapman_quota5000,46,XGB smooth (fixed),CD,57,50,367,96,20
+chapman_quota5000,46,XGB smooth (fixed),STTC/MI,158,57,44,811,127
+chapman_quota5000,46,XGB smooth (fixed),HYP,217,17,24,237,325
+chapman_quota5000,46,XGB distil (fixed),NORM,926,4,23,127,116
+chapman_quota5000,46,XGB distil (fixed),AFIB/AFL,5,1109,35,40,8
+chapman_quota5000,46,XGB distil (fixed),CD,59,54,365,96,16
+chapman_quota5000,46,XGB distil (fixed),STTC/MI,161,49,47,830,110
+chapman_quota5000,46,XGB distil (fixed),HYP,214,17,25,240,324
+chapman_quota5000,46,XGB distil (tuned),NORM,917,3,25,131,120
+chapman_quota5000,46,XGB distil (tuned),AFIB/AFL,4,1102,43,41,7
+chapman_quota5000,46,XGB distil (tuned),CD,65,58,356,94,17
+chapman_quota5000,46,XGB distil (tuned),STTC/MI,167,53,52,812,113
+chapman_quota5000,46,XGB distil (tuned),HYP,223,17,26,236,318
+chapman_quota5000,46,XGB smooth (tuned),NORM,920,4,25,131,116
+chapman_quota5000,46,XGB smooth (tuned),AFIB/AFL,4,1100,40,44,9
+chapman_quota5000,46,XGB smooth (tuned),CD,56,49,362,100,23
+chapman_quota5000,46,XGB smooth (tuned),STTC/MI,156,59,48,808,126
+chapman_quota5000,46,XGB smooth (tuned),HYP,221,15,21,239,324
+chapman_quota5000,46,XGB entropy-matched (tuned),NORM,923,6,25,124,118
+chapman_quota5000,46,XGB entropy-matched (tuned),AFIB/AFL,5,1110,36,38,8
+chapman_quota5000,46,XGB entropy-matched (tuned),CD,55,55,375,91,14
+chapman_quota5000,46,XGB entropy-matched (tuned),STTC/MI,163,63,44,808,119
+chapman_quota5000,46,XGB entropy-matched (tuned),HYP,228,22,26,234,310
+chapman_natural,42,TabPFN teacher,NORM,4038,5,31,171,54
+chapman_natural,42,TabPFN teacher,AFIB/AFL,9,2117,53,46,0
+chapman_natural,42,TabPFN teacher,CD,109,75,323,79,4
+chapman_natural,42,TabPFN teacher,STTC/MI,398,66,34,841,42
+chapman_natural,42,TabPFN teacher,HYP,459,22,19,220,100
+chapman_natural,42,MLP hard,NORM,3852,17,62,208,160
+chapman_natural,42,MLP hard,AFIB/AFL,17,2068,63,68,9
+chapman_natural,42,MLP hard,CD,99,66,329,76,20
+chapman_natural,42,MLP hard,STTC/MI,373,90,62,738,118
+chapman_natural,42,MLP hard,HYP,384,28,27,175,206
+chapman_natural,42,MLP smooth (fixed),NORM,3852,19,50,206,172
+chapman_natural,42,MLP smooth (fixed),AFIB/AFL,20,2089,46,64,6
+chapman_natural,42,MLP smooth (fixed),CD,104,83,302,77,24
+chapman_natural,42,MLP smooth (fixed),STTC/MI,378,102,49,731,121
+chapman_natural,42,MLP smooth (fixed),HYP,379,34,22,174,211
+chapman_natural,42,MLP distil (fixed),NORM,3971,12,36,172,108
+chapman_natural,42,MLP distil (fixed),AFIB/AFL,19,2083,49,67,7
+chapman_natural,42,MLP distil (fixed),CD,114,80,301,78,17
+chapman_natural,42,MLP distil (fixed),STTC/MI,407,87,43,766,78
+chapman_natural,42,MLP distil (fixed),HYP,403,30,18,186,183
+chapman_natural,42,MLP smooth (tuned),NORM,3874,17,45,208,155
+chapman_natural,42,MLP smooth (tuned),AFIB/AFL,24,2069,56,68,8
+chapman_natural,42,MLP smooth (tuned),CD,105,72,307,84,22
+chapman_natural,42,MLP smooth (tuned),STTC/MI,383,92,48,743,115
+chapman_natural,42,MLP smooth (tuned),HYP,390,30,25,177,198
+chapman_natural,42,MLP distil (tuned),NORM,3888,15,50,192,154
+chapman_natural,42,MLP distil (tuned),AFIB/AFL,15,2086,52,68,4
+chapman_natural,42,MLP distil (tuned),CD,106,75,309,79,21
+chapman_natural,42,MLP distil (tuned),STTC/MI,381,85,46,789,80
+chapman_natural,42,MLP distil (tuned),HYP,363,30,27,181,219
+chapman_natural,42,MLP entropy-matched (tuned),NORM,3790,14,50,233,212
+chapman_natural,42,MLP entropy-matched (tuned),AFIB/AFL,12,2068,63,72,10
+chapman_natural,42,MLP entropy-matched (tuned),CD,108,66,318,75,23
+chapman_natural,42,MLP entropy-matched (tuned),STTC/MI,335,88,48,773,137
+chapman_natural,42,MLP entropy-matched (tuned),HYP,365,32,22,175,226
+chapman_natural,42,XGB hard,NORM,4006,12,29,177,75
+chapman_natural,42,XGB hard,AFIB/AFL,20,2091,45,63,6
+chapman_natural,42,XGB hard,CD,129,70,293,86,12
+chapman_natural,42,XGB hard,STTC/MI,385,82,40,805,69
+chapman_natural,42,XGB hard,HYP,468,25,17,186,124
+chapman_natural,42,XGB smooth (fixed),NORM,4005,14,22,183,75
+chapman_natural,42,XGB smooth (fixed),AFIB/AFL,21,2103,37,58,6
+chapman_natural,42,XGB smooth (fixed),CD,123,71,300,84,12
+chapman_natural,42,XGB smooth (fixed),STTC/MI,388,83,30,811,69
+chapman_natural,42,XGB smooth (fixed),HYP,472,25,16,192,115
+chapman_natural,42,XGB distil (fixed),NORM,4034,8,25,168,64
+chapman_natural,42,XGB distil (fixed),AFIB/AFL,18,2103,39,57,8
+chapman_natural,42,XGB distil (fixed),CD,121,72,299,89,9
+chapman_natural,42,XGB distil (fixed),STTC/MI,387,81,38,812,63
+chapman_natural,42,XGB distil (fixed),HYP,461,25,18,205,111
+chapman_natural,42,XGB distil (tuned),NORM,4010,8,24,183,74
+chapman_natural,42,XGB distil (tuned),AFIB/AFL,16,2100,39,62,8
+chapman_natural,42,XGB distil (tuned),CD,123,67,308,82,10
+chapman_natural,42,XGB distil (tuned),STTC/MI,377,77,36,827,64
+chapman_natural,42,XGB distil (tuned),HYP,460,22,18,193,127
+chapman_natural,42,XGB smooth (tuned),NORM,4009,13,20,185,72
+chapman_natural,42,XGB smooth (tuned),AFIB/AFL,22,2094,35,62,12
+chapman_natural,42,XGB smooth (tuned),CD,127,72,295,85,11
+chapman_natural,42,XGB smooth (tuned),STTC/MI,390,82,32,812,65
+chapman_natural,42,XGB smooth (tuned),HYP,468,26,17,191,118
+chapman_natural,42,XGB entropy-matched (tuned),NORM,4027,12,21,172,67
+chapman_natural,42,XGB entropy-matched (tuned),AFIB/AFL,17,2108,36,56,8
+chapman_natural,42,XGB entropy-matched (tuned),CD,128,72,297,81,12
+chapman_natural,42,XGB entropy-matched (tuned),STTC/MI,401,88,31,799,62
+chapman_natural,42,XGB entropy-matched (tuned),HYP,473,28,13,192,114

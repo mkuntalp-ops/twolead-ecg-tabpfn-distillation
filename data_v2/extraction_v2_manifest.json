@@ -1,0 +1,22 @@
+{
+  "params": {
+    "qrs_thr_frac": 0.085,
+    "qrs_thr_min": 0.0025,
+    "qrs_gap_ms": 20.0,
+    "p_search_ms": 300.0,
+    "p_min_gap_ms": 50.0,
+    "p_thr_frac": 0.15
+  },
+  "n_records": 15160,
+  "seconds": 48.1,
+  "inputs": {
+    "experiments_phase3/phase3d_full_cohort/ptbxl_eligible_cohort_15160_features.csv": "23cc737f86bb337459eb0e5d8663bf64c00921622b5c7de6cc46a745211229c4",
+    "data/ptbxl_54features.csv": "a0df982f18bd390fe91ffd4427943507eb7a6df4bb012e51b694782bac96be3b",
+    "experiments_phase3/phase3d_full_cohort/phase3d_eligible_cohort_15160_manifest.csv": "e552335c00f239bba2f69cb1ca043497e51bf5746fb2628e30d997dc5ae25b3d"
+  },
+  "outputs": {
+    "ptbxl_eligible_cohort_15160_features_v2.csv": "d0a66867c1d88e830a807931358ede04e3267e23e204f79e2acc7493c2ea3bbe",
+    "ptbxl_54features_v2.csv": "b1d4eedb11e108b587d7239b5d96973118944718be6439e9f1b3d1f530e0453a"
+  },
+  "unchanged_columns_identical_15160": true
+}

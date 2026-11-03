@@ -31,6 +31,31 @@ Lead I/II features extracted from PTB-XL. All splits are patient-grouped (`Strat
 | `SHA256SUMS` | SHA-256 of every file in this repository | — |
 | `REPRODUCTION.md` | Record of the 23 October 2026 re-execution (bit-identical OOF outputs) | — |
 
+## Revised analyses (v22)
+
+The revised manuscript uses corrected features (FEAT_50 v2) and a new experiment set (WP3: five cohorts from
+PTB-XL and Chapman-Shaoxing, MLP and XGBoost students, tuned smoothing, distillation and entropy-matched controls).
+These files are byte-identical copies of the working versions; the SHA-256 of the WP3 training scripts equals the
+hash recorded in each run manifest at run time (`results/wp3/<cohort>/run_manifest_*.json`).
+
+| Path | Content |
+|---|---|
+| `docs/ANALIZ_PLANI_v22.md` | Analysis plan (in Turkish), written before the WP3 experiments; all WP3 contrasts are specified as exploratory |
+| `feature_extraction/` | FEAT_50 v2 extractor (`feat50_v2.py`), PTB-XL and Chapman-Shaoxing extraction, held-out evaluation of the delineation |
+| `data_v2/` | FEAT_50 v2 feature tables with extraction manifests (input and output SHA-256) |
+| `wp3/` | WP3 teacher/MLP and XGBoost training, analysis, post hoc pooled bootstrap, secondary metrics, cost measurements, provenance record and an independent recomputation script; `run_wp3_all.sh` gives the run order |
+| `analysis/` | WP2 feature agreement with reference measurements; WP4 calibration, discrimination and subgroups |
+| `results/feat50_v2/`, `results/wp2/` | Development grid, decision note (in Turkish), held-out evaluation of FEAT_50 v2 against reference measurements and the acceptance criteria; WP2 agreement tables |
+| `results/wp3/summary/` | Per-partition metrics and contrasts (pre-specified summary), post hoc pooled contrasts, selected configurations, grid results, independent recomputation output |
+| `results/wp3/secondary/` | Full metrics, class-wise metrics, confusion matrices, subgroups, reliability diagrams |
+| `results/wp3/cost/` | Model size and latency measurements |
+| `results/wp3/<cohort>/` | Record and patient identifiers with labels (`cohort_records.csv`) and run manifests for each cohort |
+| `results/wp3/PROVENANCE_wp3.json` | Links stored predictions to script, feature-file and checkpoint hashes. Created after the runs, so it does not verify the files loaded at run time |
+
+The WP3 scripts use the working-folder layout (`revizyon_v22/...`) and the checkpoint path of the original
+workstation; adjust `ROOT`/`V2`/`OUT_ROOT` in `wp3/wp3_common.py` and `TABPFN_CKPT` in `wp3/wp3_teacher_mlp.py`
+to re-run them. The per-record out-of-fold prediction files of WP3 (about 120 MB) are not included.
+
 ## Quick verification (no retraining)
 
 ```bash

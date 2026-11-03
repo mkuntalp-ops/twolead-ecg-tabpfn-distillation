@@ -1,0 +1,12 @@
+model,cohort,n_parameters,size_bytes,latency_1_record_ms,latency_1000_records_ms,n_context,n_test,fit_predict_test_set_s,per_record_ms,note
+mlp_50_128_64_5,all,15109.0,63189.0,0.011374999303370714,0.07729198841843754,,,,,
+tabpfn_v3_n8_mps,ptbxl_quota5000,,212804803.0,,,3200.0,1000.0,9.168655457993736,9.168655457993736,
+tabpfn_v3_n8_cpu,ptbxl_quota5000,,212804803.0,,,3200.0,1000.0,19.879094584000995,19.879094584000995,
+tabpfn_v3_n8_mps,ptbxl_natural5000,,212804803.0,,,3200.0,1000.0,8.961321957991458,8.961321957991458,
+tabpfn_v3_n8_cpu,ptbxl_natural5000,,212804803.0,,,3200.0,1000.0,20.03955445799511,20.03955445799511,
+tabpfn_v3_n8_mps,ptbxl_natural15160,,212804803.0,,,9702.0,3032.0,36.349564749980345,11.988642727566077,
+tabpfn_v3_n8_cpu,ptbxl_natural15160,,,,,9702.0,3032.0,,,"not run: tabpfn default CPU limit (> 5,000 samples)"
+tabpfn_v3_n8_mps,chapman_quota5000,,212804803.0,,,3199.0,1001.0,8.973795375000918,8.964830544456461,
+tabpfn_v3_n8_cpu,chapman_quota5000,,212804803.0,,,3199.0,1001.0,20.457045542018022,20.436608933084937,
+tabpfn_v3_n8_mps,chapman_natural,,212804803.0,,,5961.0,1863.0,19.314199166023172,10.36725666453203,
+tabpfn_v3_n8_cpu,chapman_natural,,,,,5961.0,1863.0,,,"not run: tabpfn default CPU limit (> 5,000 samples)"

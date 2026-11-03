@@ -1,0 +1,60 @@
+{
+  "cohort": "chapman_natural",
+  "n": 9315,
+  "class_counts": {
+    "NORM": 4299,
+    "AFIB/AFL": 2225,
+    "CD": 590,
+    "STTC/MI": 1381,
+    "HYP": 820
+  },
+  "seeds": [
+    42
+  ],
+  "arms": [
+    "H",
+    "S_e0.05",
+    "S_e0.10",
+    "S_e0.15",
+    "S_e0.20",
+    "S_e0.25",
+    "S_e0.30",
+    "D_a0.25_T1",
+    "D_a0.25_T2",
+    "D_a0.25_T4",
+    "D_a0.50_T1",
+    "D_a0.50_T2",
+    "D_a0.50_T4",
+    "D_a0.75_T1",
+    "D_a0.75_T2",
+    "D_a0.75_T4",
+    "D_a1.00_T1",
+    "D_a1.00_T2",
+    "D_a1.00_T4",
+    "EM_a0.25_T1",
+    "EM_a0.25_T2",
+    "EM_a0.25_T4",
+    "EM_a0.50_T1",
+    "EM_a0.50_T2",
+    "EM_a0.50_T4",
+    "EM_a0.75_T1",
+    "EM_a0.75_T2",
+    "EM_a0.75_T4",
+    "EM_a1.00_T1",
+    "EM_a1.00_T2",
+    "EM_a1.00_T4"
+  ],
+  "teacher_n_estimators": 8,
+  "natural5000_sampling_seed": 2026,
+  "versions": {
+    "python": "3.12.14",
+    "torch": "2.14.0",
+    "sklearn": "1.9.1",
+    "tabpfn": "9.0.0",
+    "numpy": "2.5.3"
+  },
+  "script_sha256": {
+    "wp3_teacher_mlp.py": "26e56a31d4b63254e855d0b3d192773d511b01e36f97033eaa87a12120410608",
+    "wp3_common.py": "5ea403bbeab9da44c9fe551e67b1bfb059075729852d993186d6aab8fb49f40d"
+  }
+}

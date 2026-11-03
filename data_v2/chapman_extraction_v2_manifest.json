@@ -1,0 +1,34 @@
+{
+  "params": {
+    "qrs_thr_frac": 0.085,
+    "qrs_thr_min": 0.0025,
+    "qrs_gap_ms": 20.0,
+    "p_search_ms": 300.0,
+    "p_min_gap_ms": 50.0,
+    "p_thr_frac": 0.15
+  },
+  "n_records": 9315,
+  "n_quota_5000": 5000,
+  "class_counts": {
+    "NORM": 4299,
+    "AFIB/AFL": 2225,
+    "STTC/MI": 1381,
+    "HYP": 820,
+    "CD": 590
+  },
+  "class_counts_quota_5000": {
+    "STTC/MI": 1197,
+    "AFIB/AFL": 1197,
+    "NORM": 1196,
+    "HYP": 820,
+    "CD": 590
+  },
+  "v1_label_rule_reproduced_on_quota_5000": true,
+  "seconds": 48.9,
+  "inputs": {
+    "data/chapman/Diagnostics.csv": "7cfc2505f5a2f7e3b505d63663cb0b426e195a00e079dbad0258093b8ba0bed4",
+    "data/chapman/ECGData.zip": "8ca36906a342e06af6d08e3e6e8f0087161e8e830ff1d84c74f442e64cdea83f",
+    "data/chapman_54features.csv": "6eedc25cf110ed2bb5ffa1a207a128a9be09fd0422605805bc7dc8b811ea4bed"
+  },
+  "output_sha256": "053af88edbb14e6dbc039a889c9d83f6e0a77a682a7feefede3589af8c52500b"
+}

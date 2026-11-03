@@ -1,5 +1,5 @@
 Derived data, out-of-fold predictions, result files and figures in this repository
-(data/, predictions/, results/, figures/, data_ecg_clinical/ and the data files under experiments_phase3/)
+(data/, data_v2/, predictions/, results/, figures/, data_ecg_clinical/ and the data files under experiments_phase3/)
 are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 Full text: https://creativecommons.org/licenses/by/4.0/legalcode
 

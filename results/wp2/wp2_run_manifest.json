@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "experiments_phase3/phase3d_full_cohort/ptbxl_eligible_cohort_15160_features.csv": "23cc737f86bb337459eb0e5d8663bf64c00921622b5c7de6cc46a745211229c4",
+    "data/ptbxl_plus/feature_description.csv": "5d8358c3b1ec7315adadc4b6dfe9f25a6f9a7c1a870e8ccb911bc59c662eed3b",
+    "data/ptbxl_plus/12sl_features.csv": "cd805ec672c305d0d5079bb87c83d629b91cf3534ce18d3717a960998d5e8b29",
+    "data/ptbxl_plus/unig_features.csv": "f95ab01df5c9ed329485fd811578f0c39eabb0667a36ec37c7dda427d9d8f5a5",
+    "data/ptbxl_plus/ecgdeli_features.csv": "84143735682f727201cc7f2825c047f98898f9756c6a21729af993b516221556"
+  },
+  "ceiling_ms": 146.0,
+  "fallback_ms": 80.0,
+  "ceiling_definition": "derivative search window indices 68-141 around R at index 100 (500 Hz): (141-68)*2 ms = 146 ms",
+  "n_records": 15160,
+  "n_matched_12sl_qrs": 15160
+}
