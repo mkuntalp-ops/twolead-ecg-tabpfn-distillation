@@ -52,12 +52,12 @@ hash recorded in each run manifest at run time (`results/wp3/<cohort>/run_manife
 | `results/wp3/summary/` | Per-partition metrics and contrasts (pre-specified summary), post hoc pooled contrasts, selected configurations, grid results, independent recomputation output |
 | `results/wp3/secondary/` | Full metrics, class-wise metrics, confusion matrices, subgroups, reliability diagrams |
 | `results/wp3/cost/` | Model size and latency measurements |
-| `results/wp3/<cohort>/` | Record and patient identifiers with labels (`cohort_records.csv`) and run manifests for each cohort |
+| `results/wp3/<cohort>/` | Record and patient identifiers with labels (`cohort_records.csv`), run manifests, out-of-fold probabilities of every model and target configuration per partition seed (`seed<k>_mlp.npz`, `seed<k>_xgb.npz`, `seed<k>_teacher.npz`; they contain string arrays, so load with `numpy.load(..., allow_pickle=True)`) and the student-validation scores used to choose the tuned configurations (`seed<k>_*_val.csv`) |
 | `results/wp3/PROVENANCE_wp3.json` | Links stored predictions to script, feature-file and checkpoint hashes. Created after the runs, so it does not verify the files loaded at run time |
 
 The WP3 scripts use the working-folder layout (`revizyon_v22/...`) and the checkpoint path of the original
 workstation; adjust `ROOT`/`V2`/`OUT_ROOT` in `wp3/wp3_common.py` and `TABPFN_CKPT` in `wp3/wp3_teacher_mlp.py`
-to re-run them. The per-record out-of-fold prediction files of WP3 (about 120 MB) are not included.
+to re-run them. `python -I wp3/wp3_independent_check.py results/wp3` recomputes the Macro F1 values and paired differences from the stored out-of-fold files without importing the project code.
 
 ## Quick verification (no retraining)
 
