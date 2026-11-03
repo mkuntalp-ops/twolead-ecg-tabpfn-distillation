@@ -2,16 +2,19 @@
 
 Code, derived feature tables, fold manifests and out-of-fold (OOF) predictions for the manuscript
 
-> Kuntalp M. *Teacher–Student Distillation of TabPFN for Retrospective Two-Lead ECG Features:
-> Procedure-Matched Evaluation and Cohort-Composition Sensitivity.* Submitted to *Physiological Measurement*.
+> Kuntalp M. *Does a tabular foundation-model teacher add information beyond label smoothing? A procedure-matched,
+> multi-cohort development and evaluation study of knowledge distillation for two-lead ECG classification.*
+> Prepared for submission to *Biomedical Signal Processing and Control*.
 
-The study compares a TabPFN-v3 teacher with multilayer-perceptron students trained on hard labels,
+The analyses of this manuscript are described in [Revised analyses (v22)](#revised-analyses-v22). The rest of the
+repository holds the analyses of an earlier version of the manuscript (v21), which are kept unchanged. That version
+compares a TabPFN-v3 teacher with multilayer-perceptron students trained on hard labels,
 uniform label smoothing (ε = 0.15) or mixed hard/inner-OOF teacher targets (α = 0.5), using 50
 Lead I/II features extracted from PTB-XL. All splits are patient-grouped (`StratifiedGroupKFold`).
 
 ## Repository layout
 
-| Path | Content | Manuscript |
+| Path | Content | v21 manuscript |
 |---|---|---|
 | `experiments_phase3/03_procedure_matched_repeated_eval.py` | Phase 3B: five outer partition seeds (42–46) × five folds, 5,000 quota-selected patients | Table 3 |
 | `experiments_phase3/04_statistical_closing_and_blocked_bootstrap.py` | Phase 3B paired patient-blocked bootstrap (B = 10,000) | Table 3 |
