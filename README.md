@@ -4,7 +4,7 @@ Code, derived feature tables, fold manifests and out-of-fold (OOF) predictions f
 
 > Kuntalp M. *Does a tabular foundation-model (TabPFN) teacher add information beyond label smoothing? A multi-cohort
 > evaluation of knowledge distillation for two-lead ECG classification.*
-> Prepared for submission to *Biomedical Signal Processing and Control*.
+> Prepared for submission to *PLOS One*.
 
 ## Start here: checking the current manuscript
 
@@ -25,7 +25,12 @@ manuscript and is not needed to check the current one.
 | Feature revision and acceptance criteria | `results/feat50_v2/` (decision note in Turkish) | `feature_extraction/evaluate_v2_heldout.py` |
 
 The formatted tables and figures produced from these files are in `manuscript_v22/tables/` and
-`manuscript_v22/figures/`.
+`manuscript_v22/figures/`. The figure files submitted to PLOS One (`manuscript_plos/figures/Fig1.tif`–`Fig4.tif`) are
+produced by `manuscript_plos/make_figures_plos.py`, which calls the unchanged figure functions of
+`manuscript_v22/make_figures_v22.py` and changes only the presentation required by the journal (Arial, text of at least
+8 pt, larger canvas, panel titles of Fig 2 naming the tuned contrasts, panel letters in Fig 3, TIFF at 300 dpi); the
+plotted values are the same. In the PLOS One version the supplementary material is one file, S1 Appendix, whose
+Tables A–T correspond to Supplementary Tables S1–S20 in `manuscript_v22/tables/`.
 
 Checks that need no retraining and no project imports:
 
@@ -38,7 +43,9 @@ The second command recomputes every Macro F1 value and paired difference from th
 its output with `results/wp3/summary/wp3_independent_check.txt`. Point estimates must agree exactly. The scripts in
 `wp3/` and `manuscript_v22/` are byte-identical to the versions that produced the results and use the original
 folder layout (`revizyon_v22/wp3`, `revizyon_v22/results/wp3`, `revizyon_v22/manuscript`); adjust the path constants
-at the top of `wp3/wp3_common.py` and of the `manuscript_v22` scripts to run them elsewhere.
+at the top of `wp3/wp3_common.py` and of the `manuscript_v22` scripts to run them elsewhere. The same holds for
+`manuscript_plos/make_figures_plos.py`, whose original location is `revizyon_v22/manuscript/v40_plos_work/scripts/`
+(it imports `make_figures_v22.py` from `revizyon_v22/manuscript/`).
 
 ## Current analyses (v22)
 
@@ -53,6 +60,7 @@ hash recorded in each run manifest at run time (`results/wp3/<cohort>/run_manife
 | `feature_extraction/` | FEAT_50 v2 extractor (`feat50_v2.py`), PTB-XL and Chapman-Shaoxing extraction, held-out evaluation of the delineation |
 | `data_v2/` | FEAT_50 v2 feature tables with extraction manifests (input and output SHA-256) |
 | `manuscript_v22/` | Scripts that format the main and supplementary tables and the main figures from the stored outputs, with their outputs (`tables/`, `figures/`) |
+| `manuscript_plos/` | PLOS One figure files (`figures/Fig1.tif`–`Fig4.tif`) and the script that produces them from the `manuscript_v22` figure functions |
 | `wp3/` | WP3 teacher/MLP and XGBoost training, analysis, post hoc pooled bootstrap, secondary metrics, cost measurements, provenance record and an independent recomputation script; `run_wp3_all.sh` gives the run order |
 | `analysis/` | WP2 feature agreement with reference measurements; WP4 calibration, discrimination and subgroups |
 | `results/feat50_v2/`, `results/wp2/` | Development grid, decision note (in Turkish), held-out evaluation of FEAT_50 v2 against reference measurements and the acceptance criteria; WP2 agreement tables |
@@ -159,7 +167,7 @@ Dokuz Eylül University, İzmir, Turkey — mehmet.kuntalp@deu.edu.tr — ORCID 
 
 ## AI assistance
 
-For the legacy (v21) analyses, **Antigravity** (Google) wrote the original feature extractor and analysis code, and
+For the legacy (v21) analyses, **Antigravity** (Google; Gemini 3.8 Flash) wrote the original feature extractor and analysis code, and
 **Claude Code** (Anthropic) reviewed it, recomputed the reported metrics and carried out the re-execution checks in
 `REPRODUCTION.md`. For the current (v22) analyses, **Claude Code** (Claude Opus 5.5) wrote the revised feature
 extraction, experiment, analysis, table and figure code, verified reported calculations independently, checked

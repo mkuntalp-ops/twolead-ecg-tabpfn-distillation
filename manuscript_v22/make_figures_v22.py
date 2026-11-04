@@ -49,7 +49,7 @@ def fig1():
     for c in COHORTS:
         r = pd.read_csv(OUT_ROOT / c / "cohort_records.csv")
         counts[c] = (len(r), np.bincount(r["y"], minlength=5))
-    fig, ax = plt.subplots(figsize=(7.6, 4.8)); ax.set_axis_off(); ax.set_xlim(-2, 101); ax.set_ylim(-1.2, 62)
+    fig, ax = plt.subplots(figsize=(7.6, 4.8)); ax.set_axis_off(); ax.set_xlim(-2, 101); ax.set_ylim(-3.6, 62)
 
     def box(x, y, w, h, text, fc="#f4f3f0", ec=INK2, fs=7.2, weight="normal"):
         ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.4,rounding_size=1.2", fc=fc, ec=ec, lw=0.8))
@@ -77,14 +77,15 @@ def fig1():
     arrow(80.5, 50, 80.5, 45.8); arrow(93.8, 50, 93.8, 45.8)
     box(53, 31, 34, 5.4, "TabPFN teacher: 3-fold grouped out-of-fold\nprobabilities within student training only", fs=6.6)
     arrow(80.5, 41, 75, 36.6)
-    box(53, 21, 47, 6.2, "Targets for the same student (shared initial weights):\nH hard · S(ε) uniform smoothing · D(α, T) distillation ·\n"
+    box(53, 21, 47, 6.2, "Target families compared within each student:\nH hard · S(ε) uniform smoothing · D(α, T) distillation ·\n"
         "EM(α, T) uniform smoothing with the entropy of D(α, T)", fs=6.4)
     arrow(70, 31, 70, 27.4)
-    box(53, 10, 22, 6.2, "MLP 50–128–64–5\n(15,109 parameters)", fs=6.6)
+    box(53, 10, 22, 6.2, "MLP 50–128–64–5\n(15,109 parameters;\nshared initial weights)", fs=6.4)
     box(78, 10, 22, 6.2, "XGBoost\n(soft targets as weights)", fs=6.6)
     arrow(64, 21, 64, 16.4); arrow(89, 21, 89, 16.4)
-    box(53, 0.0, 47, 6.4, "Student validation: early stopping, and choice of ε and (α, T)\nby Macro F1; outer-test predictions pooled per partition\n"
-        "and compared pairwise", fs=6.2)
+    box(53, -2.6, 47, 9.0, "Student validation set\nEarly stopping: MLP by Macro F1; XGBoost by log-loss\n"
+        "Target-family selection (ε; α, T): Macro F1, both students\n"
+        "Outer-test predictions pooled per partition, compared pairwise", fs=6.0)
     save(fig, "Fig1")
 
 
